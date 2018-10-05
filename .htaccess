@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTPS} !on [NC]
+RewriteRule ^(.*)$ https://%{SERVER_NAME}/$1 [L,NC,R=301]
+
+RewriteCond %{SERVER_NAME} ^www\. [NC]
+RewriteRule ^(.*)$ https://buyrentpropertythailand.com/$1 [L,NC,R=301]
+</IfModule>
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

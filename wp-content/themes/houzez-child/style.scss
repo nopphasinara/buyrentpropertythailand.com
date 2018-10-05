@@ -1,0 +1,413 @@
+// compileExpanded: ./$1.css
+
+/*
+Theme Name: Houzez Child
+Theme URI: http://www.favethemes.com/
+Author: Favethemes
+Author URI: http://www.favethemes.com/
+Description: Houzez is a premium WordPress theme for real estate agents where modern aesthetics are combined with tasteful simplicity, and where the ease of use is achieved without compromise in your ability to customise the design. Whether you are a real estate agent looking to build a website for your company or a web developer seeking a perfect WordPress theme for your next project, you are certain to appreciate the numerous features and benefits that our theme provides.
+Version: 1.0
+Tags: white, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, post-formats, theme-options, translation-ready
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: houzez
+Template: houzez
+*/
+
+
+$red: #ae0f0b;
+$dark-red: #8a0d08;
+$gray: #5b5b5a;
+$dark-gray: #3d3d3d;
+$darker-gray: #1d1d1d;
+
+$primary: $red;
+$dark-primary: $dark-red;
+$secondary: $gray;
+
+$logo-vertical-space: .8em;
+$logo-height: 100px;
+
+@import url("../houzez/style.css");
+
+/* Your CSS code goes here
+-------------------------------------- */
+
+.header-section,
+.header-section-4 {
+  background-color: #fff !important;
+}
+
+.header-section,
+.header-section-3,
+.header-section-4 {
+  .logo {
+    margin-top: $logo-vertical-space;
+    margin-bottom: $logo-vertical-space;
+
+    img {
+      top: 0;
+      max-height: $logo-height;
+    }
+  }
+
+  .header-left {
+    .main-nav {
+      > .menu-item {
+        &.has-child {
+          a {
+            &:hover {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#header-section,
+.header-section {
+  // .navi {
+  //   > ul {
+  //     > li {
+  //       &:hover {
+  //         background-color: $primary;
+  //
+  //         > a {
+  //           color: #fff !important;
+  //         }
+  //       }
+  //
+  //       > a {
+  //         &:hover {
+  //           color: #fff !important;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+}
+
+.header-section-3 {
+  color: #fff;
+
+  .header-top {
+    background-color: #f6f6f6 !important;
+
+    .contact-block {
+      width: 50%;
+      font-size: 1.2em;
+      color: $primary !important;
+      background-color: #f6f6f6;
+      padding: 1em 1em;
+      border: solid 1px #f2f2f2;
+
+      p {
+        color: $secondary !important;
+      }
+
+      .fa {
+        color: $primary !important;
+      }
+    }
+  }
+
+  .header-top-inner {
+    margin-top: $logo-vertical-space;
+    margin-bottom: $logo-vertical-space;
+  }
+
+  .header-bottom {
+    color: #fff;
+    background-color: $primary !important;
+  }
+
+  .header-right {
+    span {
+      font-size: inherit !important;
+    }
+  }
+
+  .account-action {
+    li {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .account-dropdown {
+      > ul {
+        > li {
+          > a {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.header-mobile {
+  .account-dropdown {
+    > ul {
+      > li {
+        > a {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+
+.navi {
+  &.main-nav {
+    > ul {
+      li,
+      a {
+        font-size: 1.2em;
+      }
+
+      > li {
+        &:hover {
+          background-color: $primary;
+
+          > a {
+            color: #fff !important;
+          }
+        }
+
+        > a {
+          font-weight: bold;
+          text-transform: uppercase;
+
+          &:hover {
+            color: #fff !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// .detail-block {
+//   .alert {
+//     padding: 0;
+//   }
+//
+//   .alert-info {
+//     border-color: transparent !important;
+//   }
+// }
+
+
+.advanced-search-mobile {
+  .single-search-wrap {
+    .form-control {
+      color: #fff;
+    }
+
+    button {
+
+    }
+
+    .fa {
+      color: #fff;
+    }
+  }
+}
+
+
+.property-reviews {
+  .add-review-block {
+    margin-bottom: 3em;
+  }
+}
+
+
+.footer {
+  // background-color: $secondary !important;
+}
+
+.footer-bottom {
+  .has-footer-menu {
+    .footer-col {
+      margin-top: 1em;
+      text-align: left;
+    }
+  }
+
+  .footer-col {
+    .fa {
+      font-size: 1.4em;
+    }
+  }
+
+  .navi {
+    ul {
+      text-align: right;
+    }
+  }
+}
+
+
+.widget {
+  .widget-pages {
+    ul {
+      columns: 1 !important;
+    }
+
+    #menu-pages-menu {
+      columns: 1 !important;
+
+      li {
+        display: block !important;
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+.widget-pages {
+  ul {
+    columns: 1 !important;
+
+    li {
+      display: block !important;
+      width: 100% !important;
+    }
+  }
+}
+
+
+.header-mobile {
+  .header-logo {
+    margin-top: $logo-vertical-space * .8;
+    margin-bottom: $logo-vertical-space * .8;
+
+    img {
+      max-height: 60px;
+    }
+  }
+}
+
+.custom-advance-header-search {
+  color: #fff;
+
+  .title,
+  .advance-title {
+    color: #d0d0d0;
+  }
+
+  .advanced-search-module {
+    padding: 0 0;
+  }
+}
+
+
+.text-right {
+  text-align: right !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-left {
+  text-align: left !important;
+}
+
+
+.vc_custom_1538037124434 {
+  overflow: auto;
+}
+
+
+.advanced-search-close {
+  text-align: center;
+}
+
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+  .header-section-3 {
+    .header-top {
+      display: none !important;
+    }
+  }
+
+  .custom-advance-header-search {
+    display: none;
+  }
+
+  .account-dropdown {
+    > ul {
+      > li {
+        a {
+          // padding-top: 0;
+          // padding-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .header-mobile {
+    .header-logo,
+    .mobile-nav {
+      line-height: normal;
+    }
+
+    .nav-trigger {
+      margin-top: 1.2em;
+    }
+    .header-user {
+      margin-top: .8em;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+  .footer-bottom {
+    .has-footer-menu {
+      .footer-col {
+        margin-top: 1em;
+        text-align: center;
+      }
+    }
+
+    .footer-col {
+      .fa {
+        font-size: 2em;
+      }
+    }
+
+    .navi {
+      ul {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 482px) and (max-width: 767px) {
+
+}
+
+@media (max-width: 481px) {
+
+}

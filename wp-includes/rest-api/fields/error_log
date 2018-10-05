@@ -1,0 +1,12 @@
+[23-Sep-2018 21:20:22 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php on line 17
+[23-Sep-2018 21:20:33 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php on line 17
+[23-Sep-2018 21:20:44 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php on line 17
+[23-Sep-2018 21:20:55 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php on line 17
+[26-Sep-2018 06:40:10 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php on line 17
+[26-Sep-2018 06:40:20 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php on line 17
+[26-Sep-2018 06:40:58 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php on line 17
+[26-Sep-2018 06:41:45 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php on line 17
+[26-Sep-2018 06:53:52 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php on line 17
+[26-Sep-2018 06:54:03 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php on line 17
+[26-Sep-2018 06:54:14 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php on line 17
+[26-Sep-2018 06:54:25 UTC] PHP Fatal error:  Class 'WP_REST_Meta_Fields' not found in /home/buyrentp/public_html/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php on line 17
