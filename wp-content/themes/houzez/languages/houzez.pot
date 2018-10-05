@@ -12627,3 +12627,7 @@ msgstr ""
 #: ../template/user_dashboard_properties.php:74
 msgid "Search listing"
 msgstr ""
+
+#: ../template/user_dashboard_properties.php:74
+msgid "Note: Maximum upload image size 500KB please resize your image before upload."
+msgstr ""
