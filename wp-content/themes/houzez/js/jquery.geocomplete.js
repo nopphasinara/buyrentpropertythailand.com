@@ -533,6 +533,18 @@ alert('geo');/**
       this.setDetail(this.details.lat, this.data.location.lat());
       this.setDetail(this.details.lng, this.data.location.lng());
     },
+    updateMarker: function(){
+      var lat = $("input[name=lat]").val();
+      var lng = $("input[name=lng]").val();
+
+      if (lat && lng) {
+        var latLng = new google.maps.LatLng( lat, lng );
+      }
+
+      this.marker.setPosition(latLng);
+      this.setDetail(this.details.lat, latLng.lat());
+      this.setDetail(this.details.lng, latLng.lng());
+    },
 
     // Update the plugin after the user has selected an autocomplete entry.
     // If the place has no geometry it passes it to the geocoder.

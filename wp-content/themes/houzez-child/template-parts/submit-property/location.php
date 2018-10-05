@@ -20,7 +20,10 @@ if( $geo_country_limit != 0 ) {
     <script>
         jQuery(function($) {
             "use strict";
+
             var geo_input = $("#geocomplete");
+            var map;
+
             function houzez_geocomplete(){
 
                 geo_input.geocomplete({
@@ -34,13 +37,11 @@ if( $geo_country_limit != 0 ) {
                 });
 
                 geo_input.bind("geocode:dragged", function (event, latLng) {
-                    console.log(latLng);
-
                     $("input[name=lat]").val(latLng.lat());
                     $("input[name=lng]").val(latLng.lng());
                     $("#reset").show();
 
-                    var map = $("#geocomplete").geocomplete("map");
+                    map = $("#geocomplete").geocomplete("map");
                     map.panTo(latLng);
                     var geocoder = new google.maps.Geocoder();
                     geocoder.geocode({'latLng': latLng}, function (results, status) {
@@ -57,7 +58,7 @@ if( $geo_country_limit != 0 ) {
                 });
 
                 geo_input.on('focus',function(){
-                    var map = $("#geocomplete").geocomplete("map");
+                    map = $("#geocomplete").geocomplete("map");
                     google.maps.event.trigger(map, 'resize')
                 });
                 $("#reset").on("click",function () {
@@ -78,17 +79,13 @@ if( $geo_country_limit != 0 ) {
                   if (lat && lng) {
                     var latLng = new google.maps.LatLng( lat, lng );
 
-                    // 12.924535
-                    // 100.894892
+                    // 12.9235557
+                    // 100.88245510000002
 
-                    console.log(geo_input);
-
-                    var map = $("#geocomplete").geocomplete("map");
+                    map = $("#geocomplete").geocomplete("map");
                     map.panTo(latLng);
 
                     var marker = new google.maps.Marker( {position: latLng, map: map, draggable: true} );
-
-                    // $("#geocomplete").geocomplete("resetMarker");
 
                     var geocoder = new google.maps.Geocoder();
                     geocoder.geocode({'latLng': latLng}, function (results, status) {
