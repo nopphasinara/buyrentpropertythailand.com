@@ -474,7 +474,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 $multi_currency_field,
                 array(
                     'id' => "{$houzez_prefix}property_price",
-                    'name' => esc_html__('Sale or Rent Price', 'houzez'),
+                    'name' => esc_html__('Sale Price', 'houzez'),
                     'desc' => esc_html__('Eg: 557000 or See open request', 'houzez'),
                     'type' => 'text',
                     'std' => "",
@@ -483,7 +483,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_sec_price",
-                    'name' => esc_html__('Second Price ( Display optional price for rental or square feet )', 'houzez'),
+                    'name' => esc_html__('Rent Price', 'houzez'),
                     'desc' => esc_html__('Eg: 700', 'houzez'),
                     'type' => 'text',
                     'std' => "",
@@ -492,7 +492,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_price_prefix",
-                    'name' => esc_html__('Before Price Label', 'houzez'),
+                    'name' => esc_html__('Start Form', 'houzez'),
                     'desc' => esc_html__('Eg: Start From', 'houzez'),
                     'type' => 'text',
                     'std' => "",
@@ -501,7 +501,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_price_postfix",
-                    'name' => esc_html__('After Price Label', 'houzez'),
+                    'name' => esc_html__('Per Month/Per Year', 'houzez'),
                     'desc' => esc_html__('Eg: Per Month', 'houzez'),
                     'type' => 'text',
                     'std' => "",
@@ -511,7 +511,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
 
                 array(
                     'id' => "{$houzez_prefix}property_size",
-                    'name' => esc_html__('Area Size ( Only digits )', 'houzez'),
+                    'name' => esc_html__('House Size ( Only digits )', 'houzez'),
                     'desc' => esc_html__('Eg: 1500', 'houzez'),
                     'type' => 'text',
                     'std' => "",
@@ -521,8 +521,8 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_size_prefix",
-                    'name' => esc_html__('Size Prefix', 'houzez'),
-                    'desc' => esc_html__('Eg: Sq Ft', 'houzez'),
+                    'name' => esc_html__('Rai, Tw, Sqm', 'houzez'),
+                    'desc' => esc_html__('Eg: Sqm', 'houzez'),
                     'type' => 'text',
                     'std' => "",
                     'class' => $area_size,
@@ -531,7 +531,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_land",
-                    'name' => esc_html__('Land Area ( Only digits )', 'houzez'),
+                    'name' => esc_html__('Land Size ( Only digits )', 'houzez'),
                     'desc' => esc_html__('Eg: 1500', 'houzez'),
                     'type' => 'text',
                     'std' => "",
@@ -541,8 +541,8 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_land_postfix",
-                    'name' => esc_html__('Land Area Postfix', 'houzez'),
-                    'desc' => esc_html__('Eg: SqFt', 'houzez'),
+                    'name' => esc_html__('Rai, Tw, Sqm', 'houzez'),
+                    'desc' => esc_html__('Eg: Sqm', 'houzez'),
                     'type' => 'text',
                     'std' => "",
                     'class' => $land_area,
