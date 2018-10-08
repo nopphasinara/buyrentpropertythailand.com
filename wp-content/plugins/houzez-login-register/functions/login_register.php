@@ -399,11 +399,14 @@ if( !function_exists('houzez_wp_new_user_notification') ) {
         $user_login = stripslashes( $user->user_login );
         $user_email = stripslashes( $user->user_email );
         $first_name = stripslashes( $user->first_name );
+        $last_name = stripslashes( $user->last_name );
 
         // Send notification to admin
         $args = array(
             'user_login_register' => $user_login,
-            'user_email_register' => $user_email
+            'user_email_register' => $user_email,
+            'first_name' => $first_name,
+            'last_name' => $last_name,
         );
         houzez_register_email_type( get_option('admin_email'), 'admin_new_user_register', $args );
 
@@ -419,6 +422,7 @@ if( !function_exists('houzez_wp_new_user_notification') ) {
             'user_email_register'  =>  $user_email,
             'user_pass_register'   => $randonpassword,
             'first_name'   => $first_name,
+            'last_name' => $last_name,
         );
         houzez_register_email_type( $user_email, 'new_user_register', $args );
 
@@ -633,6 +637,8 @@ if( !function_exists('houzez_register_emails_filter_replace')):
         $args ['user_email'] = $email;
         $user = get_user_by( 'email', $email );
         $args ['username'] = $user->user_login;
+        $args ['first_name'] = $user->first_name;
+        $args ['last_name'] = $user->last_name;
 
         foreach( $args as $key => $val){
             $subject = str_replace( '%'.$key, $val, $subject );

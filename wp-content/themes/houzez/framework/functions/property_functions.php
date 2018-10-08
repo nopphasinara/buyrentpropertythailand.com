@@ -233,13 +233,15 @@ if( !function_exists('houzez_submit_listing') ) {
             }
 
             // Property ID
+            $property_id_prefix = houzez_option('property_id_prefix');
+
             $auto_property_id = houzez_option('auto_property_id');
             if( $auto_property_id != 1 ) {
                 if (isset($_POST['property_id'])) {
-                    update_post_meta($prop_id, 'fave_property_id', sanitize_text_field($_POST['property_id']));
+                    update_post_meta($prop_id, 'fave_property_id', sanitize_text_field($property_id_prefix . $_POST['property_id']));
                 }
             } else {
-                    update_post_meta($prop_id, 'fave_property_id', $prop_id );
+                    update_post_meta($prop_id, 'fave_property_id', $property_id_prefix . $prop_id );
             }
 
             // Property Video Url
@@ -695,13 +697,15 @@ if( !function_exists('save_property_as_draft') ) {
             }
 
             // Property ID
+            $property_id_prefix = houzez_option('property_id_prefix');
+
             $auto_property_id = houzez_option('auto_property_id');
             if( $auto_property_id != 1 ) {
                 if (isset($_POST['property_id'])) {
-                    update_post_meta($prop_id, 'fave_property_id', sanitize_text_field($_POST['property_id']));
+                    update_post_meta($prop_id, 'fave_property_id', sanitize_text_field($property_id_prefix . $_POST['property_id']));
                 }
             } else {
-                update_post_meta($prop_id, 'fave_property_id', $prop_id );
+                update_post_meta($prop_id, 'fave_property_id', $property_id_prefix . $prop_id );
             }
 
             // Property Video Url
