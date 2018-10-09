@@ -492,8 +492,8 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_price_prefix",
-                    'name' => esc_html__('Start Form', 'houzez'),
-                    'desc' => esc_html__('Eg: Start From', 'houzez'),
+                    'name' => esc_html__('Sale Price Label', 'houzez'),
+                    'desc' => esc_html__('Eg: Sale Price, Prices Start From', 'houzez'),
                     'type' => 'text',
                     'std' => "",
                     'columns' => 6,
@@ -501,8 +501,8 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_price_postfix",
-                    'name' => esc_html__('Per Month/Per Year', 'houzez'),
-                    'desc' => esc_html__('Eg: Per Month', 'houzez'),
+                    'name' => esc_html__('Rent Price Label', 'houzez'),
+                    'desc' => esc_html__('Eg: Per Month/Per Year', 'houzez'),
                     'type' => 'text',
                     'std' => "",
                     'columns' => 6,
@@ -521,7 +521,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_size_prefix",
-                    'name' => esc_html__('Rai, Tw, Sqm', 'houzez'),
+                    'name' => esc_html__('House Size Label', 'houzez'),
                     'desc' => esc_html__('Eg: Sqm', 'houzez'),
                     'type' => 'text',
                     'std' => "",
@@ -541,8 +541,8 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_land_postfix",
-                    'name' => esc_html__('Rai, Tw, Sqm', 'houzez'),
-                    'desc' => esc_html__('Eg: Sqm', 'houzez'),
+                    'name' => esc_html__('Land Size Label', 'houzez'),
+                    'desc' => esc_html__('Eg: Rai, Tw, Sqm', 'houzez'),
                     'type' => 'text',
                     'std' => "",
                     'class' => $land_area,
@@ -572,7 +572,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
 
                 array(
                     'id' => "{$houzez_prefix}property_garage",
-                    'name' => esc_html__('Garages', 'houzez'),
+                    'name' => esc_html__('Garages/Car Port', 'houzez'),
                     'desc' => esc_html__('Eg: 1', 'houzez'),
                     'type' => 'text',
                     'std' => "",
@@ -582,8 +582,8 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_garage_size",
-                    'name' => esc_html__('Garages Size', 'houzez'),
-                    'desc' => "",
+                    'name' => esc_html__('Garage Size', 'houzez'),
+                    'desc' => "Eg: 100 Sqm",
                     'type' => 'text',
                     'std' => "",
                     'class' => $garage_size,
@@ -650,7 +650,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                     'name' => esc_html__('Property Location', 'houzez'),
                     'desc' => esc_html__('Drag and drop marker on map to find exact location or use property add field above.', 'houzez'),
                     'type' => 'map',
-                    'std' => '25.686540,-80.431345,15',
+                    'std' => '12.9235557,100.88245510000002,15',
                     'style' => 'width: 100%; height: 410px',
                     'address_field' => "{$houzez_prefix}property_map_address",
                     'columns' => 12,
@@ -2353,6 +2353,7 @@ if ( ! function_exists( 'houzez_get_terms_array' ) ) {
     function houzez_get_terms_array( $tax_name, &$terms_array ) {
         $tax_terms = get_terms( $tax_name, array(
             'hide_empty' => false,
+            'order' => 'ASC',
         ) );
         houzez_add_term_children( 0, $tax_terms, $terms_array );
     }

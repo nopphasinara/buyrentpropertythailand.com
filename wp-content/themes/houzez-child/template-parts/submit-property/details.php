@@ -51,7 +51,7 @@ if( $area_prefix_default == 'SqFt' ) {
 
                 <div class="col-sm-3">
                     <div class="form-group">
-                        <label for="prop_size_prefix"><?php esc_html_e('Rai, Tw, Sqm', 'houzez'); ?></label>
+                        <label for="prop_size_prefix"><?php esc_html_e('Sqm', 'houzez'); ?></label>
                         <input type="text" id="prop_size_prefix" class="form-control" name="prop_size_prefix" <?php if( $area_prefix_changeable != 1 ){ echo 'readonly'; }?> value="<?php echo esc_html($area_prefix_default);?>">
                     </div>
                 </div>

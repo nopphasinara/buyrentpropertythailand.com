@@ -46,7 +46,7 @@ $area_prefix_changeable = houzez_option('area_prefix_changeable');
                 </div>
                 <div class="col-sm-3">
                     <div class="form-group">
-                        <label for=""><?php esc_html_e('Rai, Tw, Sqm', 'houzez'); ?></label>
+                        <label for=""><?php esc_html_e('Sqm', 'houzez'); ?></label>
                         <input type="text" id="prop_size_prefix" <?php if( $area_prefix_changeable != 1 ){ echo 'readonly'; }?> class="form-control" name="prop_size_prefix" value="<?php if( isset( $prop_meta_data['fave_property_size_prefix'] ) ) { echo sanitize_text_field( $prop_meta_data['fave_property_size_prefix'][0] ); } ?>">
                     </div>
                 </div>

@@ -252,6 +252,8 @@ if( !function_exists('houzez_propperty_id_prefix') ) {
         $property_id_prefix = houzez_option('property_id_prefix');
         if( !empty( $property_id_prefix ) ) {
             $property_id = $property_id_prefix.$property_id;
+
+            $property_id = str_ireplace('BRPT-BRPT-', 'BRPT-', $property_id);
         }
         return $property_id;
     }

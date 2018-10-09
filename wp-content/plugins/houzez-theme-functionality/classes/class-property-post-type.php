@@ -640,15 +640,22 @@ class Houzez_Post_Type_Property {
         }
 
         $property_id_prefix = houzez_option('property_id_prefix');
+<<<<<<< HEAD
+
+        $auto_property_id = houzez_option('auto_property_id');
+        $fave_property_id = get_post_meta( $post_id, 'fave_property_id', true );
+=======
+>>>>>>> a7095d05010ce8a0906ef95d730704cc1715e84a
 
         $auto_property_id = houzez_option('auto_property_id');
         $fave_property_id = get_post_meta( $post_id, 'fave_property_id', true );
 
-        update_post_meta($post_id, 'fave_property_id', $property_id_prefix . $post_id);
-
         if( isset($fave_property_id) && !empty($fave_property_id) && $auto_property_id != 0 ) {
-            update_post_meta($post_id, 'fave_property_id', $property_id_prefix . $post_id);
+            update_post_meta($post_id, 'fave_property_id', $post_id);
         }
+
+        // update_post_meta($post_id, 'fave_property_id', $property_id_prefix . $post_id);
+        update_post_meta($post_id, 'fave_property_id', $post_id);
 
         $lat_long = get_post_meta( $post_id, 'fave_property_location', true );
         if( isset($lat_long) && !empty($lat_long)) {

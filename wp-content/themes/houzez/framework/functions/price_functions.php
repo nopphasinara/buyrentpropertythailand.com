@@ -20,9 +20,9 @@ if(!function_exists('houzez_number_shorten')) {
                 pow(1000, 4) => 'T', // Trillion
                 pow(1000, 5) => 'Qa', // Quadrillion
                 pow(1000, 6) => 'Qi', // Quintillion
-            );    
+            );
         }
-        
+
         foreach ($divisors as $divisor => $shorthand) {
             if (abs($number) < ($divisor * 1000)) {
                 // Match found
@@ -142,7 +142,7 @@ if( !function_exists('houzez_get_property_price') ) {
             $listing_currency_pos = $currency_maker['currency_position'];
             $price_thousands_separator = $currency_maker['thousands_separator'];
             $price_decimal_point_separator = $currency_maker['decimal_point_separator'];
-        
+
             $short_prices = houzez_option('short_prices');
 
             if($short_prices != 1 ) {
@@ -229,7 +229,7 @@ if( !function_exists('currency_maker')) {
         if( $multi_currency == 1 ) {
 
             $currency = get_post_meta(get_the_ID(), 'fave_currency_info', true);
-            
+
             if( !empty($currency)) {
 
                 $price_maker_array['currency'] = $currency['currency_symbol'];
@@ -339,12 +339,26 @@ if( !function_exists('houzez_listing_price_by_id') ) {
 /*-----------------------------------------------------------------------------------*/
 if( !function_exists('houzez_listing_price_v1') ) {
     function houzez_listing_price_v1()
-    { 
+    {
         $output = '';
         $sale_price     = get_post_meta( get_the_ID(), 'fave_property_price', true );
         $second_price   = get_post_meta( get_the_ID(), 'fave_property_sec_price', true );
         $price_postfix  = get_post_meta( get_the_ID(), 'fave_property_price_postfix', true );
         $price_prefix   = get_post_meta( get_the_ID(), 'fave_property_price_prefix', true );
+
+        $custom = false;
+        if (empty($sale_price)) {
+          if (!empty($second_price)) {
+            $custom = true;
+            $sale_price = $second_price;
+          }
+        }
+
+        if (!$custom) {
+          $price_prefix = 'Sale Price ' . $price_prefix;
+        } else {
+          $price_prefix = 'Rental Price ' . $price_prefix;
+        }
 
         $price_as_text = doubleval( $sale_price );
         if( !$price_as_text ) {
@@ -369,18 +383,32 @@ if( !function_exists('houzez_listing_price_v1') ) {
             if (!empty( $sale_price ) && !empty( $second_price ) ) {
 
                 if( is_singular( 'property' ) ) {
-                    $output .= '<span class="item-price">'.$price_prefix. houzez_get_property_price($sale_price) . '</span>';
-                    if (!empty($second_price)) {
-                        $output .= '<span class="item-sub-price">';
-                        $output .= houzez_get_property_price($second_price) . $price_postfix;
-                        $output .= '</span>';
+                    if (!$custom) {
+                      $output .= '<span class="item-price">'.$price_prefix. houzez_get_property_price($sale_price) . '</span>';
+                    } else {
+                      $output .= '<span class="item-price">'.$price_prefix. houzez_get_property_price($sale_price) . $price_postfix . '</span>';
+                    }
+
+                    if (!$custom) {
+                      if (!empty($second_price)) {
+                          $output .= '<span class="item-sub-price">';
+                          $output .= 'Rental Price ' . houzez_get_property_price($second_price) . $price_postfix;
+                          $output .= '</span>';
+                      }
                     }
                 } else {
-                    $output .= $price_prefix.'<span class="item-price">'. houzez_get_property_price($sale_price) . '</span>';
-                    if (!empty($second_price)) {
-                        $output .= '<span class="item-sub-price">';
-                        $output .= houzez_get_property_price($second_price) . $price_postfix;
-                        $output .= '</span>';
+                    if (!$custom) {
+                      $output .= $price_prefix.'<span class="item-price">'. houzez_get_property_price($sale_price) . '</span>';
+                    } else {
+                      $output .= $price_prefix.'<span class="item-price">'. houzez_get_property_price($sale_price) . $price_postfix . '</span>';
+                    }
+
+                    if (!$custom) {
+                      if (!empty($second_price)) {
+                          $output .= '<span class="item-sub-price">';
+                          $output .= 'Rental Price ' . houzez_get_property_price($second_price) . $price_postfix;
+                          $output .= '</span>';
+                      }
                     }
                 }
             } else {
@@ -419,7 +447,7 @@ if( !function_exists('houzez_listing_price_v5') ) {
         if (!empty( $price_postfix )) {
             $price_postfix = '&#47;' . $price_postfix;
         }
-        
+
         $output .= '<h4 class="price-left"><span>'.$price_prefix.'</span> '. houzez_get_property_price($sale_price) . '</h4>';
         if (!empty($second_price)) {
             $output .= '<p class="price-right">';
