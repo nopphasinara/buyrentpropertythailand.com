@@ -139,7 +139,7 @@ if( $area_prefix_default == 'SqFt' ) {
                 <?php
                 if(class_exists('Houzez_Fields_Builder')) {
                 $fields_array = Houzez_Fields_Builder::get_form_fields();
-                
+
                     if(!empty($fields_array)) {
                         foreach ( $fields_array as $value ) {
                             $field_title = $value->label;
@@ -151,7 +151,7 @@ if( $area_prefix_default == 'SqFt' ) {
                                 $field_title = icl_translate('houzez_cfield', 'houzez_custom_field_'.sanitize_title($field_title), $field_title );
 
                                 $field_placeholder = icl_translate('houzez_cfield', 'houzez_custom_field_'.sanitize_title($field_placeholder), $field_placeholder );
-                                                  
+
                             }
 
                             if($field_type == 'select') {
@@ -175,7 +175,7 @@ if( $area_prefix_default == 'SqFt' ) {
                                 }
 
                             } else {
-                                
+
                                 if($hide_add_prop_fields[$field_name] != 1) {
                                     echo '<div class="col-sm-4">
                                         <div class="form-group">
@@ -185,11 +185,11 @@ if( $area_prefix_default == 'SqFt' ) {
                                     </div>';
                                 }
                             }
-                        } 
+                        }
                     }
                 }
                 ?>
-                            
+
 
             </div>
         </div>

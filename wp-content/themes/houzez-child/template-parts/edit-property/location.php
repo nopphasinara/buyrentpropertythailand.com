@@ -44,6 +44,7 @@ if( $geo_country_limit != 0 ) {
 
                     var map = geo_input.geocomplete("map");
                     map.panTo(latLng);
+
                     var geocoder = new google.maps.Geocoder();
                     geocoder.geocode({'latLng': latLng}, function (results, status) {
                         if (status == google.maps.GeocoderStatus.OK) { //alert(JSON.stringify(results));
@@ -76,39 +77,38 @@ if( $geo_country_limit != 0 ) {
                 $(window).on("load",function () {
                     geo_input.trigger("geocode");
                 });
-
-                $('#latitude, #longitude').on('blur', function () {
-                  var lat = $("input[name=lat]").val();
-                  var lng = $("input[name=lng]").val();
-
-                  if (lat && lng) {
-                    var latLng = new google.maps.LatLng( lat, lng );
-
-                    // 12.9235557
-                    // 100.88245510000002
-
-                    map = $("#geocomplete").geocomplete("map");
-                    map.panTo(latLng);
-
-                    var marker = new google.maps.Marker( {position: latLng, map: map, draggable: true} );
-
-                    var geocoder = new google.maps.Geocoder();
-                    geocoder.geocode({'latLng': latLng}, function (results, status) {
-                        if (status == google.maps.GeocoderStatus.OK) { //alert(JSON.stringify(results));
-                            if (results[0]) {
-                                var road = results[0].address_components[1].short_name;
-                                var town = results[0].address_components[2].short_name;
-                                var county = results[0].address_components[3].short_name;
-                                var country = results[0].address_components[4].short_name;
-                                $("input[name=property_map_address]").val(road + ' ' + town + ' ' + county + ' ' + country);
-                            }
-                        }
-                    });
-                  }
-
-                });
             }
             houzez_geocomplete();
+
+            $('#latitude, #longitude').on('change', function () {
+              var lat = $("input[name=lat]").val();
+              var lng = $("input[name=lng]").val();
+
+              if (lat && lng) {
+                var latLng = new google.maps.LatLng( lat, lng );
+
+                // 12.9235557, 100.88245510000002
+
+                var map = $("#geocomplete").geocomplete("map");
+                map.panTo(latLng);
+
+                var marker = new google.maps.Marker( {position: latLng, map: map, draggable: true} );
+
+                var geocoder = new google.maps.Geocoder();
+                geocoder.geocode({'latLng': latLng}, function (results, status) {
+                    if (status == google.maps.GeocoderStatus.OK) { //alert(JSON.stringify(results));
+                        if (results[0]) {
+                            var road = results[0].address_components[1].short_name;
+                            var town = results[0].address_components[2].short_name;
+                            var county = results[0].address_components[3].short_name;
+                            var country = results[0].address_components[4].short_name;
+                            $("input[name=property_map_address]").val(road + ' ' + town + ' ' + county + ' ' + country);
+                        }
+                    }
+                });
+              }
+
+            });
         });
     </script>
 

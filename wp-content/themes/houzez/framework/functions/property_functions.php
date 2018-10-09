@@ -233,6 +233,8 @@ if( !function_exists('houzez_submit_listing') ) {
             }
 
             // Property ID
+            $property_id_prefix = houzez_option('property_id_prefix');
+
             $auto_property_id = houzez_option('auto_property_id');
             if( $auto_property_id != 1 ) {
                 if (isset($_POST['property_id'])) {
@@ -695,6 +697,8 @@ if( !function_exists('save_property_as_draft') ) {
             }
 
             // Property ID
+            $property_id_prefix = houzez_option('property_id_prefix');
+
             $auto_property_id = houzez_option('auto_property_id');
             if( $auto_property_id != 1 ) {
                 if (isset($_POST['property_id'])) {

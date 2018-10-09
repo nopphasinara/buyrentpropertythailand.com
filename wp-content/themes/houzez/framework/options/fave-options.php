@@ -200,8 +200,8 @@ if(class_exists('Houzez_Fields_Builder')) {
             $field_title = $value->label;
             $field_name = $value->field_id;
             $is_search = $value->is_search;
-            
-            $custom_fields_array[$field_name] = $field_title; 
+
+            $custom_fields_array[$field_name] = $field_title;
 
             if($is_search == 'yes') {
                 $custom_search_fields_array[$field_name] = $field_title;
@@ -5797,7 +5797,7 @@ Listing Url: %listing_url", 'houzez'),
             'notice' => false,
             'style'  => 'info',
             'title'  => wp_kses(__( '<span class="font24">New Registered User</span>', 'houzez' ), $allowed_html_array),
-            'desc'   => esc_html__( '%user_login_register as username, %user_pass_register as user password, %user_email_register as new user email', 'houzez' )
+            'desc'   => esc_html__( '%user_login_register as username, %user_pass_register as user password, %user_email_register as new user email, %first_name as first name, %last_name as last name', 'houzez' )
         ),
 
         array(
