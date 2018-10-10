@@ -194,8 +194,8 @@ Template: houzez
   text-align: left !important;
 }
 
-.vc_custom_1538037124434 {
-  overflow: auto;
+.custom-advance-header-search {
+  overflow: visible !important;
 }
 
 .advance-search-header .advance-fields .advanced-search-close {
@@ -244,5 +244,10 @@ Template: houzez
   }
   .footer-bottom .navi ul {
     text-align: center;
+  }
+
+  .list-features li {
+    display: block !important;
+    width: 100%;
   }
 }

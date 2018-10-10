@@ -89,8 +89,8 @@ $area_prefix_changeable = houzez_option('area_prefix_changeable');
                 <?php if( $hide_add_prop_fields['garages'] != 1 ) { ?>
                 <div class="col-sm-4">
                     <div class="form-group">
-                        <label for=""><?php echo esc_html__('Garages', 'houzez').houzez_required_field( $required_fields['garages'] ); ?></label>
-                        <input type="text" id="prop_garage" class="form-control" name="prop_garage" placeholder="<?php esc_html_e( 'Enter number of garages', 'houzez' ); ?>" value="<?php if( isset( $prop_meta_data['fave_property_garage'] ) ) { echo sanitize_text_field( $prop_meta_data['fave_property_garage'][0] ); } ?>">
+                        <label for=""><?php echo esc_html__('Garages/Car Port', 'houzez').houzez_required_field( $required_fields['garages'] ); ?></label>
+                        <input type="text" id="prop_garage" class="form-control" name="prop_garage" placeholder="<?php esc_html_e( 'Enter number of Garages/Car Port', 'houzez' ); ?>" value="<?php if( isset( $prop_meta_data['fave_property_garage'] ) ) { echo sanitize_text_field( $prop_meta_data['fave_property_garage'][0] ); } ?>">
                     </div>
                 </div>
                 <?php } ?>

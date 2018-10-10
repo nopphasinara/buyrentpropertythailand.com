@@ -76,7 +76,7 @@ if( $prop_details ) {
                 echo '<li><strong>'.esc_html__( 'Bathrooms:', 'houzez').'</strong> '.esc_attr( $bathrooms ).'</li>';
             }
             if( !empty( $garage ) && $hide_detail_prop_fields['garages'] != 1 ) {
-                echo '<li><strong>'.esc_html__( 'Garage:', 'houzez').'</strong> '.esc_attr( $garage ).'</li>';
+                echo '<li><strong>'.esc_html__( 'Garages/Car Port:', 'houzez').'</strong> '.esc_attr( $garage ).'</li>';
             }
             if( !empty( $garage_size ) && $hide_detail_prop_fields['garages'] != 1 ) {
                 echo '<li><strong>'.esc_html__( 'Garage Size:', 'houzez').'</strong> '.esc_attr( $garage_size ).'</li>';

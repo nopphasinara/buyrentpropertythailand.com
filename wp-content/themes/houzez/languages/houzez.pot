@@ -12629,5 +12629,5 @@ msgid "Search listing"
 msgstr ""
 
 #: ../template/user_dashboard_properties.php:74
-msgid "Note: Maximum upload image size 500KB please resize your image before upload."
+msgid "Note: Maximum upload image size 500kb, maximum 20 images per listing."
 msgstr ""

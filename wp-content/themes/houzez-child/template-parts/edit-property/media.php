@@ -14,7 +14,7 @@ global $prop_data, $is_multi_steps;
     </div>
     <div class="add-tab-content">
         <div class="add-tab-row">
-            <p class="alert alert-info"><?php esc_html_e( 'Note: Maximum upload image size 500kb, please resize your image before upload.', 'houzez' ); ?></p>
+            <p class="alert alert-info"><?php esc_html_e( 'Note: Maximum upload image size 500kb, maximum 20 images per listing.', 'houzez' ); ?></p>
 
             <div class="property-media">
                 <div class="media-gallery">

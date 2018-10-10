@@ -31,7 +31,7 @@ if(empty($default_multi_currency)) {
                 <div class="col-sm-12">
                     <div class="form-group">
                         <label><?php echo $houzez_local['prop_des']; ?></label>
-                        <?php 
+                        <?php
                         // default settings - Kv_front_editor.php
                         $content = '';
                         $editor_id = 'prop_des';
@@ -41,7 +41,7 @@ if(empty($default_multi_currency)) {
                             'textarea_name' => $editor_id, // set the textarea name to something different, square brackets [] can be used here
                             'textarea_rows' => get_option('default_post_edit_rows', 18 ), // rows="..."
                             'tabindex' => '',
-                            'editor_css' => '', //  extra styles for both visual and HTML editors buttons, 
+                            'editor_css' => '', //  extra styles for both visual and HTML editors buttons,
                             'editor_class' => '', // add extra class(es) to the editor textarea
                             'teeny' => false, // output the minimal editor config used in Press This
                             'dfw' => false, // replace the default fullscreen with DFW (supported on the front-end in WordPress 3.4)
@@ -117,7 +117,7 @@ if(empty($default_multi_currency)) {
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="prop_labels"><?php echo $houzez_local['prop_label'].houzez_required_field( $required_fields['prop_labels'] ); ?></label>
-                            <select name="prop_labels" id="prop_labels" class="selectpicker" data-live-search="false" data-live-search-style="begins">
+                            <select name="prop_labels" id="prop_labels" class="selectpicker" data-live-search="false" data-live-search-style="begins" multiple=true>
                                 <option selected="selected" value=""><?php esc_html_e('None', 'houzez'); ?></option>
                                 <?php
                                 /* Property Label */
@@ -142,6 +142,10 @@ if(empty($default_multi_currency)) {
                 <?php } ?>
 
             </div>
+
+            <div class="alert alert-info">
+              <p>Note: If your property is both for sale and rent please select Sale in the Status* option and then add rental</p>
+            </div>
         </div>
         <div class="add-tab-row push-padding-bottom">
             <div class="row">
@@ -165,7 +169,7 @@ if(empty($default_multi_currency)) {
                         </div>
                     </div>
                 <?php } ?>
-                
+
                 <?php if( $hide_add_prop_fields['sale_rent_price'] != 1 ) { ?>
                 <div class="col-sm-4">
                     <div class="form-group">

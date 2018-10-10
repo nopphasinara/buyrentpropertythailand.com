@@ -752,6 +752,11 @@ if( !function_exists('save_property_as_draft') ) {
                         }
                     } elseif ( ! empty ( $property_image_ids ) ) {
                         update_post_meta( $prop_id, '_thumbnail_id', $property_image_ids[0] );
+
+                        /* if video url is provided but there is no video image then use featured image as video image */
+                        if ( empty( $property_video_image ) && !empty( $_POST['prop_video_url'] ) ) {
+                            update_post_meta( $prop_id, 'fave_video_image', $property_image_ids[0] );
+                        }
                     }
                 }
             }

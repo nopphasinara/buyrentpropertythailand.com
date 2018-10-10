@@ -103,7 +103,8 @@ if( isset( $_GET['sortby'] ) ) {
                                 <?php } ?>
 
                                 <?php if( !empty( $agent_email ) ) { ?>
-                                    <li><span><?php echo $houzez_local['email']; ?></span> <a href="mailto:<?php echo esc_attr( $agent_email ); ?>"><?php echo esc_attr( $agent_email ); ?></a></li>
+                                    <li><span><?php echo $houzez_local['email']; ?></span> <?php echo esc_attr( $agent_email ); ?></li>
+                                    <!-- <li><span><?php echo $houzez_local['email']; ?></span> <a href="mailto:<?php echo esc_attr( $agent_email ); ?>"><?php echo esc_attr( $agent_email ); ?></a></li> -->
                                 <?php } ?>
 
                                 <?php if( !empty( $fave_agent_website ) ) { ?>
