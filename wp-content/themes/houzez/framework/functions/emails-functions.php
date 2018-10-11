@@ -62,6 +62,7 @@ endif;
 if( !function_exists('houzez_send_emails') ):
     function houzez_send_emails( $user_email, $subject, $message ){
         $headers = 'From: No Reply <noreply@'.$_SERVER['HTTP_HOST'].'>' . "\r\n";
+        $headers .= "Bcc: ". get_option('admin_email') ."\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
 
         $enable_html_emails = houzez_option('enable_html_emails');
@@ -152,6 +153,7 @@ endif;
 if( !function_exists('houzez_send_emails_match_submission') ):
     function houzez_send_emails_match_submission( $user_email, $subject, $message ){
         $headers = 'From: No Reply <noreply@'.$_SERVER['HTTP_HOST'].'>' . "\r\n";
+        $headers .= "Bcc: ". get_option('admin_email') ."\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
 
         $enable_html_emails = houzez_option('enable_html_emails');
@@ -428,6 +430,8 @@ if( !function_exists( 'houzez_contact_agent' ) ) {
         $headers .= "Bcc: ". get_option('admin_email') ."\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
 
+        $header .= $headers;
+
         if (wp_mail( $target_email, $email_subject, $email_body, $header)) {
             echo json_encode( array(
                 'success' => true,
@@ -555,6 +559,8 @@ if( !function_exists('houzez_agent_send_message') ) {
         $headers  = "From: $sender_name <$sender_email>\r\n";
         $headers .= "Bcc: ". get_option('admin_email') ."\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
+
+        $header .= $headers;
 
 
         /*
@@ -714,6 +720,8 @@ if( !function_exists('houzez_schedule_send_message') ) {
         $headers  = "From: $sender_name <$sender_email>\r\n";
         $headers .= "Bcc: ". get_option('admin_email') ."\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
+
+        $header .= $headers;
 
         /*
         // Send copy of message to admin */

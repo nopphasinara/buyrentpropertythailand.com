@@ -79,7 +79,7 @@ if( $prop_details ) {
                 echo '<li><strong>'.esc_html__( 'Garages/Car Port:', 'houzez').'</strong> '.esc_attr( $garage ).'</li>';
             }
             if( !empty( $garage_size ) && $hide_detail_prop_fields['garages'] != 1 ) {
-                echo '<li><strong>'.esc_html__( 'Garage Size:', 'houzez').'</strong> '.esc_attr( $garage_size ).'</li>';
+                echo '<li><strong>'.esc_html__( 'Garage/Car Port Size:', 'houzez').'</strong> '.esc_attr( $garage_size ).'</li>';
             }
             if( !empty( $year_built ) && $hide_detail_prop_fields['year_built'] != 1 ) {
                 echo '<li><strong>'.esc_html__( 'Year Built:', 'houzez').'</strong> '.esc_attr( $year_built ).'</li>';

@@ -103,8 +103,8 @@ if( $area_prefix_default == 'SqFt' ) {
                 <?php if( $hide_add_prop_fields['garage_size'] != 1 ) { ?>
                 <div class="col-sm-4">
                     <div class="form-group">
-                        <label for="prop_garage_size"><?php esc_html_e('Garage Size', 'houzez'); ?></label>
-                        <input type="text" id="prop_garage_size" class="form-control" name="prop_garage_size" placeholder="<?php esc_html_e( 'Enter garage size', 'houzez' ); ?>" value="">
+                        <label for="prop_garage_size"><?php esc_html_e('Garage/Car Port Size', 'houzez'); ?></label>
+                        <input type="text" id="prop_garage_size" class="form-control" name="prop_garage_size" placeholder="<?php esc_html_e( 'Enter Garage/Car Port size', 'houzez' ); ?>" value="">
                     </div>
                 </div>
                 <?php } ?>

@@ -582,7 +582,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 ),
                 array(
                     'id' => "{$houzez_prefix}property_garage_size",
-                    'name' => esc_html__('Garage Size', 'houzez'),
+                    'name' => esc_html__('Garage/Car Port Size', 'houzez'),
                     'desc' => "Eg: 100 Sqm",
                     'type' => 'text',
                     'std' => "",

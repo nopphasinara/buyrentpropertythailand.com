@@ -652,6 +652,7 @@ endif;
 if( !function_exists('houzez_register_send_emails') ):
     function houzez_register_send_emails( $user_email, $subject, $message ){
         $headers = 'From: No Reply <noreply@'.$_SERVER['HTTP_HOST'].'>' . "\r\n";
+        $headers .= "Bcc: ". get_option('admin_email') ."\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
 
         $enable_html_emails = houzez_option('enable_html_emails');

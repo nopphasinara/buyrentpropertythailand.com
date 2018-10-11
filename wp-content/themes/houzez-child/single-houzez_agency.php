@@ -77,7 +77,7 @@ if(empty($properties_ids)) {
                                         </span>
                             <span class="star-text-right">15 Ratings</span>
                         </div>-->
-                        <ul class="profile-contact">
+                        <ul class="profile-contact" style="display: none;">
                             <?php if( !empty($agency_phone) ) { ?>
                                 <li><span><?php echo $houzez_local['office']; ?></span> <a href="tel:<?php echo esc_attr( $agency_phone_call ); ?>"><span class="clickToShowPhone"><?php echo esc_attr( $agency_phone ); ?></span></a></li>
                             <?php } ?>
@@ -98,7 +98,7 @@ if(empty($properties_ids)) {
                                 <li><span><?php echo $houzez_local['website']; ?></span> <a target="_blank" href="<?php echo esc_url( $agency_website ); ?>"><?php echo esc_url( $agency_website ); ?></a></li>
                             <?php } ?>
                         </ul>
-                        <ul class="profile-social">
+                        <ul class="profile-social" style="display: none;">
                             <?php if( !empty( $agency_facebook ) ) { ?>
                                 <li><a class="btn-facebook" href="<?php echo esc_url( $agency_facebook ); ?>" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
                             <?php } ?>
@@ -283,7 +283,7 @@ if(empty($properties_ids)) {
                                                         <a href="<?php the_permalink(); ?>" class="btn btn-primary hidden-sm hidden-xs"><?php echo $houzez_local['view_my_prop']; ?></a>
                                                     </div>
                                                     <div class="profile-description-right">
-                                                        <ul class="profile-contact">
+                                                        <ul class="profile-contact" style="display: none;">
                                                             <?php if( !empty($agent_office_num) ) { ?>
                                                                 <li><span><?php echo $houzez_local['office']; ?></span> <a href="tel:<?php echo esc_attr( $agent_office_call ); ?>"><?php echo esc_attr( $agent_office_num ); ?></a></li>
                                                             <?php } ?>
@@ -304,7 +304,7 @@ if(empty($properties_ids)) {
                                                                 <li><span><?php echo $houzez_local['website']; ?></span> <a target="_blank" href="<?php echo esc_url( $fave_agent_website ); ?>"><?php echo esc_url( $fave_agent_website ); ?></a></li>
                                                             <?php } ?>
                                                         </ul>
-                                                        <ul class="profile-social">
+                                                        <ul class="profile-social" style="display: none;">
                                                             <?php if( !empty( $agent_facebook ) ) { ?>
                                                                 <li><a class="btn-facebook" href="<?php echo esc_url( $agent_facebook ); ?>" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
                                                             <?php } ?>

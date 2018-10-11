@@ -98,8 +98,8 @@ $area_prefix_changeable = houzez_option('area_prefix_changeable');
                 <?php if( $hide_add_prop_fields['garage_size'] != 1 ) { ?>
                 <div class="col-sm-4">
                     <div class="form-group">
-                        <label for=""><?php esc_html_e('Garages Size', 'houzez'); ?></label>
-                        <input type="text" id="prop_garage_size" class="form-control" name="prop_garage_size" placeholder="<?php esc_html_e( 'Enter garage size', 'houzez' ); ?>" value="<?php if( isset( $prop_meta_data['fave_property_garage_size'] ) ) { echo sanitize_text_field( $prop_meta_data['fave_property_garage_size'][0] ); } ?>">
+                        <label for=""><?php esc_html_e('Garage/Car Port Size', 'houzez'); ?></label>
+                        <input type="text" id="prop_garage_size" class="form-control" name="prop_garage_size" placeholder="<?php esc_html_e( 'Enter Garage/Car Port size', 'houzez' ); ?>" value="<?php if( isset( $prop_meta_data['fave_property_garage_size'] ) ) { echo sanitize_text_field( $prop_meta_data['fave_property_garage_size'][0] ); } ?>">
                     </div>
                 </div>
                 <?php } ?>

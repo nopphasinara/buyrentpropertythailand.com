@@ -3588,10 +3588,10 @@ if( !function_exists('houzez_create_print')) {
                                         echo '<li><strong>'.esc_html__( 'Bathrooms:', 'houzez').'</strong> '.esc_attr( $bathrooms ).'</li>';
                                     }
                                     if( !empty( $garage ) ) {
-                                        echo '<li><strong>'.esc_html__( 'Garage:', 'houzez').'</strong> '.esc_attr( $garage ).'</li>';
+                                        echo '<li><strong>'.esc_html__( 'Garages/Car Port:', 'houzez').'</strong> '.esc_attr( $garage ).'</li>';
                                     }
                                     if( !empty( $garage_size ) ) {
-                                        echo '<li><strong>'.esc_html__( 'Garage Size:', 'houzez').'</strong> '.esc_attr( $garage_size ).'</li>';
+                                        echo '<li><strong>'.esc_html__( 'Garage/Car Port Size:', 'houzez').'</strong> '.esc_attr( $garage_size ).'</li>';
                                     }
                                     if( !empty( $year_built ) ) {
                                         echo '<li><strong>'.esc_html__( 'Year Built:', 'houzez').'</strong> '.esc_attr( $year_built ).'</li>';

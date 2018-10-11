@@ -71,8 +71,8 @@ $sticky_sidebar = houzez_option('sticky_sidebar');
 							?>
 						</h4>
 
-						<p><?php echo wp_kses_post( $agent_bio ); ?></p>
-						<ul class="profile-contact">
+						<p style="display: none;"><?php echo wp_kses_post( $agent_bio ); ?></p>
+						<ul class="profile-contact" style="display: none;">
 							<?php if( !empty($current_author_meta['fave_author_license'][0]) ) { ?>
 								<li><span><?php echo $houzez_local['licenses']; ?></span> <?php echo esc_attr( $current_author_meta['fave_author_license'][0] ); ?></li>
 							<?php } ?>
@@ -101,7 +101,7 @@ $sticky_sidebar = houzez_option('sticky_sidebar');
 							<?php } ?>
 
 						</ul>
-						<ul class="profile-social">
+						<ul class="profile-social" style="display: none;">
 
 							<?php if( !empty( $current_author_meta['fave_author_facebook'][0] ) ) { ?>
 								<li><a class="btn-facebook" href="<?php echo esc_url( $current_author_meta['fave_author_facebook'][0] ); ?>" target="_blank"><i class="fa fa-facebook-square"></i></a></li>

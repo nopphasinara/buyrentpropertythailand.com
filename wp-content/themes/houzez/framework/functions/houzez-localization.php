@@ -91,7 +91,7 @@ if( !function_exists('houzez_get_localization')) {
 			'prop_size'		    => esc_html__( 'Property Size', 'houzez' ),
 			'prop_id'		    => esc_html__( 'Property ID', 'houzez' ),
 			'garage'		    => esc_html__( 'Garages/Car Port', 'houzez' ),
-			'garage_size'		=> esc_html__( 'Garage Size', 'houzez' ),
+			'garage_size'		=> esc_html__( 'Garage/Car Port Size', 'houzez' ),
 			'year_built'		=> esc_html__( 'Year Built', 'houzez' ),
 			'time_period'		=> esc_html__( 'Time Period', 'houzez' ),
 			'unlimited_listings'=> esc_html__( 'Unlimited Listings', 'houzez' ),

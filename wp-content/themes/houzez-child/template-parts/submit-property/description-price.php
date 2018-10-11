@@ -144,7 +144,7 @@ if(empty($default_multi_currency)) {
             </div>
 
             <div class="alert alert-info">
-              <p>Note: If your property is both for sale and rent please select Sale in the Status* option and then add rental</p>
+              <p>Note: If your property is both for sale and rent please select Sale in the Status* above option and then add rental price below</p>
             </div>
         </div>
         <div class="add-tab-row push-padding-bottom">

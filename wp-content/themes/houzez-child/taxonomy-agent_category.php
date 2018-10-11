@@ -108,8 +108,8 @@ $taxonomy_name = get_query_var( 'taxonomy' );
                                             }
                                             ?>
                                         </p>
-                                        <p><?php echo wp_kses_post( $des ); ?></p>
-                                        <ul class="profile-contact">
+                                        <p style="display: none;"><?php echo wp_kses_post( $des ); ?></p>
+                                        <ul class="profile-contact" style="display: none;">
                                             <?php if( !empty($agent_office_num) ) { ?>
                                                 <li><span><?php echo $houzez_local['office_colon']; ?></span> <a href="tel:<?php echo esc_attr( $agent_office_call ); ?>"><?php echo esc_attr( $agent_office_num ); ?></a></li>
                                             <?php } ?>
@@ -127,7 +127,7 @@ $taxonomy_name = get_query_var( 'taxonomy' );
                                             <?php } ?>
 
                                         </ul>
-                                        <ul class="profile-social">
+                                        <ul class="profile-social" style="display: none;">
                                             <?php if( !empty( $agent_mobile ) ) { ?>
                                                 <li><a href="#"><i class="fa fa-phone-square"></i></a></li>
                                             <?php } ?>
