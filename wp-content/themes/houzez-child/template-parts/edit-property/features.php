@@ -42,6 +42,7 @@ global $prop_data, $is_multi_steps;
               ?>
               <div class="alert alert-info">
                 <p>Hint: Select all press Ctrl+A on Window or Command+A on Mac, Ctrl+Click on Window or Command+Click on Mac to Select/Unselect item.</p>
+                <p><strong>Please note: Select all will not working properly on Edge please change to Google Chrome or other browsers.</strong></p>
               </div>
 
               <select name="prop_features[]" class="form-control" size="<?php echo count($property_features) / 3; ?>" multiple>

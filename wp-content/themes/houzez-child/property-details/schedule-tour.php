@@ -75,7 +75,7 @@ $user_role = implode(', ', $user_info->roles);
             <div class="col-sm-6 col-xs-12">
                 <div class="form-group">
                     <label><?php esc_html_e('Date', 'houzez'); ?></label>
-                    <input name="schedule_date" class="form-control input_date" placeholder="<?php esc_html_e('Select tour date', 'houzez'); ?>" type="text">
+                    <input name="schedule_date" class="form-control input_date" placeholder="<?php esc_html_e('Select preferred viewing date', 'houzez'); ?>" type="text">
                 </div>
             </div>
             <div class="col-sm-6 col-xs-12">
