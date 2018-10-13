@@ -215,6 +215,10 @@ Template: houzez
   border-radius: 3px 3px;
 }
 
+#description.property-description div {
+  margin-bottom: 1.4em;
+}
+
 @media (max-width: 991px) {
   .header-section-3 .header-top {
     display: none !important;

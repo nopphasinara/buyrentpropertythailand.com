@@ -640,12 +640,6 @@ class Houzez_Post_Type_Property {
         }
 
         $property_id_prefix = houzez_option('property_id_prefix');
-<<<<<<< HEAD
-
-        $auto_property_id = houzez_option('auto_property_id');
-        $fave_property_id = get_post_meta( $post_id, 'fave_property_id', true );
-=======
->>>>>>> a7095d05010ce8a0906ef95d730704cc1715e84a
 
         $auto_property_id = houzez_option('auto_property_id');
         $fave_property_id = get_post_meta( $post_id, 'fave_property_id', true );

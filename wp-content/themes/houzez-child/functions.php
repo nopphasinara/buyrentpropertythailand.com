@@ -25,3 +25,11 @@
     <a href="#" class="btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
   </li>
 </ul> */
+
+
+// remove_filter( 'the_content', 'wpautop' );
+//
+// function clear_br($content){
+//   return str_replace("<br />","<br clear='none'/>", $content);
+// }
+// add_filter('the_content', 'clear_br');

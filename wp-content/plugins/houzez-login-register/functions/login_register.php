@@ -298,7 +298,7 @@ if( !function_exists('houzez_agency_agent') ) {
                 'ID' => $user_id,
                 'role' => $user_role,
                 'first_name' => $firstname,
-                'last_name' => $lastname
+                'last_name' => $lastname,
             );
             wp_update_user( $update_args );
 
