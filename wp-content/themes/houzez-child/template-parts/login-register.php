@@ -85,6 +85,12 @@ $allowed_html_array = array(
                 <div class="input-email input-icon">
                     <input id="useremail" name="useremail" type="email" placeholder="<?php esc_html_e('Email','houzez'); ?>" />
                 </div>
+                <!-- <div class="input-user input-icon">
+                    <input id="position" name="position" type="text" placeholder="<?php esc_html_e('Position','houzez'); ?>" />
+                </div>
+                <div class="input-user input-icon">
+                    <input id="company" name="company" type="text" placeholder="<?php esc_html_e('Company name','houzez'); ?>" />
+                </div> -->
 
                 <?php if( $enable_password == 'yes' ) { ?>
                     <div class="input-pass input-icon">

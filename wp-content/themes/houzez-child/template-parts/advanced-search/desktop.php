@@ -655,11 +655,20 @@ $checked = true;
                                 </div>
                                 <?php } ?>
 
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="form-group">
+                                        <select name="feature" class="selectpicker" data-live-search="false" data-live-search-style="begins" title="">
+                                            <option value=""><?php echo $houzez_local['other_feature']; ?></option>
+                                            <?php get_template_part('template-parts/advanced-search/search-features2'); ?>
+                                        </select>
+                                    </div>
+                                </div>
+
                             <?php } ?>
 
 
 
-                            <?php if( $adv_show_hide['other_features'] != 1 ) { ?>
+                            <?php /* <?php if( $adv_show_hide['other_features'] != 1 ) { ?>
                             <div class="col-sm-12 col-xs-12 features-list">
 
                                 <label class="advance-trigger text-uppercase title"><i class="fa fa-plus-square"></i> <?php echo $houzez_local['other_feature']; ?> </label>
@@ -668,7 +677,7 @@ $checked = true;
                                     <?php get_template_part('template-parts/advanced-search/search-features'); ?>
                                 </div>
                             </div>
-                            <?php } ?>
+                            <?php } ?> */ ?>
 
                             <div class="advanced-search-close">
                                 <button class="btn-close" type="button"><i class="fa fa-close"></i> Close</button>

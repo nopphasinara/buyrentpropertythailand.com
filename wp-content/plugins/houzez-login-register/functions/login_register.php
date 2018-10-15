@@ -105,6 +105,8 @@ if( !function_exists('houzez_register') ) {
 
         $allowed_html = array();
 
+        $position          = trim( sanitize_text_field( wp_kses( $_POST['position'], $allowed_html ) ));
+        $company          = trim( sanitize_text_field( wp_kses( $_POST['company'], $allowed_html ) ));
         $first_name          = trim( sanitize_text_field( wp_kses( $_POST['first_name'], $allowed_html ) ));
         $last_name          = trim( sanitize_text_field( wp_kses( $_POST['last_name'], $allowed_html ) ));
         $usermane          = trim( sanitize_text_field( wp_kses( $_POST['username'], $allowed_html ) ));
@@ -197,7 +199,7 @@ if( !function_exists('houzez_register') ) {
             wp_die();
         } else {
 
-            wp_update_user( array( 'ID' => $user_id, 'role' => $user_role, 'first_name' => $first_name, 'last_name' => $last_name ) );
+            wp_update_user( array( 'ID' => $user_id, 'role' => $user_role, 'first_name' => $first_name, 'last_name' => $last_name, 'nickname' => $first_name . ' ' . $last_name, 'display_name' => $first_name . ' ' . $last_name ) );
 
             if( $enable_password =='yes' ) {
                 echo json_encode( array( 'success' => true, 'msg' => esc_html__('Your account was created and you can login now!', 'houzez-login-register') ) );
@@ -210,12 +212,18 @@ if( !function_exists('houzez_register') ) {
             if( $user_as_agent == 'yes' ) {
                 if ($user_role == 'houzez_agent' || $user_role == 'author') {
                     houzez_register_as_agent($usermane, $email, $user_id);
-
                 } else if ($user_role == 'houzez_agency') {
                     houzez_register_as_agency($usermane, $email, $user_id);
                 }
             }
+
             houzez_wp_new_user_notification( $user_id, $user_password );
+
+            update_user_meta( $user_id, 'fave_author_position', $position ) ;
+            update_user_meta( $user_id, 'fave_author_company', $company ) ;
+
+            update_post_meta( $user_id, 'fave_agent_position', $position ) ;
+            update_post_meta( $user_id, 'fave_agent_company', $company ) ;
         }
         wp_die();
 
@@ -299,11 +307,13 @@ if( !function_exists('houzez_agency_agent') ) {
                 'role' => $user_role,
                 'first_name' => $firstname,
                 'last_name' => $lastname,
+                'nickname' => $first_name . ' ' . $last_name,
+                'display_name' => $first_name . ' ' . $last_name,
             );
             wp_update_user( $update_args );
 
             update_user_meta( $user_id, 'fave_agent_agency', $agent_agency) ; // used for get user created by agency
-            update_user_meta( $user_id, 'fave_agent_agency', $agent_agency) ; // used for get user created by agency
+            // update_user_meta( $user_id, 'fave_agent_agency', $agent_agency) ; // used for get user created by agency
 
             echo json_encode( array( 'success' => true, 'msg' => esc_html__('Agent account created!', 'houzez-login-register') ) );
 
@@ -557,7 +567,7 @@ if( !function_exists('houzez_register_as_agency') ) {
 
 if( !function_exists('houzez_register_as_agent') ) {
 
-    function houzez_register_as_agent( $username, $email, $user_id ) {
+    function houzez_register_as_agent( $username, $email, $user_id, $input = array() ) {
 
         // Create post object
         $args = array(
