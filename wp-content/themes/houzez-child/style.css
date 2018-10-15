@@ -11,9 +11,9 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: houzez
 Template: houzez
 */
-@import url("../houzez/style.css");
 /* Your CSS code goes here
 -------------------------------------- */
+@import url("../houzez/style.css");
 .header-section,
 .header-section-4 {
   background-color: #fff !important;
@@ -198,7 +198,13 @@ Template: houzez
   overflow: visible !important;
 }
 
-.advance-search-header .advance-fields .advanced-search-close {
+.advance-search,
+.advance-search-header {
+  position: relative;
+}
+
+.advance-search .advanced-search-close,
+.advance-search-header .advanced-search-close {
   position: absolute;
   top: 100%;
   margin-top: .4em;
@@ -207,16 +213,61 @@ Template: houzez
   z-index: 11;
 }
 
-.advance-search-header .advance-fields .advanced-search-close .btn-close {
-  color: #fff;
-  background-color: #61768f;
-  font-size: .875em;
-  border-color: #61768f;
-  border-radius: 3px 3px;
+.advance-search .advanced-search-close button.btn-close,
+.advance-search-header .advanced-search-close button.btn-close {
+  color: #fff !important;
+  background-color: #61768f !important;
+  font-size: .875em !important;
+  border-color: #61768f !important;
+  border-radius: 3px 3px !important;
+}
+
+#sidebar .features-list.field-expand {
+  height: 400px;
+  max-height: 400px;
+  overflow: auto;
+  margin-bottom: 1em;
+}
+
+#sidebar .features-list.field-expand .checkbox-inline {
+  width: 100%;
 }
 
 #description.property-description div {
   margin-bottom: 1.4em;
+}
+
+.advanced-search .field-expand {
+  box-sizing: border-box;
+  height: 400px !important;
+  max-height: 400px !important;
+  overflow: auto;
+  background-color: #61768f;
+  padding: 1em 1.4em;
+  border-radius: 3px 3px;
+}
+
+.advanced-search-mobile .field-expand {
+  box-sizing: border-box;
+  height: 300px !important;
+  max-height: 300px !important;
+  overflow: auto;
+  background-color: #61768f;
+  padding: 1em 1.4em;
+  border-radius: 3px 3px;
+  margin-bottom: 1.4em;
+}
+
+.custom-advance-header-search .field-expand {
+  margin-top: 1em;
+}
+
+.advanced-search .features-list .checkbox-inline {
+  width: 30%;
+}
+
+.advanced-search-mobile .features-list .checkbox-inline {
+  width: 100%;
 }
 
 @media (max-width: 991px) {
@@ -249,7 +300,6 @@ Template: houzez
   .footer-bottom .navi ul {
     text-align: center;
   }
-
   .list-features li {
     display: block !important;
     width: 100%;
