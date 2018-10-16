@@ -1,6 +1,6 @@
 <?php
 $twitter_user = '';//$ft_option['twitter_username'];
-global $post, $prop_images;
+global $post, $prop_images, $custom_single;
 
 if( is_singular('property')) {
     $class_tooltip = 'share_tooltip tooltip_left';
@@ -8,6 +8,11 @@ if( is_singular('property')) {
 } else {
     $class_tooltip = 'share_tooltip';
     $class_tooltip_placement = 'top';
+}
+
+if ($custom_single === true) {
+  $class_tooltip = 'share_tooltip tooltip_top';
+  $class_tooltip_placement = 'right';
 }
 ?>
 

@@ -222,6 +222,15 @@ Template: houzez
   border-radius: 3px 3px !important;
 } */
 
+
+.add-tab-content #map {
+  height: 360px;
+}
+
+.place-marker-column {
+  margin-bottom: 1em;
+}
+
 #sidebar .features-list.field-expand {
   height: 400px;
   max-height: 400px;
