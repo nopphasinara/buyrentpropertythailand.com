@@ -479,8 +479,8 @@ if( !function_exists('houzez_advance_search') ) {
 
                             <?php if( $adv_show_hide['other_features'] != 1 ) { ?>
                             <div class="col-sm-6 col-xs-12 pull-left">
-                                <label class="title advance-trigger"><i
-                                        class="fa fa-plus-square"></i> <?php echo $houzez_local['other_feature']; ?>
+                                <label class="title advance-trigger">
+                                  <i class="fa fa-plus-square"></i> <?php echo $houzez_local['other_feature']; ?>
                                 </label>
                             </div>
                             <?php } ?>
