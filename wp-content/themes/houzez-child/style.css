@@ -11,9 +11,9 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: houzez
 Template: houzez
 */
+@import url("../houzez/style.css");
 /* Your CSS code goes here
 -------------------------------------- */
-@import url("../houzez/style.css");
 .header-section,
 .header-section-4 {
   background-color: #fff !important;
@@ -203,7 +203,7 @@ Template: houzez
   position: relative;
 }
 
-.advance-search .advanced-search-close,
+/* .advance-search .advanced-search-close,
 .advance-search-header .advanced-search-close {
   position: absolute;
   top: 100%;
@@ -220,7 +220,7 @@ Template: houzez
   font-size: .875em !important;
   border-color: #61768f !important;
   border-radius: 3px 3px !important;
-}
+} */
 
 #sidebar .features-list.field-expand {
   height: 400px;
@@ -270,6 +270,17 @@ Template: houzez
   width: 100%;
 }
 
+.advanced-search-close {
+  margin-top: 1em;
+}
+.advanced-search-close button.btn-close {
+  color: #fff !important;
+  background-color: #ae0f0b !important;
+  font-size: .875em !important;
+  border-color: #ae0f0b !important;
+  border-radius: 3px 3px !important;
+}
+
 @media (max-width: 991px) {
   .header-section-3 .header-top {
     display: none !important;
@@ -300,6 +311,7 @@ Template: houzez
   .footer-bottom .navi ul {
     text-align: center;
   }
+
   .list-features li {
     display: block !important;
     width: 100%;
