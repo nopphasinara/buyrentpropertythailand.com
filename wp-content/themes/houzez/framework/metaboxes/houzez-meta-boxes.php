@@ -70,6 +70,42 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
         $prop_neighborhood = array();
         $agent_categories = array();
         $agent_cities = array();
+        $prop_beds = array();
+        $prop_baths = array();
+
+        $adv_beds_list = houzez_option('adv_beds_list');
+        if( !empty($adv_beds_list) ) {
+            $adv_beds_list_array = explode( ',', $adv_beds_list );
+
+            if( is_array( $adv_beds_list_array ) && !empty( $adv_beds_list_array ) ) {
+                $temp_adv_beds_list_array = array();
+                foreach( $adv_beds_list_array as $beds ) {
+                    $temp_adv_beds_list_array[''. $beds .''] = $beds;
+                }
+
+                if( !empty( $temp_adv_beds_list_array ) ) {
+                    $num_array = $temp_adv_beds_list_array;
+                }
+            }
+        }
+        $prop_beds = $num_array;
+
+        $adv_baths_list = houzez_option('adv_baths_list');
+        if( !empty($adv_baths_list) ) {
+            $adv_baths_list_array = explode( ',', $adv_baths_list );
+
+            if( is_array( $adv_baths_list_array ) && !empty( $adv_baths_list_array ) ) {
+                $temp_adv_baths_list_array = array();
+                foreach( $adv_baths_list_array as $baths ) {
+                    $temp_adv_baths_list_array[''. $baths .''] = $baths;
+                }
+
+                if( !empty( $temp_adv_baths_list_array ) ) {
+                    $num_array = $temp_adv_baths_list_array;
+                }
+            }
+        }
+        $prop_baths = $num_array;
 
         houzez_get_terms_array( 'property_feature', $prop_features );
         houzez_get_terms_array( 'property_status', $prop_status );
@@ -552,23 +588,45 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 array(
                     'id' => "{$houzez_prefix}property_bedrooms",
                     'name' => esc_html__('Bedrooms', 'houzez'),
-                    'desc' => esc_html__('Eg: 4', 'houzez'),
-                    'type' => 'text',
-                    'std' => "",
+                    'desc' => '',
+                    'type' => 'select',
+                    'std' => '',
+                    'options' => $prop_beds,
                     'class' => $beds_hidden,
                     'columns' => 6,
                     'tab' => 'property_details',
                 ),
+                // array(
+                //     'id' => "{$houzez_prefix}property_bedrooms",
+                //     'name' => esc_html__('Bedrooms', 'houzez'),
+                //     'desc' => esc_html__('Eg: 4', 'houzez'),
+                //     'type' => 'text',
+                //     'std' => "",
+                //     'class' => $beds_hidden,
+                //     'columns' => 6,
+                //     'tab' => 'property_details',
+                // ),
                 array(
                     'id' => "{$houzez_prefix}property_bathrooms",
                     'name' => esc_html__('Bathrooms', 'houzez'),
-                    'desc' => esc_html__('Eg: 3', 'houzez'),
-                    'type' => 'text',
-                    'std' => "",
+                    'desc' => '',
+                    'type' => 'select',
+                    'std' => '',
+                    'options' => $prop_baths,
                     'class' => $baths_hidden,
                     'columns' => 6,
                     'tab' => 'property_details',
                 ),
+                // array(
+                //     'id' => "{$houzez_prefix}property_bathrooms",
+                //     'name' => esc_html__('Bathrooms', 'houzez'),
+                //     'desc' => esc_html__('Eg: 3', 'houzez'),
+                //     'type' => 'text',
+                //     'std' => "",
+                //     'class' => $baths_hidden,
+                //     'columns' => 6,
+                //     'tab' => 'property_details',
+                // ),
 
                 array(
                     'id' => "{$houzez_prefix}property_garage",

@@ -62,6 +62,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
         }
         $prop_status_temp = array_unshift( $prop_status, "-- --");
 
+        $prop_beds = array();
         $prop_states = array();
         $prop_locations = array();
         $prop_types = array();
@@ -80,6 +81,23 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
         houzez_get_terms_array( 'property_area', $prop_neighborhood );
         houzez_get_terms_array( 'agent_category', $agent_categories );
         houzez_get_terms_array( 'agent_city', $agent_cities );
+
+        $adv_beds_list = houzez_option('adv_beds_list');
+        if( !empty($adv_beds_list) ) {
+            $prop_beds = explode( ',', $adv_beds_list );
+
+            if( is_array( $adv_beds_list_array ) && !empty( $adv_beds_list_array ) ) {
+                $temp_adv_beds_list_array = array();
+                foreach( $adv_beds_list_array as $beds ) {
+                    $temp_adv_beds_list_array[] = esc_html__($beds, 'houzez');
+                }
+
+                if( !empty( $temp_adv_beds_list_array ) ) {
+                    $num_array = $temp_adv_beds_list_array;
+                }
+            }
+        }
+        $prop_beds = $num_array;
 
         $Countries = array(
             'US' => esc_html__('United States', 'houzez'),
@@ -552,13 +570,24 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
                 array(
                     'id' => "{$houzez_prefix}property_bedrooms",
                     'name' => esc_html__('Bedrooms', 'houzez'),
-                    'desc' => esc_html__('Eg: 4', 'houzez'),
-                    'type' => 'text',
-                    'std' => "",
+                    'desc' => '',
+                    'type' => 'select',
+                    'std' => '',
+                    'options' => $prop_beds,
                     'class' => $beds_hidden,
                     'columns' => 6,
                     'tab' => 'property_details',
                 ),
+                // array(
+                //     'id' => "{$houzez_prefix}property_bedrooms",
+                //     'name' => esc_html__('Bedrooms', 'houzez'),
+                //     'desc' => esc_html__('Eg: 4', 'houzez'),
+                //     'type' => 'text',
+                //     'std' => "",
+                //     'class' => $beds_hidden,
+                //     'columns' => 6,
+                //     'tab' => 'property_details',
+                // ),
                 array(
                     'id' => "{$houzez_prefix}property_bathrooms",
                     'name' => esc_html__('Bathrooms', 'houzez'),

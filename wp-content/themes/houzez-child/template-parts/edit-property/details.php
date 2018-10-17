@@ -71,8 +71,37 @@ $area_prefix_changeable = houzez_option('area_prefix_changeable');
                 <?php if( $hide_add_prop_fields['bedrooms'] != 1 ) { ?>
                 <div class="col-sm-4">
                     <div class="form-group">
-                        <label for=""><?php echo esc_html__('Bedrooms', 'houzez').houzez_required_field( $required_fields['bedrooms'] ); ?></label>
-                        <input type="text" id="prop_beds" class="form-control" name="prop_beds" placeholder="<?php esc_html_e( 'Enter number of bedrooms', 'houzez' ); ?>" value="<?php if( isset( $prop_meta_data['fave_property_bedrooms'] ) ) { echo sanitize_text_field( $prop_meta_data['fave_property_bedrooms'][0] ); } ?>">
+                        <label for="prop_beds"><?php echo esc_html__('Bedrooms', 'houzez').houzez_required_field( $required_fields['bedrooms'] ); ?></label>
+                        <select name="prop_beds" id="prop_beds" class="selectpicker" data-live-search="false" data-live-search-style="begins">
+                            <option selected="selected" value=""><?php esc_html_e('None', 'houzez'); ?></option>
+                            <?php
+                            /* Bedrooms */
+                            $prop_beds = array();
+                            $adv_beds_list = houzez_option('adv_beds_list');
+                            if( !empty($adv_beds_list) ) {
+                                $adv_beds_list_array = explode( ',', $adv_beds_list );
+
+                                if( is_array( $adv_beds_list_array ) && !empty( $adv_beds_list_array ) ) {
+                                    $temp_adv_beds_list_array = array();
+                                    foreach( $adv_beds_list_array as $beds ) {
+                                        $temp_adv_beds_list_array[] = $beds;
+                                        $selected = '';
+                                        if (isset($prop_meta_data['fave_property_bedrooms']) && $prop_meta_data['fave_property_bedrooms'][0] == $beds) {
+                                          $selected = 'selected';
+                                        }
+                                        echo '<option value="'. $beds .'" '. $selected .'>'. $beds .'</option>';
+                                    }
+
+                                    if( !empty( $temp_adv_beds_list_array ) ) {
+                                        $num_array = $temp_adv_beds_list_array;
+                                    }
+                                }
+                            }
+                            $prop_beds = $num_array;
+                            ?>
+                        </select>
+
+                        <!-- <input type="text" id="prop_beds" class="form-control" name="prop_beds" placeholder="<?php esc_html_e( 'Enter number of bedrooms', 'houzez' ); ?>" value="<?php if( isset( $prop_meta_data['fave_property_bedrooms'] ) ) { echo sanitize_text_field( $prop_meta_data['fave_property_bedrooms'][0] ); } ?>"> -->
                     </div>
                 </div>
                 <?php } ?>
@@ -80,8 +109,37 @@ $area_prefix_changeable = houzez_option('area_prefix_changeable');
                 <?php if( $hide_add_prop_fields['bathrooms'] != 1 ) { ?>
                 <div class="col-sm-4">
                     <div class="form-group">
-                        <label for=""><?php echo esc_html__('Bathrooms', 'houzez').houzez_required_field( $required_fields['bathrooms'] ); ?></label>
-                        <input type="text" id="prop_baths" class="form-control" name="prop_baths" placeholder="<?php esc_html_e( 'Enter number of bathrooms', 'houzez' ); ?>" value="<?php if( isset( $prop_meta_data['fave_property_bathrooms'] ) ) { echo sanitize_text_field( $prop_meta_data['fave_property_bathrooms'][0] ); } ?>">
+                        <label for="prop_baths"><?php echo esc_html__('Bathrooms', 'houzez').houzez_required_field( $required_fields['bathrooms'] ); ?></label>
+                        <select name="prop_baths" id="prop_baths" class="selectpicker" data-live-search="false" data-live-search-style="begins">
+                            <option selected="selected" value=""><?php esc_html_e('None', 'houzez'); ?></option>
+                            <?php
+                            /* Bedrooms */
+                            $prop_baths = array();
+                            $adv_baths_list = houzez_option('adv_baths_list');
+                            if( !empty($adv_baths_list) ) {
+                                $adv_baths_list_array = explode( ',', $adv_baths_list );
+
+                                if( is_array( $adv_baths_list_array ) && !empty( $adv_baths_list_array ) ) {
+                                    $temp_adv_baths_list_array = array();
+                                    foreach( $adv_baths_list_array as $baths ) {
+                                        $temp_adv_baths_list_array[] = $baths;
+                                        $selected = '';
+                                        if (isset($prop_meta_data['fave_property_bathrooms']) && $prop_meta_data['fave_property_bathrooms'][0] == $baths) {
+                                          $selected = 'selected';
+                                        }
+                                        echo '<option value="'. $baths .'" '. $selected .'>'. $baths .'</option>';
+                                    }
+
+                                    if( !empty( $temp_adv_baths_list_array ) ) {
+                                        $num_array = $temp_adv_baths_list_array;
+                                    }
+                                }
+                            }
+                            $prop_baths = $num_array;
+                            ?>
+                        </select>
+
+                        <!-- <input type="text" id="prop_baths" class="form-control" name="prop_baths" placeholder="<?php esc_html_e( 'Enter number of bathrooms', 'houzez' ); ?>" value="<?php if( isset( $prop_meta_data['fave_property_bathrooms'] ) ) { echo sanitize_text_field( $prop_meta_data['fave_property_bathrooms'][0] ); } ?>"> -->
                     </div>
                 </div>
                 <?php } ?>

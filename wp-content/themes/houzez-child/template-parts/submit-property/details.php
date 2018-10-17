@@ -77,7 +77,32 @@ if( $area_prefix_default == 'SqFt' ) {
                 <div class="col-sm-4">
                     <div class="form-group">
                         <label for="prop_beds"><?php echo esc_html__('Bedrooms', 'houzez').houzez_required_field( $required_fields['bedrooms'] ); ?></label>
-                        <input type="text" id="prop_beds" class="form-control" name="prop_beds" placeholder="<?php esc_html_e( 'Enter number of bedrooms', 'houzez' ); ?>" value="">
+                        <select name="prop_beds" id="prop_beds" class="selectpicker" data-live-search="false" data-live-search-style="begins">
+                            <option selected="selected" value=""><?php esc_html_e('None', 'houzez'); ?></option>
+                            <?php
+                            /* Bedrooms */
+                            $prop_beds = array();
+                            $adv_beds_list = houzez_option('adv_beds_list');
+                            if( !empty($adv_beds_list) ) {
+                                $adv_beds_list_array = explode( ',', $adv_beds_list );
+
+                                if( is_array( $adv_beds_list_array ) && !empty( $adv_beds_list_array ) ) {
+                                    $temp_adv_beds_list_array = array();
+                                    foreach( $adv_beds_list_array as $beds ) {
+                                        $temp_adv_beds_list_array[] = $beds;
+                                        echo '<option value="'. $beds .'">'. $beds .'</option>';
+                                    }
+
+                                    if( !empty( $temp_adv_beds_list_array ) ) {
+                                        $num_array = $temp_adv_beds_list_array;
+                                    }
+                                }
+                            }
+                            $prop_beds = $num_array;
+                            ?>
+                        </select>
+
+                        <!-- <input type="text" id="prop_beds" class="form-control" name="prop_beds" placeholder="<?php esc_html_e( 'Enter number of bedrooms', 'houzez' ); ?>" value=""> -->
                     </div>
                 </div>
                 <?php } ?>
@@ -86,7 +111,32 @@ if( $area_prefix_default == 'SqFt' ) {
                 <div class="col-sm-4">
                     <div class="form-group">
                         <label for="prop_baths"><?php echo esc_html__('Bathrooms', 'houzez').houzez_required_field( $required_fields['bathrooms'] ); ?></label>
-                        <input type="text" id="prop_baths" class="form-control" name="prop_baths" placeholder="<?php esc_html_e( 'Enter number of bathrooms', 'houzez' ); ?>" value="">
+                        <select name="prop_baths" id="prop_baths" class="selectpicker" data-live-search="false" data-live-search-style="begins">
+                            <option selected="selected" value=""><?php esc_html_e('None', 'houzez'); ?></option>
+                            <?php
+                            /* Bedrooms */
+                            $prop_baths = array();
+                            $adv_baths_list = houzez_option('adv_baths_list');
+                            if( !empty($adv_baths_list) ) {
+                                $adv_baths_list_array = explode( ',', $adv_baths_list );
+
+                                if( is_array( $adv_baths_list_array ) && !empty( $adv_baths_list_array ) ) {
+                                    $temp_adv_baths_list_array = array();
+                                    foreach( $adv_baths_list_array as $baths ) {
+                                        $temp_adv_baths_list_array[] = $baths;
+                                        echo '<option value="'. $baths .'">'. $baths .'</option>';
+                                    }
+
+                                    if( !empty( $temp_adv_baths_list_array ) ) {
+                                        $num_array = $temp_adv_baths_list_array;
+                                    }
+                                }
+                            }
+                            $prop_baths = $num_array;
+                            ?>
+                        </select>
+
+                        <!-- <input type="text" id="prop_baths" class="form-control" name="prop_baths" placeholder="<?php esc_html_e( 'Enter number of bathrooms', 'houzez' ); ?>" value=""> -->
                     </div>
                 </div>
                 <?php } ?>
