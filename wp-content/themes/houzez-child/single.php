@@ -35,6 +35,7 @@ $custom_single = true;
                                     <h1><?php the_title(); ?></h1>
                                     <?php get_template_part( 'single-post/post-meta' ); ?>
                                 </div>
+
                                 <?php houzez_post_thumbnail(); ?>
 
                                 <div class="article-detail">
@@ -78,18 +79,6 @@ $custom_single = true;
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-md-offset-0 col-sm-offset-3 container-sidebar  <?php if( isset( $sticky_sidebar['default_sidebar'] ) && $sticky_sidebar['default_sidebar'] != 0 ){ echo 'houzez_sticky'; }?>">
-              <div id="share-plugin-2" class="widget widget_share">
-                <div style="display: inline-block; margin-right: 1em; vertical-align: middle;">
-                  <h4 style="margin-bottom: 0; padding-top: .2em;">Share This Post</h4>
-                </div><div style="display: inline-block; vertical-align: middle;">
-                  <ul class="actions">
-                    <li class="share-btn">
-                        <?php get_template_part( 'template-parts/share' ); ?>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
                 <?php get_sidebar(); ?>
             </div>
         </div>

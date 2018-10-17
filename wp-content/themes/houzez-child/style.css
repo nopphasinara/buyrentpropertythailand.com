@@ -290,6 +290,44 @@ Template: houzez
   border-radius: 3px 3px !important;
 }
 
+.tooltip_right {
+  line-height: 16px;
+  z-index: 1;
+  left: 37px;
+  bottom: 50%;
+  transform: translate(0, 50%);
+}
+
+.tooltip_right:after {
+  z-index: 1;
+  position: absolute;
+  left: -12px;
+  bottom: 8px;
+  border-top-color: transparent;
+  border-left-color: #00aeef;
+}
+
+.author-meta-action.share-btn a {
+  color: #fff;
+  background-color: #ae0f0b;
+  border-color: #ae0f0b;
+  padding: .1em 0;
+  border-radius: 3px 3px;
+  width: 24px;
+  display: inline-block;
+  zoom: 1;
+  text-align: center;
+  margin-left: .1em;
+}
+
+.author-meta-action.share-btn .fa {
+  color: #fff;
+}
+
+.author-meta-action.share-btn label {
+  margin-bottom: 0;
+}
+
 @media (max-width: 991px) {
   .header-section-3 .header-top {
     display: none !important;
@@ -324,5 +362,10 @@ Template: houzez
   .list-features li {
     display: block !important;
     width: 100%;
+  }
+
+  .author-meta-action.share-btn {
+    text-align: left;
+    margin-top: 0;
   }
 }
