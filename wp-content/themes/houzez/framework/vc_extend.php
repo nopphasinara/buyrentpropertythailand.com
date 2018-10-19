@@ -28,7 +28,7 @@ if (is_plugin_active('js_composer/js_composer.php')) {
 	if (function_exists('vc_remove_param')) {
 		$houzez_grids_tax = array();
 		vc_remove_param('vc_row', 'font_color');
-			
+
 		$houzez_grids_tax['Property Types'] = 'property_type';
 		$houzez_grids_tax['Property Status'] = 'property_status';
 		$houzez_grids_tax['Property Label'] = 'property_label';
@@ -100,7 +100,7 @@ if (is_plugin_active('js_composer/js_composer.php')) {
 	$of_categories_obj 		= get_categories( array( 'hide_empty' => 1, 'hierarchical' => true ) );
 
 	foreach ( $of_categories_obj as $of_category ) {
-	    $of_categories[$of_category->name] = $of_category->term_id; 
+	    $of_categories[$of_category->name] = $of_category->term_id;
 	}
 	$categories_buffer['- All categories -'] = '';
 
@@ -114,12 +114,12 @@ if (is_plugin_active('js_composer/js_composer.php')) {
 	$of_tags_obj 		= get_tags( array( 'hide_empty' => 1 ) );
 
 	foreach ( $of_tags_obj as $of_tag ) {
-	    $of_tags[$of_tag->name] = $of_tag->term_id; 
+	    $of_tags[$of_tag->name] = $of_tag->term_id;
 	}
 
-	$sort_by = array( 
-		esc_html__('Default', 'houzez') => '', 
-		esc_html__('Price (Low to High)', 'houzez') => 'a_price', 
+	$sort_by = array(
+		esc_html__('Default', 'houzez') => '',
+		esc_html__('Price (Low to High)', 'houzez') => 'a_price',
 		esc_html__('Price (High to Low)', 'houzez') => 'd_price',
 		esc_html__('Date Old to New', 'houzez') => 'a_date',
 		esc_html__('Date New to Old', 'houzez') => 'd_date',
@@ -1017,9 +1017,9 @@ if (is_plugin_active('js_composer/js_composer.php')) {
 				"param_name" => "sort_by",
 				"type" => "dropdown",
 				"heading" => esc_html__("Sort By", "houzez"),
-				"value" => array( 
-					esc_html__('Default', 'houzez') => '', 
-					esc_html__('Price (Low to High)', 'houzez') => 'a_price', 
+				"value" => array(
+					esc_html__('Default', 'houzez') => '',
+					esc_html__('Price (Low to High)', 'houzez') => 'a_price',
 					esc_html__('Price (High to Low)', 'houzez') => 'd_price',
 					esc_html__('Date Old to New', 'houzez') => 'a_date',
 					esc_html__('Date New to Old', 'houzez') => 'd_date',
@@ -1225,6 +1225,15 @@ if (is_plugin_active('js_composer/js_composer.php')) {
 				"value" => "",
 				"heading" => esc_html__("Offset posts:", "houzez"),
 				"description" => "",
+				"save_always" => true
+
+			),
+      array(
+				"param_name" => "property_ids",
+				"type" => "textfield",
+				"value" => "",
+				"heading" => esc_html__("Property IDs:", "houzez"),
+				"description" => "You can make a list by adding property ID separate each with comma ','",
 				"save_always" => true
 
 			),
@@ -2116,12 +2125,12 @@ if (is_plugin_active('js_composer/js_composer.php')) {
 	if ( !function_exists('houzez_get_taxonomy_list') )
 	{
 	    function houzez_get_vc_taxonomy_list($settings, $value)
-	    {	
+	    {
 	    	$taxonomy    = isset($settings['taxonomy']) ? $settings['taxonomy'] : '';
 	        $param_name  = isset($settings['param_name']) ? $settings['param_name'] : '';
 	        $isHideEmpty = isset($settings['is_hide_empty']) && $settings['is_hide_empty']  ?  true : false;
 	        $isMultiple  = isset($settings['is_multiple']) && $settings['is_multiple']  ?  'multiple' : '';
-	        
+
 
 	        if ( !is_array($value) )
 	        {
