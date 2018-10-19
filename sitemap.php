@@ -36,7 +36,13 @@ foreach ($post_types as $index => $post_type) {
   wp_reset_query();
 }
 
+// echo '<pre>'; print_r($results); echo '</pre>';
+
 // MENU
-
-
-echo '<pre>'; print_r($results); echo '</pre>';
+$menu = $results['nav_menu_item']->get_posts();
+if (count($menu)) {
+  foreach ($menu as $index => $item) {
+    $menu[$index]->permalink = get_permalink($item->ID);
+  }
+}
+echo '<pre>'; print_r($menu); echo '</pre>';
