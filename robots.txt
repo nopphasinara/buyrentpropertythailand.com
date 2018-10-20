@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: *.js
+Allow: *.css
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-admin
+Disallow: /tag/houzez
