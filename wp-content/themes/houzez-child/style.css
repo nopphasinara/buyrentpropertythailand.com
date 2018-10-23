@@ -328,6 +328,45 @@ Template: houzez
   margin-bottom: 0;
 }
 
+
+.header-translator {
+  width: auto !important;
+  text-align: left !important;
+}
+.header-translator a > span {
+  color: #5b5b5a;
+}
+.header-translator .media-heading {
+  color: #5b5b5a !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+
+.footer-translator {
+  display: none;
+  text-align: center;
+  padding: .5em 0;
+  color: #fff;
+  background-color: #A9A9A9;
+}
+.footer-translator .selected,
+.footer-translator .switcher,
+.footer-translator a {
+  display: inline-block !important;
+  vertical-align: middle;
+}
+.footer-translator label {
+  margin-right: 1em;
+}
+.footer-translator a > span:not(:last-child) {
+  color: #fff;
+}
+.footer-translator a > span:last-child {
+  color: #5b5b5a;
+}
+
 @media (max-width: 991px) {
   .header-section-3 .header-top {
     display: none !important;
@@ -367,5 +406,9 @@ Template: houzez
   .author-meta-action.share-btn {
     text-align: left;
     margin-top: 0;
+  }
+
+  .footer-translator {
+    display: block;
   }
 }

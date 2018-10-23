@@ -44,7 +44,7 @@ if( $area_prefix_default == 'SqFt' ) {
                 <?php if( $hide_add_prop_fields['area_size'] != 1 ) { ?>
                 <div class="col-sm-3">
                     <div class="form-group">
-                        <label for="prop_size"><?php echo esc_html__('House Size ( Only digits )', 'houzez').houzez_required_field( $required_fields['area_size'] ); ?></label>
+                        <label for="prop_size"><?php echo esc_html__('Property Size ( Only digits )', 'houzez').houzez_required_field( $required_fields['area_size'] ); ?></label>
                         <input type="text" id="prop_size" class="form-control" name="prop_size" placeholder="<?php esc_html_e( 'Enter property area size', 'houzez' ); ?>" value="">
                     </div>
                 </div>

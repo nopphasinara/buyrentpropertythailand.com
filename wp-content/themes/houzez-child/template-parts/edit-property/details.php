@@ -40,7 +40,7 @@ $area_prefix_changeable = houzez_option('area_prefix_changeable');
                 <?php if( $hide_add_prop_fields['area_size'] != 1 ) { ?>
                 <div class="col-sm-3">
                     <div class="form-group">
-                        <label for=""><?php echo esc_html__('House Size ( Only digits )', 'houzez').houzez_required_field( $required_fields['area_size'] ); ?></label>
+                        <label for=""><?php echo esc_html__('Property Size ( Only digits )', 'houzez').houzez_required_field( $required_fields['area_size'] ); ?></label>
                         <input type="text" id="prop_size" class="form-control" name="prop_size" placeholder="<?php esc_html_e( 'Enter property area size', 'houzez' ); ?>" value="<?php if( isset( $prop_meta_data['fave_property_size'] ) ) { echo sanitize_text_field( $prop_meta_data['fave_property_size'][0] ); } ?>">
                     </div>
                 </div>

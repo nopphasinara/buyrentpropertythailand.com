@@ -413,10 +413,11 @@ if( !function_exists('houzez_wp_new_user_notification') ) {
 
         // Send notification to admin
         $args = array(
-            'user_login_register' => $user_login,
-            'user_email_register' => $user_email,
-            'first_name' => $first_name,
-            'last_name' => $last_name,
+          'user_login_register'  =>  $user_login,
+          'user_email_register'  =>  $user_email,
+          'first_name'   => $first_name,
+          'last_name' => $last_name,
+          'user_edit_page' => get_option('siteurl') . '/wp-admin/user-edit.php?user_id='. $user_id .'',
         );
         houzez_register_email_type( get_option('admin_email'), 'admin_new_user_register', $args );
 
@@ -660,10 +661,14 @@ endif;
 
 
 if( !function_exists('houzez_register_send_emails') ):
+    include realpath(__DIR__ . '/../../../themes/houzez-child/houzez-login-register/functions/login_register.php');
+
     function houzez_register_send_emails( $user_email, $subject, $message ){
+        $message = nl2br($message);
+
         $headers = 'From: No Reply <noreply@'.$_SERVER['HTTP_HOST'].'>' . "\r\n";
-        $headers .= "Bcc: ". get_option('admin_email') ."\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
+        // $headers .= "Bcc: ". get_option('admin_email') ."\r\n";
 
         $enable_html_emails = houzez_option('enable_html_emails');
         $enable_email_header = houzez_option('enable_email_header');
@@ -738,11 +743,26 @@ if( !function_exists('houzez_register_send_emails') ):
             $email_messages = $message;
         }
 
-        @wp_mail(
-            $user_email,
-            $subject,
-            $email_messages,
-            $headers
-        );
+        // @wp_mail(
+        //     $user_email,
+        //     $subject,
+        //     $email_messages,
+        //     $headers
+        // );
+
+        $args['website_url'] = get_option('siteurl');
+        $args['website_name'] = get_option('blogname');
+        $args['user_email'] = $user_email;
+        $user = get_user_by( 'email', $user_email );
+        $args['username'] = $user->user_login;
+        $args['first_name'] = $user->first_name;
+        $args['last_name'] = $user->last_name;
+
+        foreach( $args as $key => $val ) {
+            $subject = str_replace( '%'.$key, $val, $subject );
+            $message = str_replace( '%'.$key, $val, $message );
+        }
+
+        send_html_email($user_email, $subject, $message, $headers);
     };
 endif;

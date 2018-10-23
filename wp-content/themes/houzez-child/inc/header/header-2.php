@@ -48,6 +48,12 @@ if( ! is_user_logged_in() ) {
             <?php get_template_part( 'inc/header/social' ); ?>
 
         <?php } ?>
+
+        <div class="header-translator header-top-social">
+          <p class="media-heading">Select Language</p>
+          <?php echo do_shortcode('[gtranslate]'); ?>
+        </div>
+
         </div>
     </div>
     <div class="header-bottom" data-sticky="<?php echo esc_attr( $main_menu_sticky ); ?>">

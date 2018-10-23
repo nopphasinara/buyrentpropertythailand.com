@@ -547,7 +547,7 @@ if( !function_exists( 'houzez_register_metaboxes' ) ) {
 
                 array(
                     'id' => "{$houzez_prefix}property_size",
-                    'name' => esc_html__('House Size ( Only digits )', 'houzez'),
+                    'name' => esc_html__('Property Size ( Only digits )', 'houzez'),
                     'desc' => esc_html__('Eg: 1500', 'houzez'),
                     'type' => 'text',
                     'std' => "",

@@ -119,7 +119,7 @@ class WPCF7_Mail {
 		$attachments = $components['attachments'];
 
 		$headers = "From: $sender\n";
-    $headers .= "Bcc: ". get_option('admin_email') ."\r\n";
+    // $headers .= "Bcc: ". get_option('admin_email') ."\r\n";
 
 		if ( $this->use_html ) {
 			$headers .= "Content-Type: text/html\n";
