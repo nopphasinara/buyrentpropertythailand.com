@@ -142,7 +142,7 @@ if( $enable_contact_form_7_prop_detail != 0 ) {
             <input type="hidden" name="property_id" value="<?php echo $post->ID; ?>"/>
             <input type="hidden" name="action" value="houzez_start_thread">
             <div class="form-group">
-                   <textarea class="form-control" name="message" rows="5" placeholder="<?php esc_html_e('Description', 'houzez'); ?>"><?php esc_html_e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?>]</textarea>
+                   <textarea class="form-control" name="message" rows="5" placeholder="<?php esc_html_e('Description', 'houzez'); ?>"><?php esc_html_e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?> - <?php echo esc_url(get_permalink($post->ID)); ?>]</textarea>
             </div>
 
             <button class="start_thread_form btn btn-secondary btn-block"><?php esc_html_e('Send Message', 'houzez'); ?></button>
@@ -160,11 +160,11 @@ if( $enable_contact_form_7_prop_detail != 0 ) {
                 <input type="hidden" name="action" value="houzez_agent_send_message">
 
                 <div class="form-group">
-                    <input class="form-control" name="name" type="text" value="<?php echo $current_user->display_name; ?>" 
+                    <input class="form-control" name="name" type="text" value="<?php echo $current_user->display_name; ?>"
                            placeholder="<?php esc_html_e('Your Name', 'houzez'); ?>">
                 </div>
                 <div class="form-group">
-                    <input class="form-control" name="phone" type="text" value="<?php if(isset($all_meta_for_user['fave_author_phone'][0])) { echo $all_meta_for_user['fave_author_phone'][0]; }?>" 
+                    <input class="form-control" name="phone" type="text" value="<?php if(isset($all_meta_for_user['fave_author_phone'][0])) { echo $all_meta_for_user['fave_author_phone'][0]; }?>"
                            placeholder="<?php esc_html_e('Phone', 'houzez'); ?>">
                 </div>
                 <div class="form-group">
@@ -172,7 +172,7 @@ if( $enable_contact_form_7_prop_detail != 0 ) {
                            placeholder="<?php esc_html_e('Email', 'houzez'); ?>">
                 </div>
                 <div class="form-group">
-                <textarea class="form-control" name="message" rows="4" placeholder="<?php esc_html_e('Description', 'houzez'); ?>"><?php _e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?>]</textarea>
+                <textarea class="form-control" name="message" rows="4" placeholder="<?php esc_html_e('Description', 'houzez'); ?>"><?php _e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?> - <?php echo esc_url(get_permalink($post->ID)); ?>]</textarea>
                 </div>
 
                 <?php get_template_part('template-parts/google', 'reCaptcha'); ?>

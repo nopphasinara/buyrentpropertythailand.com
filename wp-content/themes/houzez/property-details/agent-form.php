@@ -166,7 +166,7 @@ if( $enable_contact_form_7_prop_detail != 0 ) {
             <input type="hidden" name="property_id" value="<?php echo $post->ID; ?>"/>
             <input type="hidden" name="action" value="houzez_start_thread">
             <div class="form-group">
-                   <textarea class="form-control" name="message" rows="5" placeholder="<?php esc_html_e('Description', 'houzez'); ?>"><?php esc_html_e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?>]</textarea>
+                   <textarea class="form-control" name="message" rows="5" placeholder="<?php esc_html_e('Description', 'houzez'); ?>"><?php esc_html_e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?> - <?php echo esc_url(get_permalink($post->ID)); ?>]</textarea>
             </div>
 
             <button class="start_thread_form btn btn-secondary btn-block"><?php esc_html_e('Send Message', 'houzez'); ?></button>
@@ -196,7 +196,7 @@ if( $enable_contact_form_7_prop_detail != 0 ) {
                            placeholder="<?php esc_html_e('Email', 'houzez'); ?>">
                 </div>
                 <div class="form-group">
-                <textarea class="form-control" name="message" rows="4" placeholder="<?php esc_html_e('Description', 'houzez'); ?>"><?php _e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?>]</textarea>
+                <textarea class="form-control" name="message" rows="4" placeholder="<?php esc_html_e('Description', 'houzez'); ?>"><?php _e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?> - <?php echo esc_url(get_permalink($post->ID)); ?>]</textarea>
                 </div>
 
                 <?php get_template_part('template-parts/google', 'reCaptcha'); ?>
