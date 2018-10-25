@@ -2040,6 +2040,7 @@ if( !function_exists('houzez_property_search_2') ) {
             $search_query['meta_key'] = 'fave_featured';
             $search_query['order'] = 'DESC';
         }
+
         //print_r($search_query);
         return $search_query;
     }
