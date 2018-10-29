@@ -99,6 +99,14 @@ if( !function_exists('houzez_advance_search') ) {
                     </div>
                     <?php } ?>
 
+                    <?php if( $adv_show_hide['property_id'] != 1 ) { ?>
+                        <div class="col-sm-2 col-xs-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" value="<?php echo isset ( $_GET['property_id'] ) ? $_GET['property_id'] : ''; ?>" name="property_id" placeholder="<?php echo $houzez_local['property_id']; ?>">
+                            </div>
+                        </div>
+                    <?php } ?>
+
                     <?php if( $adv_show_hide['countries'] != 1 ) { ?>
                         <div class="col-sm-2 col-xs-6">
                             <div class="form-group">
@@ -314,14 +322,6 @@ if( !function_exists('houzez_advance_search') ) {
                                     houzez_hirarchical_options('property_label', $prop_label, $label );
                                     ?>
                                 </select>
-                            </div>
-                        </div>
-                    <?php } ?>
-
-                    <?php if( $adv_show_hide['property_id'] != 1 ) { ?>
-                        <div class="col-sm-2 col-xs-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" value="<?php echo isset ( $_GET['property_id'] ) ? $_GET['property_id'] : ''; ?>" name="property_id" placeholder="<?php echo $houzez_local['property_id']; ?>">
                             </div>
                         </div>
                     <?php } ?>
