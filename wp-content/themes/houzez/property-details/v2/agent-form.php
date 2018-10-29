@@ -149,7 +149,7 @@ $user_role = implode(', ', $user_info->roles);
                         <input type="hidden" name="property_id" value="<?php echo $post->ID; ?>"/>
                         <input type="hidden" name="action" value="houzez_start_thread">
                         <div class="form-group">
-                            <textarea class="form-control" name="message" rows="13" placeholder="<?php esc_html_e('Description', 'houzez'); ?>"><?php esc_html_e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?> - <?php echo esc_url(get_permalink($post->ID)); ?>]</textarea>
+                            <textarea class="form-control" name="message" rows="13" placeholder="<?php esc_html_e('Description', 'houzez'); ?>"><?php esc_html_e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?>]</textarea>
                         </div>
 
                         <button class="start_thread_form btn btn-secondary btn-block"><?php esc_html_e('Request info', 'houzez'); ?></button>
@@ -189,7 +189,7 @@ $user_role = implode(', ', $user_info->roles);
                             </div>
                             <div class="col-sm-12 col-xs-12">
                                 <div class="form-group">
-                                 <textarea class="form-control" name="message" rows="5" placeholder="<?php esc_html_e('Message', 'houzez'); ?>"><?php esc_html_e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?> - <?php echo esc_url(get_permalink($post->ID)); ?>]</textarea>
+                                 <textarea class="form-control" name="message" rows="5" placeholder="<?php esc_html_e('Message', 'houzez'); ?>"><?php esc_html_e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?>]</textarea>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-xs-12">
