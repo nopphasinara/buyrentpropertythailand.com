@@ -776,3 +776,159 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/buyrentp/public_html/wp-includes/class-snoopy.php on line 6
+[13-Oct-2018 15:53:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/buyrentp/public_html/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/embed-template.php on line 11
+[13-Oct-2018 23:44:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/buyrentp/public_html/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/embed-template.php on line 11
+[14-Oct-2018 03:31:46 UTC] PHP Warning:  require_once(ABSPATHWPINC/widgets/class-wp-widget-pages.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/default-widgets.php on line 11
+[14-Oct-2018 03:31:46 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/widgets/class-wp-widget-pages.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/default-widgets.php on line 11
+[14-Oct-2018 04:47:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/buyrentp/public_html/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/rss-functions.php on line 8
+[14-Oct-2018 06:03:22 UTC] PHP Warning:  require(ABSPATHWPINC/class-wp-dependency.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/script-loader.php on line 20
+[14-Oct-2018 06:03:22 UTC] PHP Warning:  require(ABSPATHWPINC/class-wp-dependency.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/script-loader.php on line 20
+[14-Oct-2018 06:03:22 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-wp-dependency.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/script-loader.php on line 20
+[14-Oct-2018 07:19:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/buyrentp/public_html/wp-includes/default-filters.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/default-filters.php on line 17
+[14-Oct-2018 09:50:44 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/buyrentp/public_html/wp-includes/class.wp-styles.php on line 18
+[14-Oct-2018 12:22:19 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/buyrentp/public_html/wp-includes/class.wp-scripts.php on line 18
+[14-Oct-2018 14:53:54 UTC] PHP Warning:  require_once(ABSPATHWPINC/class-walker-nav-menu.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/nav-menu-template.php on line 11
+[14-Oct-2018 14:53:54 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-walker-nav-menu.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/nav-menu-template.php on line 11
+[14-Oct-2018 17:25:28 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/buyrentp/public_html/wp-includes/class.wp-styles.php on line 18
+[14-Oct-2018 18:41:16 UTC] PHP Fatal error:  Class 'Walker' not found in /home/buyrentp/public_html/wp-includes/class-walker-page.php on line 17
+[14-Oct-2018 19:57:03 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/buyrentp/public_html/wp-includes/class.wp-styles.php on line 18
+[14-Oct-2018 21:12:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/buyrentp/public_html/wp-includes/feed-rss2-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/feed-rss2-comments.php on line 8
+[14-Oct-2018 22:28:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/buyrentp/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/feed-atom-comments.php on line 8
+[14-Oct-2018 23:44:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/buyrentp/public_html/wp-includes/ms-default-filters.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/ms-default-filters.php on line 16
+[15-Oct-2018 04:39:42 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/buyrentp/public_html/wp-includes/class.wp-styles.php on line 18
+[15-Oct-2018 07:37:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/buyrentp/public_html/wp-includes/ms-default-filters.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/ms-default-filters.php on line 16
+[15-Oct-2018 09:26:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/buyrentp/public_html/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/embed-template.php on line 11
+[15-Oct-2018 10:34:33 UTC] PHP Warning:  require_once(ABSPATHWPINC/widgets/class-wp-widget-pages.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/default-widgets.php on line 11
+[15-Oct-2018 10:34:33 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/widgets/class-wp-widget-pages.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/default-widgets.php on line 11
+[15-Oct-2018 11:50:20 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[15-Oct-2018 11:50:20 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[15-Oct-2018 11:50:20 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[15-Oct-2018 13:06:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_robots() in /home/buyrentp/public_html/wp-includes/template-loader.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/template-loader.php on line 28
+[15-Oct-2018 15:37:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/buyrentp/public_html/wp-includes/ms-default-filters.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/ms-default-filters.php on line 16
+[15-Oct-2018 18:09:17 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/buyrentp/public_html/wp-includes/class.wp-scripts.php on line 18
+[15-Oct-2018 20:40:52 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[15-Oct-2018 20:40:52 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[15-Oct-2018 20:40:52 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[15-Oct-2018 21:56:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_robots() in /home/buyrentp/public_html/wp-includes/template-loader.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/template-loader.php on line 28
+[15-Oct-2018 23:12:26 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[15-Oct-2018 23:12:26 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[15-Oct-2018 23:12:26 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[16-Oct-2018 00:28:14 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/buyrentp/public_html/wp-includes/class.wp-styles.php on line 18
+[16-Oct-2018 04:51:30 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[16-Oct-2018 04:51:30 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[16-Oct-2018 04:51:30 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[16-Oct-2018 06:07:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_robots() in /home/buyrentp/public_html/wp-includes/template-loader.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/template-loader.php on line 28
+[16-Oct-2018 07:23:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/buyrentp/public_html/wp-includes/ms-default-filters.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/ms-default-filters.php on line 16
+[16-Oct-2018 08:38:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_robots() in /home/buyrentp/public_html/wp-includes/template-loader.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/template-loader.php on line 28
+[16-Oct-2018 12:40:49 UTC] PHP Fatal error:  Class 'Walker' not found in /home/buyrentp/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[16-Oct-2018 13:56:36 UTC] PHP Fatal error:  Class 'Walker' not found in /home/buyrentp/public_html/wp-includes/class-walker-category.php on line 17
+[16-Oct-2018 17:43:59 UTC] PHP Fatal error:  Class 'SimplePie_File' not found in /home/buyrentp/public_html/wp-includes/class-wp-simplepie-file.php on line 17
+[16-Oct-2018 18:59:47 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[16-Oct-2018 18:59:47 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[16-Oct-2018 18:59:47 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-simplepie.php on line 5
+[17-Oct-2018 06:21:56 UTC] PHP Fatal error:  Class 'SimplePie_Cache' not found in /home/buyrentp/public_html/wp-includes/class-wp-feed-cache.php on line 17
+[17-Oct-2018 22:15:06 UTC] PHP Fatal error:  Class 'Walker' not found in /home/buyrentp/public_html/wp-includes/class-walker-comment.php on line 17
+[17-Oct-2018 23:30:58 UTC] PHP Fatal error:  Class 'Walker' not found in /home/buyrentp/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[18-Oct-2018 00:46:41 UTC] PHP Fatal error:  Class 'Walker' not found in /home/buyrentp/public_html/wp-includes/class-walker-category.php on line 17
+[18-Oct-2018 03:18:16 UTC] PHP Fatal error:  Class 'SimplePie_File' not found in /home/buyrentp/public_html/wp-includes/class-wp-simplepie-file.php on line 17
+[18-Oct-2018 05:49:50 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/buyrentp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[18-Oct-2018 07:05:37 UTC] PHP Fatal error:  Class 'SimplePie_Cache' not found in /home/buyrentp/public_html/wp-includes/class-wp-feed-cache.php on line 17
+[18-Oct-2018 12:08:47 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-themes-section.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-wp-customize-section.php on line 381
+[18-Oct-2018 12:08:47 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-themes-section.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-wp-customize-section.php on line 381
+[18-Oct-2018 14:40:27 UTC] PHP Fatal error:  Class 'Text_Diff_Renderer' not found in /home/buyrentp/public_html/wp-includes/class-wp-text-diff-renderer-table.php on line 16
+[18-Oct-2018 15:56:12 UTC] PHP Fatal error:  Class 'WP_Session_Tokens' not found in /home/buyrentp/public_html/wp-includes/class-wp-user-meta-session-tokens.php on line 15
+[18-Oct-2018 17:11:56 UTC] PHP Fatal error:  Class 'Walker' not found in /home/buyrentp/public_html/wp-includes/class-walker-comment.php on line 17
+[18-Oct-2018 18:27:50 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/buyrentp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[18-Oct-2018 22:15:07 UTC] PHP Fatal error:  Class 'Walker' not found in /home/buyrentp/public_html/wp-includes/class-walker-comment.php on line 17
+[19-Oct-2018 02:02:37 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/buyrentp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[19-Oct-2018 03:18:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/buyrentp/public_html/wp-includes/registration-functions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/registration-functions.php on line 7
+[19-Oct-2018 07:05:38 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/buyrentp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[19-Oct-2018 08:21:34 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/buyrentp/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[19-Oct-2018 09:37:12 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-wp-customize-panel.php on line 382
+[19-Oct-2018 09:37:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-wp-customize-panel.php on line 382
+[19-Oct-2018 10:52:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/buyrentp/public_html/wp-includes/registration-functions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/registration-functions.php on line 7
+[19-Oct-2018 12:08:47 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/buyrentp/public_html/wp-includes/class-wp-image-editor-gd.php on line 16
+[19-Oct-2018 13:24:34 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/buyrentp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[19-Oct-2018 14:40:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/buyrentp/public_html/wp-includes/registration-functions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/registration-functions.php on line 7
+[19-Oct-2018 15:56:10 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-themes-section.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-wp-customize-section.php on line 381
+[19-Oct-2018 15:56:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-themes-section.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-wp-customize-section.php on line 381
+[19-Oct-2018 17:11:56 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-color-control.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-wp-customize-control.php on line 698
+[19-Oct-2018 17:11:56 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-color-control.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-wp-customize-control.php on line 698
+[19-Oct-2018 18:27:42 UTC] PHP Fatal error:  Class 'Requests_Hooks' not found in /home/buyrentp/public_html/wp-includes/class-wp-http-requests-hooks.php on line 17
+[19-Oct-2018 22:15:20 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-color-control.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-wp-customize-control.php on line 698
+[19-Oct-2018 22:15:20 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-color-control.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-wp-customize-control.php on line 698
+[19-Oct-2018 23:30:52 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/buyrentp/public_html/wp-includes/class-wp-image-editor-imagick.php on line 16
+[20-Oct-2018 02:06:47 UTC] PHP Fatal error:  Class 'Requests_Hooks' not found in /home/buyrentp/public_html/wp-includes/class-wp-http-requests-hooks.php on line 17
+[20-Oct-2018 03:22:24 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/buyrentp/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[20-Oct-2018 04:38:09 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-wp-customize-panel.php on line 382
+[20-Oct-2018 04:38:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-wp-customize-panel.php on line 382
+[20-Oct-2018 05:53:56 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/buyrentp/public_html/wp-includes/class-wp-image-editor-gd.php on line 16
+[20-Oct-2018 09:41:17 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-filter-setting.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-wp-customize-setting.php on line 938
+[20-Oct-2018 09:41:17 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-filter-setting.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-wp-customize-setting.php on line 938
+[20-Oct-2018 10:57:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/buyrentp/public_html/wp-includes/registration-functions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/wp-includes/registration-functions.php on line 7
+[20-Oct-2018 12:12:51 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-wp-customize-panel.php on line 382
+[20-Oct-2018 12:12:51 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-wp-customize-panel.php on line 382
+[20-Oct-2018 13:28:39 UTC] PHP Fatal error:  Class 'Walker' not found in /home/buyrentp/public_html/wp-includes/class-walker-page-dropdown.php on line 17
+[20-Oct-2018 14:44:26 UTC] PHP Fatal error:  Class 'Walker' not found in /home/buyrentp/public_html/wp-includes/class-walker-category-dropdown.php on line 17
+[20-Oct-2018 16:00:14 UTC] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/buyrentp/public_html/wp-includes/class-wp-http-requests-response.php on line 17
+[20-Oct-2018 17:16:01 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-filter-setting.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-includes/class-wp-customize-setting.php on line 938
+[20-Oct-2018 17:16:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-filter-setting.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-includes/class-wp-customize-setting.php on line 938
+[20-Oct-2018 18:31:48 UTC] PHP Fatal error:  Class 'SimplePie_Sanitize' not found in /home/buyrentp/public_html/wp-includes/class-wp-simplepie-sanitize-kses.php on line 20
+[20-Oct-2018 19:47:38 UTC] PHP Fatal error:  Class 'Walker' not found in /home/buyrentp/public_html/wp-includes/class-walker-page-dropdown.php on line 17
