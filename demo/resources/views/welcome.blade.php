@@ -13,7 +13,13 @@
   </head>
   <body>
 
-    xxxx
+    <main>
+      xxx
+    </main>
+
+    <footer>
+      xxx
+    </footer>
 
     <script src="{{ asset('js/app.js') }}" crossorigin="anonymous"></script>
     <script src="{{ asset('js/vendor/holderjs/holder.min.js') }}" crossorigin="anonymous"></script>
