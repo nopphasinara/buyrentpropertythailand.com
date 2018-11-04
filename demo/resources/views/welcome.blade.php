@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="{{ str_slug(app()->getLocale()) }}">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -9,53 +10,64 @@
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ asset('vendor/zoomjs/css/zoom.css') }}" crossorigin="anonymous">
   </head>
   <body>
 
     <!-- #header-section -->
     <header id="header-section">
 
-      <!-- .topbar -->
-      <div class="topbar">
+      <!-- .topbar-style-1 -->
+      <div class="topbar-style-1 topbar bg-secondary">
+        <!-- .container-fluid -->
+        <div class="container-fluid px-0">
+          <div class="row d-flex flex-row justify-content-md-between align-items-center no-gutters">
+            <div class="left-panel panel col mr-auto">
+              <!-- .menu-topbar -->
+              <div class="menu-topbar btn-group" role="group" aria-label="Menu Topbar">
+                <a class="btn btn-outline-warning btn-hilight" href="#" role="button">Menu</a>
+                <a class="btn btn-secondary" href="#" role="button">Menu</a>
+                <a class="btn btn-secondary" href="#" role="button">Menu</a>
+              </div>
+              <!-- / .menu-topbar -->
+            </div>
+
+            <div class="right-panel panel col-auto">
+              <!-- .tools-topbar -->
+              <div class="tools-topbar btn-group" role="group" aria-label="Tools Topbar">
+                <a class="btn btn-primary" href="#" role="button">Sign In / Register <i class="fa fa-lg fa-user"></i></a>
+              </div>
+              <!-- / .tools-topbar -->
+            </div>
+          </div>
+        </div>
+        <!-- / .container-fluid -->
+      </div>
+      <!-- / .topbar-style-1 -->
+
+      <!-- .header-style-1 -->
+      <div class="header-style-1 header bg-dark text-light">
         <!-- .container -->
-        <div class="container">
-          <div class="d-flex flex-row justify-content-md-between">
-            <div class="col-auto">
-              .col-auto
+        <div class="container-fluid">
+          <div class="row d-flex flex-row justify-content-md-between align-items-center">
+            <div class="logo-header col-auto px-0 bg-white">
+              <a class="d-flex align-items-center px-4" href="{{ url('/') }}">
+                <img src="https://buyrentpropertythailand.com/wp-content/uploads/2018/09/wwwbrpt-logo.png" alt="Logo">
+              </a>
+            </div>
+            <div class="col">
+              xxx
             </div>
             <div class="col-auto">
-              .col-auto
+              Search <i class="fa fa-lg fa-search"></i>
             </div>
           </div>
         </div>
         <!-- / .container -->
       </div>
-      <!-- / .topbar -->
-
-      <!-- .header-style-1 -->
-      <div class="header-style-1 header">
-        .header-style-1
-      </div>
       <!-- / .header-style-1 -->
-
-      <!-- .header-style-2 -->
-      <div class="header-style-2 header">
-        .header-style-2
-      </div>
-      <!-- / .header-style-2 -->
-
-      <!-- .header-style-3 -->
-      <div class="header-style-3 header">
-        .header-style-3
-      </div>
-      <!-- / .header-style-3 -->
-
-      <!-- .header-style-4 -->
-      <div class="header-style-4 header">
-        .header-style-4
-      </div>
-      <!-- / .header-style-4 -->
 
     </header>
     <!-- / #header-section -->
@@ -98,7 +110,9 @@
     </footer>
     <!-- / #footer-section -->
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="{{ asset('js/app.js') }}" crossorigin="anonymous"></script>
-    <script src="{{ asset('js/vendor/holderjs/holder.min.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ asset('vendor/holderjs/holder.min.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ asset('vendor/zoomjs/js/zoom.js') }}" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,3 +1,63 @@
-// compileExpanded: ../../public/css/$1.css
+// compileCompressed: ../../public/css/$1.css
 
 @import "../vendor/bootstrap/scss/bootstrap.scss";
+
+
+/*
+ * Import additional stylesheets
+ */
+
+@import "./_reset.scss";
+@import "./_code.scss";
+@import "./_utilities.scss";
+
+
+/*
+ * Header stylesheets
+ */
+
+.header {
+  height: $header-height;
+
+  .logo-header {
+    height: $header-height;
+
+    a {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+
+    img {
+      height: $header-height * .75;
+      width: auto;
+    }
+  }
+}
+
+
+/*
+ * Topbar stylesheets
+ */
+
+.topbar {
+  .menu-topbar,
+  .tools-topbar {
+    .btn {
+      line-height: $topbar-height;
+
+      border: none;
+      border-radius: 0;
+
+      &.btn-hilight {
+        background-color: $light;
+        color: $secondary;
+
+        &:hover {
+          background-color: $warning;
+          color: $secondary;
+        }
+      }
+    }
+  }
+}
