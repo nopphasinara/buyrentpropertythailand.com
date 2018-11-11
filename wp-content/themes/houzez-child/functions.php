@@ -38,10 +38,15 @@
 add_action('wp_head', 'gcreative_insert_meta_tags');
 function gcreative_insert_meta_tags() {
   ?>
-  <meta name="google-site-verification" content="B6TNMohZMnu1Ri229CtKk1waahfP3q_S4yM_r3kbhkY" />
-  <meta name="msvalidate.01" content="1989FCCA079F206E36DEF426DFD6ED6E" />
-  <meta name="yandex-verification" content="6a1ec845117c149f" />
+  <!-- <meta name="google-site-verification" content="B6TNMohZMnu1Ri229CtKk1waahfP3q_S4yM_r3kbhkY" /> -->
+  <!-- <meta name="msvalidate.01" content="1989FCCA079F206E36DEF426DFD6ED6E" /> -->
+  <!-- <meta name="yandex-verification" content="6a1ec845117c149f" /> -->
   <?php
+  if (is_front_page()) {
+    ?>
+    <!-- <link rel="canonical" href="<?php echo rtrim(get_option('home'), '/') . '/'; ?>" /> -->
+    <?php
+  }
 }
 
 
