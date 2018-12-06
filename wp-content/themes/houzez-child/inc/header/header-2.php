@@ -49,10 +49,10 @@ if( ! is_user_logged_in() ) {
 
         <?php } ?>
 
-        <div class="header-translator header-top-social">
+        <?php /* <div class="header-translator header-top-social">
           <p class="media-heading">Select Language</p>
           <?php echo do_shortcode('[gtranslate]'); ?>
-        </div>
+        </div> */ ?>
 
         </div>
     </div>

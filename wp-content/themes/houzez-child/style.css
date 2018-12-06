@@ -342,6 +342,13 @@ Template: houzez
   text-transform: uppercase;
   margin-bottom: 0;
 }
+.contact-block .header-translator .media-heading {
+  padding-top: .7em;
+  padding-bottom: .4em;
+}
+.header-translator .media-heading {
+  font-size: .7em;
+}
 
 
 .footer-translator {
@@ -369,13 +376,21 @@ Template: houzez
 
 #frontpage-banners {
   text-align: center;
-  width: 768px;
+  width: 728px;
   height: 90px;
   margin: 0 auto;
 }
 
+#frontpage-grid-banners .item {
+  text-align: center;
+}
+#frontpage-grid-banners .item img {
+  width: 200px;
+  height: 200px;
+}
+
 #frontpage-banners .carousel-inner .item {
-  width: 768px;
+  width: 728px;
   height: 90px;
 }
 
