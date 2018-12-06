@@ -367,6 +367,18 @@ Template: houzez
   color: #5b5b5a;
 }
 
+#frontpage-banners {
+  text-align: center;
+  width: 768px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+#frontpage-banners .carousel-inner .item {
+  width: 768px;
+  height: 90px;
+}
+
 @media (max-width: 991px) {
   .header-section-3 .header-top {
     display: none !important;

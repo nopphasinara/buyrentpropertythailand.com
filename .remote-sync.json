@@ -8,7 +8,7 @@
   "deleteLocal": false,
   "hostname": "buyrentpropertythailand.com",
   "port": "21",
-  "target": "/public_html",
+  "target": "/v2.buyrentpropertythailand.com",
   "ignore": [
     ".remote-sync.json",
     ".git/**"
