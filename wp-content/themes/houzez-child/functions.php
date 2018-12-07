@@ -45,6 +45,14 @@ function gcreative_insert_meta_tags() {
 }
 
 
+add_action('wp_footer', 'gcreative_insert_footer');
+function gcreative_insert_footer() {
+  ?>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.6/holder.min.js"></script>
+  <?php
+}
+
+
 function no_self_ping( &$links ) {
     $home = get_option( 'home' );
     foreach ( $links as $l => $link ) {
