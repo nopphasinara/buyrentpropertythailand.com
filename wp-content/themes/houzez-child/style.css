@@ -385,7 +385,7 @@ Template: houzez
   text-align: center;
 }
 #frontpage-grid-banners .item img {
-  width: 200px;
+  width: 300px;
   height: 200px;
 }
 
@@ -437,5 +437,10 @@ Template: houzez
 
   .footer-translator {
     display: block;
+  }
+
+  #frontpage-grid-banners .item img {
+    width: 160px;
+    height: 106px;
   }
 }
