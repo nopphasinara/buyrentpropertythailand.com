@@ -1,6 +1,30 @@
 ;$(document).ready(function () {
   console.log('Load custom.js file successfully');
 
+  // $('.dropdown').on('mouseenter mouseleave click', function () {
+  //   var dropdown = $(this);
+  //   var dropdown_toggler = dropdown.children('[data-toggle="dropdown"]');
+  //   var dropdown_menu = dropdown.children('.dropdown-menu');
+  //   if (dropdown_menu.length) {
+  //     dropdown.toggleClass('show');
+  //     dropdown_toggler.each(function () {
+  //       var expanded = 'false';
+  //       if (typeof $(this).attr('aria-expanded') != 'undefined' && $(this).attr('aria-expanded')) {
+  //         if ($(this).attr('aria-expanded') == 'true') {
+  //           expanded = 'false';
+  //         } else if ($(this).attr('aria-expanded') == 'false') {
+  //           expanded = 'true';
+  //         }
+  //       }
+  //
+  //       $(this).attr('aria-expanded', ''+ expanded +'');
+  //     });
+  //     dropdown_menu.each(function () {
+  //       $(this).toggleClass('show');
+  //     });
+  //   }
+  // });
+
   $('.collapse-btn-close, [data-toggle="offcanvas"]').on('click', function (evt) {
     evt.preventDefault();
     evt.stopPropagation();

@@ -21,17 +21,20 @@
       <!-- .container -->
       <div class="container">
         <div class="row no-gutters justify-content-between align-items-center">
-          <div class="col-auto order-2 order-md-first">
+          <div class="col-auto order-2 order-md-1">
             <a href="{{ url('/') }}">
               <img src="{{ env('APP_LOGO') }}" alt="{{ env('APP_NAME') }}">
             </a>
           </div>
-          <div class="col-auto ml-md-auto order-first order-md-2 d-md-none">
+          <div class="col-auto ml-md-auto order-1 order-md-2 d-md-none">
             <a class="btn btn-default" data-toggle="offcanvas" data-target="#menuMainOffcanvas" href="#">
               <i class="fa fa-fw fa-lg fa-bars"></i>
             </a>
           </div>
           <div class="col-auto order-last d-md-none">
+            <a class="btn btn-default" data-toggle="collapse" data-target="#headerSearchMobile" href="#">
+              <i class="fa fa-fw fa-lg fa-search"></i>
+            </a>
             <a class="btn btn-default" data-toggle="modal" data-target="#modalUserLogin" href="#">
               <i class="fa fa-fw fa-lg fa-user-alt"></i>
             </a>
@@ -61,16 +64,74 @@
                 <div class="offcanvas-body p-md-0">
                   <div class="d-flex flex-column flex-md-row">
                     <div class="menu-item">
-                      <a class="btn active" href="#">Home</a>
+                      <a class="menu-link btn active" href="#">Home</a>
                     </div>
                     <div class="menu-item">
-                      <a class="btn" href="#">Link</a>
+                      <a class="menu-link btn" href="#">Link</a>
                     </div>
                     <div class="menu-item">
-                      <a class="btn" href="#">Link</a>
+                      <div class="dropdown">
+                        <a class="menu-link btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Dropdown <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i></a>
+                        <div class="dropdown-menu">
+                          <div class="dropdown-title bold text-secondary">Header</div>
+                          <a class="submenu-link btn" href="#">Action</a>
+                          <a class="submenu-link btn" href="#">Another action</a>
+                          <div class="divider my-0"></div>
+                          <a class="submenu-link btn" href="#">Something else here</a>
+                        </div>
+                      </div>
                     </div>
                     <div class="menu-item">
-                      <a class="btn" href="#">Link</a>
+                      <a class="menu-link btn" href="#">Link</a>
+                    </div>
+                    <div class="contact-info d-md-none">
+                      <div class="divider mt-0"></div>
+                      <div class="item">
+                        <div class="mr-2">
+                          <i class="fa fa-fw fa-lg fa-phone"></i>
+                        </div>
+                        <div class="flex-grow-1">
+                          +80 111 1111
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="mr-2">
+                          <i class="fa fa-fw fa-lg fa-envelope"></i>
+                        </div>
+                        <div class="flex-grow-1">
+                          info@domain.com
+                        </div>
+                      </div>
+                      <div class="item mb-0">
+                        <div class="mr-2">
+                          <i class="fa fa-fw fa-lg fa-map-marker"></i>
+                        </div>
+                        <div class="flex-grow-1">
+                          11/222 Moo 3, Nongprue, Banglamung, Chonburi 20150, Thailand
+                        </div>
+                      </div>
+                    </div>
+                    <div class="socials d-md-none mt-5">
+                      <div class="d-flex">
+                        <div class="item mr-2">
+                          <a class="btn p-0" href="#"><i class="fab fa-fw fa-lg fa-facebook-f"></i></a>
+                        </div>
+                        <div class="item mr-2">
+                          <a class="btn p-0" href="#"><i class="fab fa-fw fa-lg fa-instagram"></i></a>
+                        </div>
+                        <div class="item mr-2">
+                          <a class="btn p-0" href="#"><i class="fab fa-fw fa-lg fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="item mr-2">
+                          <a class="btn p-0" href="#"><i class="fab fa-fw fa-lg fa-pinterest-p"></i></a>
+                        </div>
+                        <div class="item mr-2">
+                          <a class="btn p-0" href="#"><i class="fab fa-fw fa-lg fa-twitter"></i></a>
+                        </div>
+                        <div class="item mr-2">
+                          <a class="btn p-0" href="#"><i class="fab fa-fw fa-lg fa-youtube"></i></a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -80,7 +141,7 @@
             <div class="box-right ml-md-auto d-none d-md-block">
               <div class="d-flex flex-row">
                 <div>
-                  <a class="btn-user-signin btn mr-md-2" href="#">Sign-In / Register</a>
+                  <a class="btn-user-signin btn mr-md-2" data-toggle="modal" data-target="#modalUserLogin" href="#">Sign-In / Register</a>
                 </div>
                 <div>
                   <a class="btn-create-listing btn btn-secondary" href="#">Create Listing</a>
@@ -99,17 +160,38 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="modalUserLoginTitle">Modal title</h5>
+            <h5 class="modal-title" id="modalUserLoginTitle">Sign into your account</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <form>
+              <div class="form-group">
+                <label class="sr-only" for="inputEmail">Email address</label>
+                <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email address">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="inputRememberMe" name="remember_me" value="yes">
+                  <label class="form-check-label" for="inputRememberMe">
+                    Remember me
+                  </label>
+                </div>
+              </div>
+              <div class="form-group mb-0">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+            <div class="dropdown-divider"></div>
+            <div class="d-flex justify-content-end">
+              <a class="btn btn-link" href="#">Forgot password?</a>
+              <a class="btn btn-info" href="#">Sign up here</a>
+            </div>
           </div>
         </div>
       </div>
