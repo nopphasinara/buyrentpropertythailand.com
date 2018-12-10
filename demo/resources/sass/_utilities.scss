@@ -43,3 +43,42 @@ button {
     padding: 0;
   }
 }
+
+
+/* Helper classes */
+@each $breakpoint in map-keys($grid-breakpoints) {
+  .d-only-#{$breakpoint}-none {
+    @include media-breakpoint-only($breakpoint, $grid-breakpoints) {
+      display: none !important;
+    }
+  }
+
+  .d-only-#{$breakpoint}-block {
+    @include media-breakpoint-only($breakpoint, $grid-breakpoints) {
+      display: block !important;
+    }
+  }
+
+  .d-only-#{$breakpoint}-inline-block {
+    @include media-breakpoint-only($breakpoint, $grid-breakpoints) {
+      display: inline-block !important;
+    }
+  }
+
+  .d-only-#{$breakpoint}-inline {
+    @include media-breakpoint-only($breakpoint, $grid-breakpoints) {
+      display: inline !important;
+    }
+  }
+
+  .visible-#{$breakpoint} {
+    @include media-breakpoint-up($breakpoint) {
+      visibility: visible !important;
+    }
+  }
+  .invisible-#{$breakpoint} {
+    @include media-breakpoint-up($breakpoint) {
+      visibility: hidden !important;
+    }
+  }
+}

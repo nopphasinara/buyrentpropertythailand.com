@@ -12979,8 +12979,7 @@ Popper.Defaults = Defaults;
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(3);
-module.exports = __webpack_require__(7);
+module.exports = __webpack_require__(3);
 
 
 /***/ }),
@@ -16982,13 +16981,27 @@ module.exports = g;
 /* 6 */
 /***/ (function(module, exports) {
 
-console.log('Load custom.js file successfully');
+;$(document).ready(function () {
+  console.log('Load custom.js file successfully');
 
-/***/ }),
-/* 7 */
-/***/ (function(module, exports) {
+  $('.collapse-btn-close, [data-toggle="offcanvas"]').on('click', function (evt) {
+    evt.preventDefault();
+    evt.stopPropagation();
 
-// removed by extract-text-webpack-plugin
+    var self = $(this);
+    var data_target = '';
+
+    if (typeof self.attr('data-target') != 'undefined' && self.attr('data-target') != '#' && self.attr('data-target')) {
+      data_target = self.attr('data-target');
+    } else {
+      if (typeof self.attr('href') != 'undefined' && self.attr('href') != '#' && self.attr('href')) {
+        data_target = self.attr('href');
+      }
+    }
+
+    $('' + data_target + '').toggleClass('open');
+  });
+});
 
 /***/ })
 /******/ ]);
