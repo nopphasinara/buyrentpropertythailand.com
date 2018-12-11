@@ -1,0 +1,12 @@
+[24-Sep-2018 08:29:29 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/DB.php on line 51
+[24-Sep-2018 08:29:43 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 58
+[24-Sep-2018 08:30:13 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/File.php on line 51
+[24-Sep-2018 08:30:25 UTC] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 57
+[25-Sep-2018 19:19:17 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 58
+[25-Sep-2018 19:19:30 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/DB.php on line 51
+[25-Sep-2018 19:19:53 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/File.php on line 51
+[25-Sep-2018 19:20:15 UTC] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 57
+[26-Sep-2018 06:52:06 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/DB.php on line 51
+[26-Sep-2018 06:52:18 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/File.php on line 51
+[26-Sep-2018 06:52:39 UTC] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 57
+[26-Sep-2018 06:53:12 UTC] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/buyrentp/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 58
