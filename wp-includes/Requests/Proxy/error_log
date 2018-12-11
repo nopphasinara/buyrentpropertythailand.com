@@ -1,4 +1,0 @@
-[23-Sep-2018 21:23:24 UTC] PHP Fatal error:  Interface 'Requests_Proxy' not found in /home/buyrentp/public_html/wp-includes/Requests/Proxy/HTTP.php on line 19
-[25-Sep-2018 19:20:30 UTC] PHP Fatal error:  Interface 'Requests_Proxy' not found in /home/buyrentp/public_html/wp-includes/Requests/Proxy/HTTP.php on line 19
-[25-Sep-2018 19:20:52 UTC] PHP Fatal error:  Interface 'Requests_Proxy' not found in /home/buyrentp/public_html/wp-includes/Requests/Proxy/HTTP.php on line 19
-[26-Sep-2018 17:20:54 UTC] PHP Fatal error:  Interface 'Requests_Proxy' not found in /home/buyrentp/public_html/wp-includes/Requests/Proxy/HTTP.php on line 19

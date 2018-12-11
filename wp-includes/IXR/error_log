@@ -1,6 +1,0 @@
-[23-Sep-2018 21:11:50 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/buyrentp/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
-[23-Sep-2018 21:13:37 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/buyrentp/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
-[24-Sep-2018 05:58:21 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/buyrentp/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
-[24-Sep-2018 05:58:33 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/buyrentp/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
-[26-Sep-2018 06:39:48 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/buyrentp/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
-[26-Sep-2018 06:42:17 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/buyrentp/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9

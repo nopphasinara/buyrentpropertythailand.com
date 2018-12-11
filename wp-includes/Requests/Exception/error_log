@@ -1,6 +1,0 @@
-[23-Sep-2018 21:25:20 UTC] PHP Fatal error:  Class 'Requests_Exception' not found in /home/buyrentp/public_html/wp-includes/Requests/Exception/HTTP.php on line 13
-[23-Sep-2018 21:25:46 UTC] PHP Fatal error:  Class 'Requests_Exception' not found in /home/buyrentp/public_html/wp-includes/Requests/Exception/Transport.php on line 3
-[25-Sep-2018 19:21:25 UTC] PHP Fatal error:  Class 'Requests_Exception' not found in /home/buyrentp/public_html/wp-includes/Requests/Exception/Transport.php on line 3
-[26-Sep-2018 06:43:23 UTC] PHP Fatal error:  Class 'Requests_Exception' not found in /home/buyrentp/public_html/wp-includes/Requests/Exception/HTTP.php on line 13
-[26-Sep-2018 06:52:50 UTC] PHP Fatal error:  Class 'Requests_Exception' not found in /home/buyrentp/public_html/wp-includes/Requests/Exception/HTTP.php on line 13
-[26-Sep-2018 06:53:23 UTC] PHP Fatal error:  Class 'Requests_Exception' not found in /home/buyrentp/public_html/wp-includes/Requests/Exception/Transport.php on line 3
