@@ -121,3 +121,9 @@ Stack trace:
 [24-Oct-2018 05:05:52 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
 [24-Oct-2018 05:05:52 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
 [24-Oct-2018 05:05:52 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:31:11 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:31:11 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:31:11 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:31:11 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:31:11 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:31:11 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924

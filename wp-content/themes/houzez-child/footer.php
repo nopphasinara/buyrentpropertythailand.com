@@ -252,12 +252,12 @@ $search_query_string = array(
 <!--start footer section-->
 <footer id="footer-section">
 
-    <div class="footer-menu-section bg-info" style="padding: 3em 0;">
+    <div class="footer-menu-section">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6">
             <ul class="list-unstyled">
-              <li><strong>Property for sale</strong></li>
+              <li class="footer-menu-title">Property for sale</li>
               <?php
               foreach ($search_query_string[1] as $query_key => $query) {
                 $query_url = $search_url;
@@ -271,7 +271,7 @@ $search_query_string = array(
           </div>
           <div class="col-md-3 col-sm-6">
             <ul class="list-unstyled">
-              <li><strong>Property for rent</strong></li>
+              <li class="footer-menu-title">Property for rent</li>
               <?php
               foreach ($search_query_string[2] as $query_key => $query) {
                 $query_url = $search_url;
@@ -285,7 +285,7 @@ $search_query_string = array(
           </div>
           <div class="col-md-3 col-sm-6">
             <ul class="list-unstyled">
-              <li><strong>Real estate for sale</strong></li>
+              <li class="footer-menu-title">Real estate for sale</li>
               <?php
               foreach ($search_query_string[3] as $query_key => $query) {
                 $query_url = $search_url;
@@ -299,7 +299,7 @@ $search_query_string = array(
           </div>
           <div class="col-md-3 col-sm-6">
             <ul class="list-unstyled">
-              <li><strong>Real estate for rent</strong></li>
+              <li class="footer-menu-title">Real estate for rent</li>
               <?php
               foreach ($search_query_string[4] as $query_key => $query) {
                 $query_url = $search_url;

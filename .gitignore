@@ -1,5 +1,14 @@
-wp-config.php
+.DS_Store
 .remote-sync.json
+
+client_secret.json
+foo.php
+HelloAnalytics.php
+oauth2callback.php
+test-api*.php
+wp-config.php
+vendor
+node_modules
+
 error_log
 *.zip
-.DS_Store

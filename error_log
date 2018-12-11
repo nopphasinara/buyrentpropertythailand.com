@@ -7,3 +7,1278 @@
 [29-Oct-2018 15:13:28 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/buyrentp/public_html/wp-includes/class-wp-meta-query.php on line 577
 [29-Oct-2018 15:14:09 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/buyrentp/public_html/wp-includes/class-wp-meta-query.php on line 577
 [29-Oct-2018 15:14:37 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/buyrentp/public_html/wp-includes/class-wp-meta-query.php on line 577
+[06-Nov-2018 02:24:10 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[06-Nov-2018 02:24:10 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[06-Nov-2018 02:24:11 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[06-Nov-2018 02:24:11 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[06-Nov-2018 02:24:11 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[06-Nov-2018 02:24:11 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[06-Nov-2018 02:24:11 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[06-Nov-2018 02:24:11 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[06-Nov-2018 02:24:12 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[06-Nov-2018 02:24:12 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[06-Nov-2018 02:24:13 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[06-Nov-2018 02:24:13 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 12:12:32 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 12:12:34 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 12:12:35 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 12:12:35 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 12:12:51 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 12:12:52 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 12:12:52 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 12:12:53 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 12:12:53 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 12:13:20 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 14:42:48 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api-3.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 14:42:49 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api-3.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 14:42:49 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api-3.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 14:43:00 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php:14
+Stack trace:
+#0 /home/buyrentp/public_html/test-api-3.php(3): require_once()
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 14
+[09-Nov-2018 14:44:55 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 14:44:56 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 14:44:56 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 14:44:57 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 14:47:43 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 14:47:44 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 14:50:14 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 14:50:15 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 14:50:16 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:02:12 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:02:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function listVolumes() on null in /home/buyrentp/public_html/test-api-3.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/test-api-3.php on line 25
+[09-Nov-2018 15:02:13 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:02:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function listVolumes() on null in /home/buyrentp/public_html/test-api-3.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/test-api-3.php on line 25
+[09-Nov-2018 15:05:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/buyrentp/public_html/test-api-3.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/test-api-3.php on line 14
+[09-Nov-2018 15:05:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/buyrentp/public_html/test-api-3.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/test-api-3.php on line 14
+[09-Nov-2018 15:05:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/buyrentp/public_html/test-api-3.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/public_html/test-api-3.php on line 14
+[09-Nov-2018 15:06:05 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:06:05 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:06:14 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:08:58 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:08:58 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:09:07 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:09:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: file does not exist in /home/buyrentp/public_html/vendor/google-api/src/Google/Client.php:867
+Stack trace:
+#0 /home/buyrentp/public_html/test-api-4.php(29): Google_Client->setAuthConfig('/home/buyrentp/...')
+#1 /home/buyrentp/public_html/test-api-4.php(8): initializeAnalytics()
+#2 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/Client.php on line 867
+[09-Nov-2018 15:09:08 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:09:08 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: file does not exist in /home/buyrentp/public_html/vendor/google-api/src/Google/Client.php:867
+Stack trace:
+#0 /home/buyrentp/public_html/test-api-4.php(29): Google_Client->setAuthConfig('/home/buyrentp/...')
+#1 /home/buyrentp/public_html/test-api-4.php(8): initializeAnalytics()
+#2 {main}
+  thrown in /home/buyrentp/public_html/vendor/google-api/src/Google/Client.php on line 867
+[09-Nov-2018 15:10:31 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:10:32 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+        "domain": "global",
+        "reason": "unauthorized"
+      }
+    ],
+    "status": "UNAUTHENTICATED"
+  }
+}
+ in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google-api/src/ in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php on line 118
+[09-Nov-2018 15:10:33 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:10:34 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+        "domain": "global",
+        "reason": "unauthorized"
+      }
+    ],
+    "status": "UNAUTHENTICATED"
+  }
+}
+ in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google-api/src/ in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php on line 118
+[09-Nov-2018 15:14:06 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:14:06 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+        "domain": "global",
+        "reason": "unauthorized"
+      }
+    ],
+    "status": "UNAUTHENTICATED"
+  }
+}
+ in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google-api/src/ in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php on line 118
+[09-Nov-2018 15:16:17 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:16:17 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google-api/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google-api/src/Google/Client.php(805): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...', Array, NULL)
+#4 /home/buyrentp/public_html/vendor/google-api/src/Google/Service/Resource.php(232): Google_Client->execute(Object(GuzzleH in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php on line 118
+[09-Nov-2018 15:16:18 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:16:18 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google-api/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google-api/src/Google/Client.php(805): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...', Array, NULL)
+#4 /home/buyrentp/public_html/vendor/google-api/src/Google/Service/Resource.php(232): Google_Client->execute(Object(GuzzleH in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php on line 118
+[09-Nov-2018 15:16:18 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:16:19 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google-api/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google-api/src/Google/Client.php(805): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...', Array, NULL)
+#4 /home/buyrentp/public_html/vendor/google-api/src/Google/Service/Resource.php(232): Google_Client->execute(Object(GuzzleH in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php on line 118
+[09-Nov-2018 15:16:19 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:16:19 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google-api/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google-api/src/Google/Client.php(805): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...', Array, NULL)
+#4 /home/buyrentp/public_html/vendor/google-api/src/Google/Service/Resource.php(232): Google_Client->execute(Object(GuzzleH in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php on line 118
+[09-Nov-2018 15:16:19 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:16:19 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": "invalid_grant",
+  "error_description": "Invalid JWT Signature."
+} in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google-api/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google-api/src/Google/Client.php(805): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...', Array, NULL)
+#4 /home/buyrentp/public_html/vendor/google-api/src/Google/Service/Resource.php(232): Google_Client->execute(Object(GuzzleH in /home/buyrentp/public_html/vendor/google-api/src/Google/Http/REST.php on line 118
+[09-Nov-2018 15:19:51 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:19:51 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:24:18 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:24:19 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:24:19 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:24:19 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:24:20 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:24:22 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:24:22 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:26:57 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:26:57 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:26:59 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:27:06 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:27:06 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:27:56 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:27:56 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/buyrentp/public_html/vendor/google-api/src/Google/autoload.php on line 19
+[09-Nov-2018 15:31:11 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:31:11 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:31:11 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:31:11 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:31:12 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 15:31:12 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/buyrentp/public_html/wp-includes/wp-db.php on line 1924
+[09-Nov-2018 17:45:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 17:46:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 17:46:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 17:47:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 17:48:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 17:48:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 17:48:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 17:49:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 17:50:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 17:51:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 139
+[09-Nov-2018 17:54:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 141
+[09-Nov-2018 17:54:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 141
+[09-Nov-2018 18:10:14 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: file does not exist in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/buyrentp/public_html/index.php(22): Google_Client->setAuthConfig('/home/buyrentp/...')
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 859
+[09-Nov-2018 18:10:15 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: file does not exist in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/buyrentp/public_html/index.php(22): Google_Client->setAuthConfig('/home/buyrentp/...')
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 859
+[09-Nov-2018 18:10:16 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: file does not exist in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/buyrentp/public_html/index.php(22): Google_Client->setAuthConfig('/home/buyrentp/...')
+#1 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 859
+[09-Nov-2018 18:13:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 18:13:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 18:13:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 18:15:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 139
+[09-Nov-2018 18:15:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 140
+[09-Nov-2018 18:16:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 140
+[09-Nov-2018 18:17:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 140
+[09-Nov-2018 18:18:13 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'DRIVE_METADATA_READONLY' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:128
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 128
+[09-Nov-2018 18:19:48 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'DRIVE_METADATA_READONLY' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:130
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 130
+[09-Nov-2018 18:21:28 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: json key is missing the type field in /home/buyrentp/public_html/vendor/google/auth/src/CredentialsLoader.php:119
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/auth/src/ApplicationDefaultCredentials.php(148): Google\Auth\CredentialsLoader::makeCredentials(NULL, Array)
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(1087): Google\Auth\ApplicationDefaultCredentials::getCredentials(NULL)
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(364): Google_Client->createApplicationDefaultCredentials()
+#3 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(796): Google_Client->authorize()
+#4 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#5 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/SQLAdmin/Resource/Instances.php(199): Google_Service_Resource->cal in /home/buyrentp/public_html/vendor/google/auth/src/CredentialsLoader.php on line 119
+[09-Nov-2018 18:21:42 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: json key is missing the type field in /home/buyrentp/public_html/vendor/google/auth/src/CredentialsLoader.php:119
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/auth/src/ApplicationDefaultCredentials.php(148): Google\Auth\CredentialsLoader::makeCredentials(NULL, Array)
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(1087): Google\Auth\ApplicationDefaultCredentials::getCredentials(NULL)
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(364): Google_Client->createApplicationDefaultCredentials()
+#3 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(796): Google_Client->authorize()
+#4 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php(232): Google_Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#5 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/SQLAdmin/Resource/Instances.php(199): Google_Service_Resource->cal in /home/buyrentp/public_html/vendor/google/auth/src/CredentialsLoader.php on line 119
+[09-Nov-2018 18:24:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 150
+[09-Nov-2018 18:28:34 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php:182
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(169): Google_Client->fetchAccessTokenWithAuthCode(NULL)
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(136): Google_Client->authenticate(NULL)
+#2 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#5 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 182
+[09-Nov-2018 18:28:54 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php:182
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(169): Google_Client->fetchAccessTokenWithAuthCode(NULL)
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(136): Google_Client->authenticate(NULL)
+#2 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#5 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 182
+[09-Nov-2018 18:29:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 146
+[09-Nov-2018 18:34:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 138
+[09-Nov-2018 18:34:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 138
+[09-Nov-2018 18:38:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function listVolumes() on null in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:139
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 139
+[09-Nov-2018 18:38:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Google_Service_Analytics::execute() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:137
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 137
+[09-Nov-2018 18:46:41 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+        "domain": "global",
+        "reason": "unauthorized"
+      }
+    ],
+    "status": "UNAUTHENTICATED"
+  }
+}
+ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/goo in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[09-Nov-2018 18:46:50 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+        "domain": "global",
+        "reason": "unauthorized"
+      }
+    ],
+    "status": "UNAUTHENTICATED"
+  }
+}
+ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/goo in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[09-Nov-2018 18:46:59 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+        "domain": "global",
+        "reason": "unauthorized"
+      }
+    ],
+    "status": "UNAUTHENTICATED"
+  }
+}
+ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/goo in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[09-Nov-2018 18:57:07 UTC] PHP Warning:  Missing argument 1 for Google_Client::fetchAccessTokenWithAuthCode(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 141 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 179
+[09-Nov-2018 18:57:07 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php:182
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(141): Google_Client->fetchAccessTokenWithAuthCode()
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(200): initializeAnalytics('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#5 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 182
+[09-Nov-2018 18:57:48 UTC] PHP Fatal error:  Uncaught BadMethodCallException: This function no longer exists. See UPGRADING.md for more information in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php:492
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(141): Google_Client->getAuth()
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(200): initializeAnalytics('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#5 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 492
+[09-Nov-2018 19:01:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/buyrentp/public_html/wp-content/themes/houzez/header.php:8) in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 156
+[09-Nov-2018 19:08:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Google_Service_Analytics::get() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:146
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(201): initializeAnalytics('/home/buyrentp/...')
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 146
+[09-Nov-2018 19:15:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Google_Service_Analytics::get() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:159
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(214): getReport(Object(Google_Service_Analytics), '182775723')
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 159
+[09-Nov-2018 19:16:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Google_Service_Analytics::setViewId() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:144
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(214): initializeAnalytics('/home/buyrentp/...')
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 144
+[09-Nov-2018 19:16:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Google_Service_AnalyticsReporting_DateRange::setViewId() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:144
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(214): initializeAnalytics('/home/buyrentp/...')
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 144
+[09-Nov-2018 19:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Google_Service_AnalyticsReporting::setViewId() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:144
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(214): initializeAnalytics('/home/buyrentp/...')
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 144
+[09-Nov-2018 19:19:12 UTC] PHP Warning:  Missing argument 1 for Google_Client::authenticate(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 148 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 167
+[09-Nov-2018 19:19:12 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php:182
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(169): Google_Client->fetchAccessTokenWithAuthCode(NULL)
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(148): Google_Client->authenticate()
+#2 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(216): initializeAnalytics()
+#3 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#5 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#6 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 182
+[09-Nov-2018 19:22:52 UTC] PHP Warning:  Missing argument 1 for Google_Client::refreshToken(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 150 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 252
+[09-Nov-2018 19:22:52 UTC] PHP Fatal error:  Uncaught LogicException: refresh token must be passed in or set as part of setAccessToken in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php:266
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(254): Google_Client->fetchAccessTokenWithRefreshToken(NULL)
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(150): Google_Client->refreshToken()
+#2 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(219): initializeAnalytics()
+#3 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#5 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#6 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 266
+[09-Nov-2018 19:23:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Google_Client::execute() must be an instance of Psr\Http\Message\RequestInterface, none given, called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 147 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php:785
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(147): Google_Client->execute()
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(220): initializeAnalytics()
+#2 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#5 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php on line 785
+[09-Nov-2018 19:26:01 UTC] PHP Warning:  Missing argument 1 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:26:01 UTC] PHP Warning:  Missing argument 2 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:26:01 UTC] PHP Warning:  Missing argument 3 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:26:01 UTC] PHP Warning:  Missing argument 4 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:26:01 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(151): Google_Service_Analytics_Resource_DataGa->get()
+#2 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(219): initializeAnalytics()
+#3 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#5 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#6 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[09-Nov-2018 19:26:46 UTC] PHP Warning:  Missing argument 1 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:26:46 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:26:46 UTC] PHP Warning:  Missing argument 3 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:26:46 UTC] PHP Warning:  Missing argument 4 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:26:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getClient() on null in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:63
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(151): Google_Service_Resource->__construct()
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(222): initializeAnalytics()
+#2 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#5 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 63
+[09-Nov-2018 19:30:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:151
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(223): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151
+[09-Nov-2018 19:30:06 UTC] PHP Warning:  Missing argument 1 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:30:06 UTC] PHP Warning:  Missing argument 2 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:30:06 UTC] PHP Warning:  Missing argument 3 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:30:06 UTC] PHP Warning:  Missing argument 4 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:30:06 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(151): Google_Service_Analytics_Resource_DataGa->get()
+#2 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(223): initializeAnalytics()
+#3 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#5 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#6 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[09-Nov-2018 19:30:41 UTC] PHP Warning:  Missing argument 1 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:30:41 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:30:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 274
+[09-Nov-2018 19:31:00 UTC] PHP Warning:  Missing argument 1 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:00 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 274
+[09-Nov-2018 19:31:00 UTC] PHP Warning:  Missing argument 1 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:31:00 UTC] PHP Warning:  Missing argument 2 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:31:00 UTC] PHP Warning:  Missing argument 3 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:31:00 UTC] PHP Warning:  Missing argument 4 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:31:00 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(153): Google_Service_Analytics_Resource_DataGa->get()
+#2 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(225): initializeAnalytics()
+#3 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#5 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#6 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[09-Nov-2018 19:31:09 UTC] PHP Warning:  Missing argument 1 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:09 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 274
+[09-Nov-2018 19:31:09 UTC] PHP Warning:  Missing argument 1 for Google_Service_Resource::call(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 80
+[09-Nov-2018 19:31:09 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::call(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 80
+[09-Nov-2018 19:31:09 UTC] PHP Fatal error:  Uncaught Google_Exception: Unknown function: analytics->ga->() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:92
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(153): Google_Service_Resource->call()
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(225): initializeAnalytics()
+#2 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#5 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 92
+[09-Nov-2018 19:31:15 UTC] PHP Warning:  Missing argument 1 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:15 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 274
+[09-Nov-2018 19:31:15 UTC] PHP Warning:  Missing argument 2 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:31:15 UTC] PHP Warning:  Missing argument 3 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:31:15 UTC] PHP Warning:  Missing argument 4 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:31:15 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'start-date' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(153): Google_Service_Analytics_Resource_DataGa->get(Array)
+#2 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(225): initializeAnalytics()
+#3 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#5 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#6 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[09-Nov-2018 19:31:22 UTC] PHP Warning:  Missing argument 1 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:22 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 274
+[09-Nov-2018 19:31:22 UTC] PHP Warning:  Missing argument 2 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:31:22 UTC] PHP Warning:  Missing argument 3 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:31:22 UTC] PHP Warning:  Missing argument 4 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[09-Nov-2018 19:31:22 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'start-date' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(153): Google_Service_Analytics_Resource_DataGa->get('')
+#2 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(225): initializeAnalytics()
+#3 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#5 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#6 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[09-Nov-2018 19:31:28 UTC] PHP Warning:  Missing argument 1 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:28 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 274
+[09-Nov-2018 19:31:28 UTC] PHP Warning:  Missing argument 1 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 154 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:28 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 154 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 274
+[09-Nov-2018 19:31:35 UTC] PHP Warning:  Missing argument 1 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:35 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:31:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 274
+[09-Nov-2018 19:33:03 UTC] PHP Warning:  Missing argument 1 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:33:03 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::createRequestUri(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 256
+[09-Nov-2018 19:33:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 274
+[09-Nov-2018 19:33:54 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:33:54 UTC] PHP Warning:  Missing argument 3 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:33:54 UTC] PHP Warning:  Missing argument 4 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:34:32 UTC] PHP Warning:  Missing argument 3 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:34:32 UTC] PHP Warning:  Missing argument 4 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:35:04 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:35:04 UTC] PHP Warning:  Missing argument 3 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:35:04 UTC] PHP Warning:  Missing argument 4 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:35:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Google_Service_Resource::get() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:153
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(225): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 153
+[09-Nov-2018 19:35:08 UTC] PHP Warning:  Missing argument 2 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:35:08 UTC] PHP Warning:  Missing argument 3 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:35:08 UTC] PHP Warning:  Missing argument 4 for Google_Service_Resource::__construct(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 152 and defined in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 60
+[09-Nov-2018 19:38:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function batchGet() on null in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:171
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(240): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 171
+[09-Nov-2018 19:39:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function batchGet() on null in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:171
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(246): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 171
+[09-Nov-2018 19:40:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function batchGet() on null in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:172
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(247): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 172
+[10-Nov-2018 03:47:28 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"required","message":"Login Required","locationType":"header","location":"Authorization"}],"code":401,"message":"Login Required"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(798): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...', Array)
+ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 03:48:48 UTC] PHP Warning:  Missing argument 1 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 171 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[10-Nov-2018 03:48:48 UTC] PHP Warning:  Missing argument 2 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 171 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[10-Nov-2018 03:48:48 UTC] PHP Warning:  Missing argument 3 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 171 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[10-Nov-2018 03:48:48 UTC] PHP Warning:  Missing argument 4 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 171 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[10-Nov-2018 03:48:48 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(171): Google_Service_Analytics_Resource_DataGa->get()
+#2 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(254): initializeAnalytics()
+#3 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#5 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#6 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 03:48:54 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"required","message":"Login Required","locationType":"header","location":"Authorization"}],"code":401,"message":"Login Required"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(798): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...', Array)
+ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 03:52:05 UTC] PHP Warning:  require_once(/home/buyrentp/public_html/google-api/src/Google/autoload.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 140
+[10-Nov-2018 03:52:05 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/buyrentp/public_html/google-api/src/Google/autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 140
+[10-Nov-2018 03:52:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Auth_AssertionCredentials' not found in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:154
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(279): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 154
+[10-Nov-2018 03:52:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Auth_AssertionCredentials' not found in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:154
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(279): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 154
+[10-Nov-2018 03:53:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Auth_AssertionCredentials' not found in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:151
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(276): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151
+[10-Nov-2018 03:54:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Auth_AssertionCredentials' not found in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:151
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(276): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151
+[10-Nov-2018 03:54:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Auth_AssertionCredentials' not found in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:151
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(276): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151
+[10-Nov-2018 03:55:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Auth_AssertionCredentials' not found in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:151
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(276): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151
+[10-Nov-2018 03:57:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Auth_AssertionCredentials' not found in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:151
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(276): initializeAnalytics()
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 151
+[10-Nov-2018 04:11:18 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 64
+[10-Nov-2018 04:11:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 136
+[10-Nov-2018 04:11:18 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/HelloAnalytics.php(79): Google_Service_Analytics_Resource_DataGa->get('ga:182775723', '30daysAgo', 'today', 'ga:sessions', 'ga:pageviews')
+#2 /home/buyrentp/public_html/HelloAnalytics.php(8): getResults(Object(Google_Service_Analytics), '182775723')
+#3 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 04:12:05 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 64
+[10-Nov-2018 04:12:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 136
+[10-Nov-2018 04:12:05 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/HelloAnalytics.php(80): Google_Service_Analytics_Resource_DataGa->get('ga:182775723', '30daysAgo', 'today', 'ga:sessions', 'ga:pageviews')
+#2 /home/buyrentp/public_html/HelloAnalytics.php(8): getResults(Object(Google_Service_Analytics), '182775723')
+#3 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 04:13:19 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 64
+[10-Nov-2018 04:13:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 136
+[10-Nov-2018 04:13:19 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/HelloAnalytics.php(80): Google_Service_Analytics_Resource_DataGa->get('ga:182775723', '30daysAgo', 'today', 'ga:sessions', 'ga:pageviews')
+#2 /home/buyrentp/public_html/HelloAnalytics.php(8): getResults(Object(Google_Service_Analytics), '182775723')
+#3 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 04:13:36 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 64
+[10-Nov-2018 04:13:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 136
+[10-Nov-2018 04:13:36 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/HelloAnalytics.php(81): Google_Service_Analytics_Resource_DataGa->get('ga:182775723', '30daysAgo', 'today', 'ga:sessions', 'ga:pageviews')
+#2 /home/buyrentp/public_html/HelloAnalytics.php(8): getResults(Object(Google_Service_Analytics), '182775723')
+#3 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 04:14:04 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 64
+[10-Nov-2018 04:14:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 136
+[10-Nov-2018 04:14:04 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/HelloAnalytics.php(79): Google_Service_Analytics_Resource_DataGa->get('ga:182775723', '30daysAgo', 'today', 'ga:landingPageP...', 'ga:pageviews')
+#2 /home/buyrentp/public_html/HelloAnalytics.php(8): getResults(Object(Google_Service_Analytics), '182775723')
+#3 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 04:14:25 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 64
+[10-Nov-2018 04:14:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 136
+[10-Nov-2018 04:14:25 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/HelloAnalytics.php(79): Google_Service_Analytics_Resource_DataGa->get('ga:182775723', '30daysAgo', 'today', 'ga:landingPageP...', 'ga:sessions,ga:...')
+#2 /home/buyrentp/public_html/HelloAnalytics.php(8): getResults(Object(Google_Service_Analytics), '182775723')
+#3 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 04:14:38 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 64
+[10-Nov-2018 04:14:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 136
+[10-Nov-2018 04:14:38 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/HelloAnalytics.php(79): Google_Service_Analytics_Resource_DataGa->get('ga:182775723', '30daysAgo', 'today', 'ga:sessions', 'ga:pageviews')
+#2 /home/buyrentp/public_html/HelloAnalytics.php(8): getResults(Object(Google_Service_Analytics), '182775723')
+#3 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 04:19:32 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 64
+[10-Nov-2018 04:19:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 136
+[10-Nov-2018 04:19:32 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/HelloAnalytics.php(79): Google_Service_Analytics_Resource_DataGa->get('ga:182775723', '30daysAgo', 'today', 'ga:pageviews', 'ga:sessions')
+#2 /home/buyrentp/public_html/HelloAnalytics.php(8): getResults(Object(Google_Service_Analytics), '182775723')
+#3 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 04:19:52 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 64
+[10-Nov-2018 04:19:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 136
+[10-Nov-2018 04:19:52 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'ids' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/HelloAnalytics.php(79): Google_Service_Analytics_Resource_DataGa->get('ga:182775723', '30daysAgo', 'today', 'ga:sessions,ga:...', 'ga:landingPageP...')
+#2 /home/buyrentp/public_html/HelloAnalytics.php(8): getResults(Object(Google_Service_Analytics), '182775723')
+#3 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 04:20:05 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Unknown metric(s): ga:landingPagePath\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}],"code":400,"message":"Unknown metric(s): ga:landingPagePath\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrent in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 04:20:13 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Unknown metric(s): ga:landingPagePath\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}],"code":400,"message":"Unknown metric(s): ga:landingPagePath\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrent in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 04:20:19 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Unknown metric(s): ga:landingPagePath\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}],"code":400,"message":"Unknown metric(s): ga:landingPagePath\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrent in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 04:20:26 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Unknown metric(s): ga:landingPagePath\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}],"code":400,"message":"Unknown metric(s): ga:landingPagePath\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrent in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 04:24:02 UTC] PHP Warning:  Missing argument 2 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/HelloAnalytics.php on line 78 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[10-Nov-2018 04:24:02 UTC] PHP Warning:  Missing argument 3 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/HelloAnalytics.php on line 78 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[10-Nov-2018 04:24:02 UTC] PHP Warning:  Missing argument 4 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/HelloAnalytics.php on line 78 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[10-Nov-2018 04:24:02 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'start-date' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/HelloAnalytics.php(78): Google_Service_Analytics_Resource_DataGa->get(Array)
+#2 /home/buyrentp/public_html/HelloAnalytics.php(8): getResults(Object(Google_Service_Analytics), '182775723')
+#3 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 04:25:33 UTC] PHP Warning:  Missing argument 2 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/HelloAnalytics.php on line 84 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[10-Nov-2018 04:25:33 UTC] PHP Warning:  Missing argument 3 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/HelloAnalytics.php on line 84 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[10-Nov-2018 04:25:33 UTC] PHP Warning:  Missing argument 4 for Google_Service_Analytics_Resource_DataGa::get(), called in /home/buyrentp/public_html/HelloAnalytics.php on line 84 and defined in /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php on line 61
+[10-Nov-2018 04:25:33 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'start-date' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/HelloAnalytics.php(84): Google_Service_Analytics_Resource_DataGa->get(Array)
+#2 /home/buyrentp/public_html/HelloAnalytics.php(8): getResults(Object(Google_Service_Analytics), '182775723')
+#3 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 04:25:50 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Sort key ga:sessions is not a dimension or metric in this query."}],"code":400,"message":"Sort key ga:sessions is not a dimension or metric in this query."}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Client.php(798): Google_Http_REST::execute(Object(GuzzleHttp\Client), Object(Guzz in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 04:42:38 UTC] PHP Warning:  require_once(/home/buyrentp/public_html/wp-content/themes/houzez-child/template/vendor/autoload.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 125
+[10-Nov-2018 04:42:38 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/buyrentp/public_html/wp-content/themes/houzez-child/template/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 125
+[10-Nov-2018 04:42:47 UTC] PHP Warning:  require_once(/home/buyrentp/public_html/wp-content/themes/houzez-child/template/vendor/autoload.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 125
+[10-Nov-2018 04:42:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/buyrentp/public_html/wp-content/themes/houzez-child/template/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 125
+[10-Nov-2018 04:43:47 UTC] PHP Warning:  require_once(/home/buyrentp/public_html/wp-content/themes/houzez-child/template/vendor/autoload.php): failed to open stream: No such file or directory in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 125
+[10-Nov-2018 04:43:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/buyrentp/public_html/wp-content/themes/houzez-child/template/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 125
+[10-Nov-2018 04:44:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function initializeAnalytics() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:127
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 127
+[10-Nov-2018 04:45:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function initializeAnalytics() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:127
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 127
+[10-Nov-2018 04:45:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function initializeAnalytics() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:127
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 127
+[10-Nov-2018 05:01:38 UTC] PHP Catchable fatal error:  Object of class WP_User could not be converted to string in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 131
+[10-Nov-2018 05:33:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getContainsSampledData() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:133
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 133
+[10-Nov-2018 05:33:46 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 132
+[10-Nov-2018 05:33:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getContainsSampledData() on null in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:133
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 133
+[10-Nov-2018 05:35:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::getRows() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:134
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 134
+[10-Nov-2018 05:46:26 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Regular expression too long: '^/property/(condominium-for-rent-in-naklua-with-amazing-view|3-bed-stunning-pool-villa-near-pattaya|stunning-views-from-this-peak-tower-condominium|one-bedroom-condo-in-pattaya-city-resort|fantastic-three-bedroom-house-in-the-heart-of-east-pattaya|two-storey-private-pool-house-in-east-pattaya|beautiful-pool-villa-bungalow-in-huay-yai|beautifully-decorated-home-in-a-stunning-village-resort|fully-renovated-3-bed-house-in-north-pattaya|wonderful-pool-villa-in-east-pattaya|beautiful-two-storey-house-in-east-pattaya|wonderful-two-storey-home-with-pool-in-east-pattaya|bungalow-in-a-quiet-village-in-east-pattaya|lovely-bungalow-in-soi-khao-noi|spacious-two-storey-house-in-east-pattaya|stunning-pool-villa-in-east-pattaya|lovely-two-storey-home-in-bangsaray|wonderful-two-bedroom-condominum-in-jomtien|delightful-two-storey-home-in-east-pattaya|wonderful-new-bungalow-in-east-pattaya|4- in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 05:46:37 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value ''. Values must match the following regular expression: 'ga:.+'","locationType":"parameter","location":"filters"}],"code":400,"message":"Invalid value ''. Values must match the following regular expression: 'ga:.+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/C in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 05:47:33 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value ''. Values must match the following regular expression: 'ga:.+'","locationType":"parameter","location":"filters"}],"code":400,"message":"Invalid value ''. Values must match the following regular expression: 'ga:.+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/C in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 05:49:48 UTC] PHP Warning:  Illegal string offset 'type' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 275
+[10-Nov-2018 05:49:48 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 278
+[10-Nov-2018 05:49:48 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 280
+[10-Nov-2018 05:50:19 UTC] PHP Warning:  Illegal string offset 'type' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 275
+[10-Nov-2018 05:50:19 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 278
+[10-Nov-2018 05:50:19 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 280
+[10-Nov-2018 05:51:13 UTC] PHP Warning:  Illegal string offset 'type' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 275
+[10-Nov-2018 05:51:13 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 278
+[10-Nov-2018 05:51:13 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 280
+[10-Nov-2018 05:51:43 UTC] PHP Warning:  Illegal string offset 'type' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 275
+[10-Nov-2018 05:51:43 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 278
+[10-Nov-2018 05:51:43 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 280
+[10-Nov-2018 05:53:12 UTC] PHP Warning:  Illegal string offset 'type' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 275
+[10-Nov-2018 05:53:12 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 278
+[10-Nov-2018 05:53:12 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 280
+[10-Nov-2018 05:57:27 UTC] PHP Warning:  Illegal string offset 'type' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 275
+[10-Nov-2018 05:57:27 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 278
+[10-Nov-2018 05:57:27 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 280
+[10-Nov-2018 05:58:18 UTC] PHP Warning:  Illegal string offset 'type' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 275
+[10-Nov-2018 05:58:18 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 278
+[10-Nov-2018 05:58:18 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 280
+[10-Nov-2018 05:59:15 UTC] PHP Warning:  Illegal string offset 'type' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 275
+[10-Nov-2018 05:59:15 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 278
+[10-Nov-2018 05:59:15 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 280
+[10-Nov-2018 05:59:41 UTC] PHP Warning:  Illegal string offset 'type' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 275
+[10-Nov-2018 05:59:41 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 278
+[10-Nov-2018 05:59:41 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 280
+[10-Nov-2018 06:00:16 UTC] PHP Warning:  Illegal string offset 'type' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 275
+[10-Nov-2018 06:00:16 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 278
+[10-Nov-2018 06:00:16 UTC] PHP Warning:  Illegal string offset 'location' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 280
+[10-Nov-2018 06:10:21 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value ',ga:landingPagePath=~\\/property\\/(3-4-bedroom-private-pool-house-on-a-small-soi-of-just-four-houses-near-mabprachan-lake)\\/?$'. Values must match the following regular expression: 'ga:.+'","locationType":"parameter","location":"filters"}],"code":400,"message":"Invalid value ',ga:landingPagePath=~\\/property\\/(3-4-bedroom-private-pool-house-on-a-small-soi-of-just-four-houses-near-mabprachan-lake)\\/?$'. Values must match the following regular expression: 'ga:.+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Ob in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:10:38 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value ',ga:landingPagePath=~\\/property\\/3-4-bedroom-private-pool-house-on-a-small-soi-of-just-four-houses-near-mabprachan-lake\\/?$'. Values must match the following regular expression: 'ga:.+'","locationType":"parameter","location":"filters"}],"code":400,"message":"Invalid value ',ga:landingPagePath=~\\/property\\/3-4-bedroom-private-pool-house-on-a-small-soi-of-just-four-houses-near-mabprachan-lake\\/?$'. Values must match the following regular expression: 'ga:.+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:10:50 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value ',ga:landingPagePath=~\\/property\\/3\\-4\\-bedroom\\-private\\-pool\\-house\\-on\\-a\\-small\\-soi\\-of\\-just\\-four\\-houses\\-near\\-mabprachan\\-lake\\/?$'. Values must match the following regular expression: 'ga:.+'","locationType":"parameter","location":"filters"}],"code":400,"message":"Invalid value ',ga:landingPagePath=~\\/property\\/3\\-4\\-bedroom\\-private\\-pool\\-house\\-on\\-a\\-small\\-soi\\-of\\-just\\-four\\-houses\\-near\\-mabprachan\\-lake\\/?$'. Values must match the following regular expression: 'ga:.+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:12:01 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value ',ga:landingPagePath==/property/3-4-bedroom-private-pool-house-on-a-small-soi-of-just-four-houses-near-mabprachan-lake/'. Values must match the following regular expression: 'ga:.+'","locationType":"parameter","location":"filters"}],"code":400,"message":"Invalid value ',ga:landingPagePath==/property/3-4-bedroom-private-pool-house-on-a-small-soi-of-just-four-houses-near-mabprachan-lake/'. Values must match the following regular expression: 'ga:.+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Clie in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:12:16 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value 'ga:landingPagePath==/property/dusit-grand-park-development/,/property/3-4-bedroom-private-pool-house-on-a-small-soi-of-just-four-houses-near-mabprachan-lake/' for filters parameter."}],"code":400,"message":"Invalid value 'ga:landingPagePath==/property/dusit-grand-park-development/,/property/3-4-bedroom-private-pool-house-on-a-small-soi-of-just-four-houses-near-mabprachan-lake/' for filters parameter."}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:17:04 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Unknown metric(s): ga:pageTitle\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}],"code":400,"message":"Unknown metric(s): ga:pageTitle\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_htm in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:17:11 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Unknown metric(s): ga:pagetitle\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}],"code":400,"message":"Unknown metric(s): ga:pagetitle\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_htm in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:36:49 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value 'ga:Array'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value 'ga:Array'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ap in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:37:14 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value 'ga:Array'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value 'ga:Array'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ap in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:37:27 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value 'ga:Array'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value 'ga:Array'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ap in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:37:37 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:38:03 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:38:20 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:39:18 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:40:17 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'start-date' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/foo.php(100): Google_Service_Analytics_Resource_DataGa->get(Array, NULL, NULL, NULL)
+#2 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(158): getResult(Object(Google_Service_Analytics), Array)
+#3 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#5 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#6 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 06:43:37 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'start-date' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/foo.php(96): Google_Service_Analytics_Resource_DataGa->get('182775723', NULL, NULL, NULL)
+#2 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(154): getResult(Object(Google_Service_Analytics), '182775723', Array)
+#3 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#5 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#6 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 06:43:48 UTC] PHP Fatal error:  Uncaught Google_Exception: (get) missing required param: 'start-date' in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php:165
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient-services/src/Google/Service/Analytics/Resource/DataGa.php(65): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#1 /home/buyrentp/public_html/foo.php(96): Google_Service_Analytics_Resource_DataGa->get('182775723', NULL, NULL, NULL)
+#2 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(154): getResult(Object(Google_Service_Analytics), '182775723', Array)
+#3 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#4 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#5 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#6 {main}
+  thrown in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Service/Resource.php on line 165
+[10-Nov-2018 06:44:44 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:45:03 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:45:26 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:45:39 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:46:04 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:49:17 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value 'ga:Array'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value 'ga:Array'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ap in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:49:20 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value 'ga:Array'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value 'ga:Array'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ap in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:49:28 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:49:31 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"invalidParameter","message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'","locationType":"parameter","location":"ids"}],"code":400,"message":"Invalid value '182775723'. Values must match the following regular expression: 'ga:[0-9]+'"}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/public_html/vendor/google/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 06:54:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRows() on string in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:168
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 06:55:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRows() on string in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:168
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:04:02 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Unknown dimension(s): ga:landingPage\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}],"code":400,"message":"Unknown dimension(s): ga:landingPage\nFor details see https://developers.google.com/analytics/devguides/reporting/core/dimsmets."}} in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/buyrentp/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 07:04:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRows() on string in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:168
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:04:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRows() on string in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:168
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:04:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRows() on string in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:168
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:05:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRows() on string in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:168
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:07:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRows() on string in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:168
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:07:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRows() on string in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:168
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:08:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRows() on string in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:168
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:08:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRows() on string in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php:167
+Stack trace:
+#0 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#3 {main}
+  thrown in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 167
+[10-Nov-2018 07:10:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Google_Service_Analytics_GaData::getHeaders() in /home/buyrentp/public_html/foo.php:128
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(157): printResults(Object(Google_Service_Analytics_GaData))
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/foo.php on line 128
+[10-Nov-2018 07:11:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Google_Service_Analytics_GaData::getHeaders() in /home/buyrentp/public_html/foo.php:128
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(157): printResults(Object(Google_Service_Analytics_GaData))
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/foo.php on line 128
+[10-Nov-2018 07:11:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Google_Service_Analytics_GaData::getHeaders() in /home/buyrentp/public_html/foo.php:128
+Stack trace:
+#0 /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php(157): printResults(Object(Google_Service_Analytics_GaData))
+#1 /home/buyrentp/public_html/wp-includes/template-loader.php(74): include('/home/buyrentp/...')
+#2 /home/buyrentp/public_html/wp-blog-header.php(19): require_once('/home/buyrentp/...')
+#3 /home/buyrentp/public_html/index.php(36): require('/home/buyrentp/...')
+#4 {main}
+  thrown in /home/buyrentp/public_html/foo.php on line 128
+[10-Nov-2018 07:18:34 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:18:34 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:18:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:18:37 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:18:37 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:18:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:19:37 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:19:37 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:19:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:19:42 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:19:42 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:19:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:19:56 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:19:56 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:19:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:20:00 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:20:00 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:20:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:20:16 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:20:16 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:20:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:20:21 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 168
+[10-Nov-2018 07:20:21 UTC] PHP Warning:  Illegal string offset 'rows' in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:20:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
+[10-Nov-2018 07:23:42 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Regular expression too long: '^/property/condominium-for-rent-in-naklua-with-amazing-view/|/property/3-bed-stunning-pool-villa-near-pattaya/|/property/stunning-views-from-this-peak-tower-condominium/|/property/one-bedroom-condo-in-pattaya-city-resort/|/property/fantastic-three-bedroom-house-in-the-heart-of-east-pattaya/|/property/two-storey-private-pool-house-in-east-pattaya/|/property/beautiful-pool-villa-bungalow-in-huay-yai/|/property/beautifully-decorated-home-in-a-stunning-village-resort/|/property/fully-renovated-3-bed-house-in-north-pattaya/|/property/wonderful-pool-villa-in-east-pattaya/|/property/beautiful-two-storey-house-in-east-pattaya/|/property/wonderful-two-storey-home-with-pool-in-east-pattaya/|/property/bungalow-in-a-quiet-village-in-east-pattaya/|/property/lovely-bungalow-in-soi-khao-noi/|/property/spacious-two-storey-house-in-east-pattaya/|/property/stunning-pool-villa-in-east-pattaya/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[10-Nov-2018 07:29:48 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Regular expression too long: '/property/(condominium-for-rent-in-naklua-with-amazing-view|3-bed-stunning-pool-villa-near-pattaya|stunning-views-from-this-peak-tower-condominium|one-bedroom-condo-in-pattaya-city-resort|fantastic-three-bedroom-house-in-the-heart-of-east-pattaya|two-storey-private-pool-house-in-east-pattaya|beautiful-pool-villa-bungalow-in-huay-yai|beautifully-decorated-home-in-a-stunning-village-resort|fully-renovated-3-bed-house-in-north-pattaya|wonderful-pool-villa-in-east-pattaya|beautiful-two-storey-house-in-east-pattaya|wonderful-two-storey-home-with-pool-in-east-pattaya|bungalow-in-a-quiet-village-in-east-pattaya|lovely-bungalow-in-soi-khao-noi|spacious-two-storey-house-in-east-pattaya|stunning-pool-villa-in-east-pattaya|lovely-two-storey-home-in-bangsaray|wonderful-two-bedroom-condominum-in-jomtien|delightful-two-storey-home-in-east-pattaya|wonderful-new-bungalow-in-east-pattaya|4-b in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118

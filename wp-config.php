@@ -27,7 +27,7 @@ ini_set('upload_max_filesize', '80M');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'buyrentp_live');
+define('DB_NAME', 'buyrentp_v2');
 
 /** MySQL database username */
 define('DB_USER', 'buyrentp_admin');

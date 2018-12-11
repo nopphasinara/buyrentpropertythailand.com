@@ -374,6 +374,28 @@ Template: houzez
   color: #5b5b5a;
 }
 
+
+.footer-menu-section {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: #e2e2e2;
+}
+.footer-menu-section .footer-menu-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: .5em;
+  padding-bottom: .5em;
+  border-bottom: solid 1px #d2d2d2;
+}
+.footer-menu-section a {
+  color: #3c4958;
+}
+.footer-menu-section a:hover {
+  color: #ae0f0b;
+  /* color: #53667a; */
+}
+
+
 #frontpage-banners {
   text-align: center;
   width: 728px;
@@ -442,5 +464,12 @@ Template: houzez
   #frontpage-grid-banners .item img {
     width: 160px;
     height: 106px;
+  }
+
+  .footer-menu-section .container .row > * {
+    margin-bottom: 3em;
+  }
+  .footer-menu-section .container .row > *:last-child {
+    margin-bottom: 0;
   }
 }
