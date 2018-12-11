@@ -62,3 +62,19 @@ function no_self_ping( &$links ) {
     }
 }
 add_action( 'pre_ping', 'no_self_ping' );
+
+
+function add_custom_menu() {
+  /**
+  *	Register nav menus.
+  */
+  register_nav_menus(
+    array(
+      'footer-menu-1' => esc_html__( 'Footer Menu 1', 'houzez' ),
+      'footer-menu-2' => esc_html__( 'Footer Menu 2', 'houzez' ),
+      'footer-menu-3' => esc_html__( 'Footer Menu 3', 'houzez' ),
+      'footer-menu-4' => esc_html__( 'Footer Menu 4', 'houzez' ),
+    )
+  );
+}
+// add_action( 'after_setup_theme', 'add_custom_menu' );
