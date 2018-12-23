@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "635d20fd435ee0b0b287c08990b0776c",
+    "content-hash": "53b8a22ed84f1f378c9ed8e9b5840bbf",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -250,6 +250,65 @@
                 "logs"
             ],
             "time": "2018-11-22T21:27:45+00:00"
+        },
+        {
+            "name": "backpack/newscrud",
+            "version": "2.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Laravel-Backpack/NewsCRUD.git",
+                "reference": "963a95e0f4576a5272c8c8ce684e7df91d486dde"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Laravel-Backpack/NewsCRUD/zipball/963a95e0f4576a5272c8c8ce684e7df91d486dde",
+                "reference": "963a95e0f4576a5272c8c8ce684e7df91d486dde",
+                "shasum": ""
+            },
+            "require": {
+                "backpack/crud": "3.4.*|3.5.*",
+                "cviebrock/eloquent-sluggable": "^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Backpack\\NewsCRUD\\NewsCRUDServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Backpack\\NewsCRUD\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Cristian Tabacitu",
+                    "email": "hello@tabacitu.ro",
+                    "homepage": "http://tabacitu.ro",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An admin panel for news with categories and tags, using Backpack\\CRUD on Laravel 5.",
+            "homepage": "https://github.com/Laravel-Backpack/NewsCRUD",
+            "keywords": [
+                "NewsCRUD",
+                "backpack"
+            ],
+            "time": "2018-11-26T13:31:36+00:00"
         },
         {
             "name": "barryvdh/elfinder-flysystem-driver",

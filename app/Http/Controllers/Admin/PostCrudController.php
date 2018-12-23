@@ -32,6 +32,12 @@ class PostCrudController extends CrudController
         // $this->crud->disableResponsiveTable();
         $this->crud->setActionsColumnPriority(10000);
 
+        // \Alert::info('This is a blue bubble.');
+        // \Alert::warning('This is a yellow/orange bubble.');
+        // \Alert::error('This is a red bubble.');
+        // \Alert::success('This is a green bubble.');
+        // \Alert::success('<strong>Got it</strong><br>This is an HTML message.');
+
         // $this->crud->getActionMethod();
         // $this->crud->actionIs('create');
 
