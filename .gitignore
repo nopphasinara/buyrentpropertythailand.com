@@ -12,3 +12,5 @@ node_modules
 
 error_log
 *.zip
+/wp-content/uploads
+/wp-content/upgrade

@@ -1,1 +1,3 @@
-RewriteRule ^(.*)$ / [L,R=302]
+<IfModule mod_rewrite.c>
+# RewriteRule ^(.*)$ / [L,R=302]
+</IfModule>

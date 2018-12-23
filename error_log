@@ -1282,3 +1282,58 @@ Stack trace:
 [10-Nov-2018 07:20:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/buyrentp/public_html/wp-content/themes/houzez-child/template/user_dashboard_properties.php on line 169
 [10-Nov-2018 07:23:42 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Regular expression too long: '^/property/condominium-for-rent-in-naklua-with-amazing-view/|/property/3-bed-stunning-pool-villa-near-pattaya/|/property/stunning-views-from-this-peak-tower-condominium/|/property/one-bedroom-condo-in-pattaya-city-resort/|/property/fantastic-three-bedroom-house-in-the-heart-of-east-pattaya/|/property/two-storey-private-pool-house-in-east-pattaya/|/property/beautiful-pool-villa-bungalow-in-huay-yai/|/property/beautifully-decorated-home-in-a-stunning-village-resort/|/property/fully-renovated-3-bed-house-in-north-pattaya/|/property/wonderful-pool-villa-in-east-pattaya/|/property/beautiful-two-storey-house-in-east-pattaya/|/property/wonderful-two-storey-home-with-pool-in-east-pattaya/|/property/bungalow-in-a-quiet-village-in-east-pattaya/|/property/lovely-bungalow-in-soi-khao-noi/|/property/spacious-two-storey-house-in-east-pattaya/|/property/stunning-pool-villa-in-east-pattaya/ in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
 [10-Nov-2018 07:29:48 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {"error":{"errors":[{"domain":"global","reason":"badRequest","message":"Regular expression too long: '/property/(condominium-for-rent-in-naklua-with-amazing-view|3-bed-stunning-pool-villa-near-pattaya|stunning-views-from-this-peak-tower-condominium|one-bedroom-condo-in-pattaya-city-resort|fantastic-three-bedroom-house-in-the-heart-of-east-pattaya|two-storey-private-pool-house-in-east-pattaya|beautiful-pool-villa-bungalow-in-huay-yai|beautifully-decorated-home-in-a-stunning-village-resort|fully-renovated-3-bed-house-in-north-pattaya|wonderful-pool-villa-in-east-pattaya|beautiful-two-storey-house-in-east-pattaya|wonderful-two-storey-home-with-pool-in-east-pattaya|bungalow-in-a-quiet-village-in-east-pattaya|lovely-bungalow-in-soi-khao-noi|spacious-two-storey-house-in-east-pattaya|stunning-pool-villa-in-east-pattaya|lovely-two-storey-home-in-bangsaray|wonderful-two-bedroom-condominum-in-jomtien|delightful-two-storey-home-in-east-pattaya|wonderful-new-bungalow-in-east-pattaya|4-b in /home/buyrentp/public_html/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[22-Dec-2018 20:54:18 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Term as array in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 24
+[22-Dec-2018 21:37:29 UTC] PHP Fatal error:  Default value for parameters with a class type can only be NULL in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 5
+[22-Dec-2018 21:37:30 UTC] PHP Fatal error:  Default value for parameters with a class type can only be NULL in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 5
+[22-Dec-2018 22:46:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function reset_postdata() in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php:57
+Stack trace:
+#0 /home/buyrentp/v2.buyrentpropertythailand.com/dump.php(73): _get_posts('post_tag', 'tags', false)
+#1 {main}
+  thrown in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 57
+[22-Dec-2018 22:46:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function reset_postdata() in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php:68
+Stack trace:
+#0 /home/buyrentp/v2.buyrentpropertythailand.com/dump.php(71): _get_posts('post_tag', 'tags', false)
+#1 {main}
+  thrown in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 68
+[22-Dec-2018 22:49:22 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, object given in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 70
+[22-Dec-2018 22:49:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, object given in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 70
+[22-Dec-2018 22:50:01 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 59
+[22-Dec-2018 22:50:24 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 59
+[22-Dec-2018 22:50:43 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, object given in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 59
+[22-Dec-2018 22:50:50 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, object given in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 59
+[22-Dec-2018 22:51:03 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, object given in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 59
+[22-Dec-2018 22:51:09 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, object given in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 59
+[22-Dec-2018 23:35:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_thumbnail() in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php:62
+Stack trace:
+#0 /home/buyrentp/v2.buyrentpropertythailand.com/dump.php(78): _get_posts('post', 'articles', true)
+#1 {main}
+  thrown in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 62
+[22-Dec-2018 23:35:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_thumbnail() in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php:62
+Stack trace:
+#0 /home/buyrentp/v2.buyrentpropertythailand.com/dump.php(78): _get_posts('post', 'articles', true)
+#1 {main}
+  thrown in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 62
+[23-Dec-2018 01:13:53 UTC] PHP Parse error:  syntax error, unexpected '[', expecting '{' in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 6
+[23-Dec-2018 01:30:26 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php:81
+Stack trace:
+#0 /home/buyrentp/v2.buyrentpropertythailand.com/dump.php(109): _get_posts('property', 'listings', true)
+#1 {main}
+  thrown in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 81
+[23-Dec-2018 01:31:34 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php:81
+Stack trace:
+#0 /home/buyrentp/v2.buyrentpropertythailand.com/dump.php(110): _get_posts('property', 'listings', true)
+#1 {main}
+  thrown in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 81
+[23-Dec-2018 01:31:36 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php:81
+Stack trace:
+#0 /home/buyrentp/v2.buyrentpropertythailand.com/dump.php(110): _get_posts('property', 'listings', true)
+#1 {main}
+  thrown in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 81
+[23-Dec-2018 02:00:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user() in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php:99
+Stack trace:
+#0 /home/buyrentp/v2.buyrentpropertythailand.com/dump.php(128): _get_posts('property', 'listings', false)
+#1 {main}
+  thrown in /home/buyrentp/v2.buyrentpropertythailand.com/dump.php on line 99
