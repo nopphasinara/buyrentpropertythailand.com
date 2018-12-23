@@ -20,8 +20,10 @@ class CreateListingsTable extends Migration
           $table->longText('content')->nullable();
           $table->integer('author_id')->unsigned()->nullable();
           $table->integer('parent_id')->unsigned()->nullable();
+          $table->integer('featured')->unsigned()->nullable()->default(0);
           $table->string('status')->nullable(false)->default('publish');
           $table->longText('extras')->nullable();
+          $table->string('image')->nullable();
           $table->timestamps();
         });
     }
