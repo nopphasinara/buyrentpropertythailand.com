@@ -25,6 +25,7 @@
                             <tr>
                                 <th>@lang('app.country_name')</th>
                                 <th>@lang('app.country_code')</th>
+                                <th>@lang('app.actions')</th>
                             </tr>
                             </thead>
 
@@ -33,10 +34,25 @@
                                 <tr>
                                     <td>{!! $country->country_name !!}</td>
                                     <td>{!! $country->country_code !!}</td>
+                                    <td>
+                                      <a href="{{route('edit_country', $country->id)}}" class="btn btn-primary"><i class="fa fa-edit"></i> </a>
+                                      <a href="javascript:;" data-id="{{$country->id}}" class="btn btn-danger deleteCountry"><i class="fa fa-trash"></i> </a>
+                                    </td>
                                 </tr>
-                                
+
                             @endforeach
-                                
+
+                            {{-- @foreach($countries as $country)
+                                <tr>
+                                    <td>{!! $country->country_name !!}</td>
+                                    <td>{!! $country->country_code !!}</td>
+                                    <td>
+                                        <a href="{{route('edit_country', $country->id)}}" class="btn btn-primary"><i class="fa fa-edit"></i> </a>
+                                        <a href="javascript:;" data-id="{{$country->id}}" class="btn btn-danger deleteCountry"><i class="fa fa-trash"></i> </a>
+                                    </td>
+                                </tr>
+                            @endforeach --}}
+
                         </table>
 
                     </div>
