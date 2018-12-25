@@ -1,4 +1,5 @@
 .DS_Store
+Thumbs.db
 .remote-sync.json
 
 client_secret.json
@@ -7,10 +8,12 @@ HelloAnalytics.php
 oauth2callback.php
 test-api*.php
 wp-config.php
-vendor
-node_modules
+/vendor
+/node_modules
 
 error_log
+*.log
 *.zip
+*.gz
 /wp-content/uploads
 /wp-content/upgrade
