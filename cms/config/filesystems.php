@@ -57,7 +57,7 @@ return [
 
         'uploads' => [
             'driver' => 'local',
-            'root' => realpath(trim(__DIR__.'/../../wp-content/uploads', '/')),
+            'root' => realpath(__DIR__ . '/../../wp-content/uploads'),
             'url' => env('APP_FRONTEND_URL').'/wp-content/uploads',
             'visibility' => 'public',
         ],
