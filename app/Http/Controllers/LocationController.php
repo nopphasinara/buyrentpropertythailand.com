@@ -18,6 +18,44 @@ class LocationController extends Controller
         return view('admin.countries', compact('title', 'countries'));
     }
 
+    public function countryEdit($id){
+        $country = Country::find($id);
+        $title = trans('app.edit_country');
+        return view('admin.country_edit', compact('title', 'country'));
+    }
+
+    public function countryEditPost(Request $request, $id){
+        $country = Country::find($id);
+
+        $rules = [
+            'country_name' => 'required',
+            'country_code' => 'required',
+        ];
+        $this->validate($request, $rules);
+
+        $duplicate = Country::whereCountryName($request->country_name)->where('id', '!=', $id)->count();
+        if ($duplicate > 0){
+            return back()->with('error', trans('app.country_exists_in_db'));
+        }
+
+        $data = [
+            'country_name' => $request->country_name,
+            'country_code' => $request->country_code,
+        ];
+
+        $country->update($data);
+        return back()->with('success', trans('app.country_updated'));
+    }
+
+    public function countryDestroy(Request $request){
+        $country = Country::find($request->id);
+        if ($country){
+            $country->delete();
+        }
+        return ['success'=>1, 'msg'=>trans('app.country_deleted')];
+    }
+
+
     public function stateList(){
         $title = trans('app.states');
         $countries = Country::all();
@@ -59,7 +97,7 @@ class LocationController extends Controller
         $countries = Country::all();
         return view('admin.state_edit', compact('title', 'countries', 'state'));
     }
-    
+
     public function stateEditPost(Request $request, $id){
         $state = State::find($id);
 
@@ -135,9 +173,9 @@ class LocationController extends Controller
 
         $title = trans('app.edit_city');
         $countries = Country::all();
-        
+
         $states = null;
-        if ($city->state) 
+        if ($city->state)
             $states = State::whereCountryId($city->state->country_id)->get();
 
         return view('admin.city_edit', compact('title', 'countries', 'city', 'states'));

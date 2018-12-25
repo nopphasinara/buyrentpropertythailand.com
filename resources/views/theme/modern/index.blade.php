@@ -79,7 +79,7 @@
                     <div class="themeqx_new_regular_ads_wrap themeqx-carousel-ads">
                         @foreach($urgent_ads as $ad)
                             <div>
-                                <div itemscope itemtype="http://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
+                                <div itemscope itemtype="https://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
                                     <div class="ads-thumbnail">
                                         <a href="{{ route('single_ad', $ad->slug) }}">
                                             <img itemprop="image"  src="{{ media_url($ad->feature_img) }}" class="img-responsive" alt="{{ $ad->title }}">
@@ -159,7 +159,7 @@
                     <div class="themeqx_new_regular_ads_wrap themeqx-carousel-ads">
                         @foreach($premium_ads as $ad)
                             <div>
-                                <div itemscope itemtype="http://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
+                                <div itemscope itemtype="https://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
                                     <div class="ads-thumbnail">
                                         <a href="{{ route('single_ad', $ad->slug) }}">
                                             <img itemprop="image"  src="{{ media_url($ad->feature_img) }}" class="img-responsive" alt="{{ $ad->title }}">
@@ -253,7 +253,7 @@
                     <div class="themeqx_new_premium_ads_wrap themeqx-carousel-ads">
                         @foreach($regular_ads as $ad)
                             <div>
-                                <div itemscope itemtype="http://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
+                                <div itemscope itemtype="https://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
                                     <div class="ads-thumbnail">
                                         <a href="{{ route('single_ad', $ad->slug) }}">
                                             <img itemprop="image"  src="{{ media_url($ad->feature_img) }}" class="img-responsive" alt="{{ $ad->title }}">

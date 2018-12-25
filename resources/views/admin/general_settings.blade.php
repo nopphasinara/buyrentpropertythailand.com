@@ -109,7 +109,7 @@
                                     <input type="text" value="{{ get_option('time_format_custom') }}" id="time_format_custom" name="time_format_custom" />
                                     <span>example: {{ date(get_option('time_format_custom')) }}</span>
                                 </fieldset>
-                                <p><a href="http://php.net/manual/en/function.date.php" target="_blank">@lang('app.date_time_read_more')</a> </p>
+                                <p><a href="https://php.net/manual/en/function.date.php" target="_blank">@lang('app.date_time_read_more')</a> </p>
                             </div>
                         </div>
 

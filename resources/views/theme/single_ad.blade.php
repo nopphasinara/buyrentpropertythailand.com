@@ -180,7 +180,7 @@
 
                 @foreach($related_ads as $rad)
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <div itemscope itemtype="http://schema.org/Product" class="ads-item-thumbnail ad-box-{{$rad->price_plan}}">
+                        <div itemscope itemtype="https://schema.org/Product" class="ads-item-thumbnail ad-box-{{$rad->price_plan}}">
                             <div class="ads-thumbnail">
                                 <a href="{{ route('single_ad', $rad->slug) }}">
                                     <img itemprop="image"  src="{{ media_url($rad->feature_img) }}" class="img-responsive" alt="{{ $rad->title }}">
@@ -195,7 +195,7 @@
 
                                 <p class="date-posted text-muted"> <i class="fa fa-clock-o"></i> {{ $rad->created_at->diffForHumans() }}</p>
                                 <p class="price"> <span itemprop="price" content="{{$rad->price}}"> {{ themeqx_price_ng($rad) }} </span></p>
-                                <link itemprop="availability" href="http://schema.org/InStock" />
+                                <link itemprop="availability" href="https://schema.org/InStock" />
                             </div>
 
                             @if($rad->price_plan == 'premium')

@@ -101,6 +101,10 @@ Route::group(['prefix'=>'dashboard', 'middleware' => 'dashboard'], function(){
 
         Route::group(['prefix'=>'location'], function(){
             Route::get('country', ['as'=>'country_list', 'uses' => 'LocationController@countries']);
+            Route::get('country/{id}/edit', ['as'=>'edit_country', 'uses' => 'LocationController@countryEdit']);
+            Route::post('country/{id}/edit', ['uses' => 'LocationController@countryEditPost']);
+            Route::post('country/delete', ['as'=>'delete_country', 'uses' => 'LocationController@countryDestroy']);
+
             Route::get('states', ['as'=>'state_list', 'uses' => 'LocationController@stateList']);
             Route::post('states', [ 'uses' => 'LocationController@saveState']);
             Route::get('states/{id}/edit', ['as'=>'edit_state', 'uses' => 'LocationController@stateEdit']);

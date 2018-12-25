@@ -58,7 +58,7 @@
                                 <label for="amazon_region" class="col-sm-4 control-label">@lang('app.amazon_region')</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" id="amazon_region" value="{{ get_option('amazon_region') }}" name="amazon_region" placeholder="@lang('app.amazon_region')">
-                                    <a href="http://docs.aws.amazon.com/general/latest/gr/rande.html" target="_blank">@lang('app.amazon_region_help')</a>
+                                    <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html" target="_blank">@lang('app.amazon_region_help')</a>
                                 </div>
                             </div>
 

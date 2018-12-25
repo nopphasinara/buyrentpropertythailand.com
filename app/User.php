@@ -25,7 +25,7 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-	
+
     public function country(){
         return $this->belongsTo(Country::class);
     }
@@ -41,7 +41,7 @@ class User extends Authenticatable
     public function get_gravatar( $s = 40, $d = 'mm', $r = 'g', $img = false, $atts = array() ) {
 
         $email = $this->email;
-        $url = 'http://www.gravatar.com/avatar/';
+        $url = 'https://www.gravatar.com/avatar/';
         $url .= md5( strtolower( trim( $email ) ) );
         $url .= "?s=$s&d=$d&r=$r";
 

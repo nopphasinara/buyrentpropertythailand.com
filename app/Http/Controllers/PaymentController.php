@@ -212,7 +212,7 @@ class PaymentController extends Controller
         curl_setopt($ch, CURLOPT_FORBID_REUSE, 1);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('Connection: Close'));
 // In wamp-like environments that do not come bundled with root authority certificates,
-// please download 'cacert.pem' from "http://curl.haxx.se/docs/caextract.html" and set
+// please download 'cacert.pem' from "https://curl.haxx.se/docs/caextract.html" and set
 // the directory path of the certificate as shown below:
 // curl_setopt($ch, CURLOPT_CAINFO, dirname(__FILE__) . '/cacert.pem');
         if( !($res = curl_exec($ch)) ) {
@@ -300,7 +300,7 @@ class PaymentController extends Controller
         curl_setopt($ch, CURLOPT_FORBID_REUSE, 1);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('Connection: Close'));
         // In wamp-like environments that do not come bundled with root authority certificates,
-        // please download 'cacert.pem' from "http://curl.haxx.se/docs/caextract.html" and set
+        // please download 'cacert.pem' from "https://curl.haxx.se/docs/caextract.html" and set
         // the directory path of the certificate as shown below:
         // curl_setopt($ch, CURLOPT_CAINFO, dirname(__FILE__) . '/cacert.pem');
         if( !($res = curl_exec($ch)) ) {

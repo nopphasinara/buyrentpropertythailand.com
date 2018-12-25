@@ -180,7 +180,7 @@
             @foreach($premium_ads as $ad)
                 <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
 
-                    <div itemscope itemtype="http://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
+                    <div itemscope itemtype="https://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
                         <div class="ads-thumbnail">
                             <a href="{{ route('single_ad', $ad->slug) }}">
                                 <img itemprop="image"  src="{{ media_url($ad->feature_img) }}" class="img-responsive" alt="{{ $ad->title }}">
@@ -195,7 +195,7 @@
                             @endif
                             <p class="date-posted text-muted"> <i class="fa fa-clock-o"></i> {{ $ad->created_at->diffForHumans() }}</p>
                             <p class="price"> <span itemprop="price" content="{{$ad->price}}"> {{ themeqx_price_ng($ad) }} </span></p>
-                            <link itemprop="availability" href="http://schema.org/InStock" />
+                            <link itemprop="availability" href="https://schema.org/InStock" />
                         </div>
 
                         @if($ad->price_plan == 'premium')
@@ -244,7 +244,7 @@
 
                 @foreach($regular_ads as $ad)
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <div itemscope itemtype="http://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
+                        <div itemscope itemtype="https://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
                             <div class="ads-thumbnail">
                                 <a href="{{ route('single_ad', $ad->slug) }}">
                                     <img itemprop="image"  src="{{ media_url($ad->feature_img) }}" class="img-responsive" alt="{{ $ad->title }}">
@@ -259,7 +259,7 @@
 
                                 <p class="date-posted text-muted"> <i class="fa fa-clock-o"></i> {{ $ad->created_at->diffForHumans() }}</p>
                                 <p class="price"> <span itemprop="price" content="{{$ad->price}}"> {{ themeqx_price_ng($ad) }} </span></p>
-                                <link itemprop="availability" href="http://schema.org/InStock" />
+                                <link itemprop="availability" href="https://schema.org/InStock" />
                             </div>
 
                             @if($ad->price_plan == 'premium')

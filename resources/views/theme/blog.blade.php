@@ -33,7 +33,7 @@
                     <section class="post">
                         <div class="row">
 
-                            <div itemscope itemtype="http://schema.org/NewsArticle">
+                            <div itemscope itemtype="https://schema.org/NewsArticle">
                                 <div class="col-md-4">
                                     <div class="image" style="height: 196px;">
                                         <a href="{{ route('blog_single', $post->slug) }}">

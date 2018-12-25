@@ -275,7 +275,7 @@
                                                 {{-- */ session('grid_list_view') ? (session('grid_list_view') == 'grid'? $ad->increase_impression() :'none') : $ad->increase_impression(); /*--}}
 
                                                 <div class="col-md-4 col-sm-6 col-xs-12">
-                                                    <div itemscope itemtype="http://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
+                                                    <div itemscope itemtype="https://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
                                                         <div class="ads-thumbnail">
                                                             <a href="{{ route('single_ad', $ad->slug) }}">
                                                                 <img itemprop="image"  src="{{ media_url($ad->feature_img) }}" class="img-responsive" alt="{{ $ad->title }}">
@@ -395,7 +395,7 @@
                             <div class="row">
                                 @foreach($ads as $ad)
                                     <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div itemscope itemtype="http://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
+                                        <div itemscope itemtype="https://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
                                             <div class="ads-thumbnail">
                                                 <a href="{{ route('single_ad', $ad->slug) }}">
                                                     <img itemprop="image"  src="{{ media_url($ad->feature_img) }}" class="img-responsive" alt="{{ $ad->title }}">

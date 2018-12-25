@@ -204,7 +204,7 @@
                                                 {{-- */ session('grid_list_view') ? (session('grid_list_view') == 'grid'? $ad->increase_impression() :'none') : $ad->increase_impression(); /*--}}
 
                                                 <div class="col-md-4 col-sm-6 col-xs-12">
-                                                    <div itemscope itemtype="http://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
+                                                    <div itemscope itemtype="https://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
                                                         <div class="ads-thumbnail">
                                                             <a href="{{ route('single_ad', $ad->slug) }}">
                                                                 <img itemprop="image"  src="{{ media_url($ad->feature_img) }}" class="img-responsive" alt="{{ $ad->title }}">
@@ -218,7 +218,7 @@
                                                             @endif
                                                             <p class="date-posted text-muted"> <i class="fa fa-clock-o"></i> {{ $ad->created_at->diffForHumans() }}</p>
                                                             <p class="price"> <span itemprop="price" content="{{$ad->price}}"> {{ themeqx_price_ng($ad) }} </span></p>
-                                                            <link itemprop="availability" href="http://schema.org/InStock" />
+                                                            <link itemprop="availability" href="https://schema.org/InStock" />
                                                         </div>
 
                                                         @if($ad->price_plan == 'premium')
@@ -286,7 +286,7 @@
                             <div class="row">
                                 @foreach($ads as $ad)
                                     <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div itemscope itemtype="http://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
+                                        <div itemscope itemtype="https://schema.org/Product" class="ads-item-thumbnail ad-box-{{$ad->price_plan}}">
                                             <div class="ads-thumbnail">
                                                 <a href="{{ route('single_ad', $ad->slug) }}">
                                                     <img itemprop="image"  src="{{ media_url($ad->feature_img) }}" class="img-responsive" alt="{{ $ad->title }}">
@@ -300,7 +300,7 @@
                                                 @endif
                                                 <p class="date-posted text-muted"> <i class="fa fa-clock-o"></i> {{ $ad->created_at->diffForHumans() }}</p>
                                                 <p class="price"> <span itemprop="price" content="{{$ad->price}}"> {{ themeqx_price_ng($ad) }} </span></p>
-                                                <link itemprop="availability" href="http://schema.org/InStock" />
+                                                <link itemprop="availability" href="https://schema.org/InStock" />
                                             </div>
 
                                             @if($ad->price_plan == 'premium')

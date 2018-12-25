@@ -64,3 +64,30 @@
 
     </div> <!-- /#container -->
 @endsection
+
+
+@section('page-js')
+    <script>
+        $(document).ready(function() {
+            $('body').on('click', '.deleteCountry', function (e) {
+                if (!confirm("Are you sure? its can't be undone")) {
+                    e.preventDefault();
+                    return false;
+                }
+                var selector = $(this);
+                var data_id = $(this).data('id');
+                $.ajax({
+                    type: 'POST',
+                    url: '{{ route('delete_country') }}',
+                    data: {id: data_id, _token: '{{ csrf_token() }}'},
+                    success: function (data) {
+                        if (data.success == 1) {
+                            selector.closest('tr').hide('slow');
+                            toastr.success(data.msg, '@lang('app.success')', toastr_options);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+@endsection
