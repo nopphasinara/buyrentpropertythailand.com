@@ -12,20 +12,20 @@ return [
     */
 
     // Project name. Shown in the breadcrumbs and a few other places.
-    'project_name' => 'Backpack',
+    'project_name' => 'ADMIN PANEL',
 
     // Menu logos
-    'logo_lg'   => '<b>Back</b>pack',
-    'logo_mini' => '<b>B</b>p',
+    'logo_lg'   => '<b>ADMIN PANEL</b>',
+    'logo_mini' => '<b>AD</b>',
 
     // Developer or company name. Shown in footer.
-    'developer_name' => 'Cristian Tabacitu',
+    'developer_name' => env('APP_NAME'),
 
     // Developer website. Link in footer.
-    'developer_link' => 'http://tabacitu.ro',
+    'developer_link' => env('APP_FRONTEND_URL', env('APP_URL')),
 
     // Show powered by Laravel Backpack in the footer?
-    'show_powered_by' => true,
+    'show_powered_by' => false,
 
     // The AdminLTE skin. Affects menu color and primary/secondary colors used throughout the application.
     'skin' => 'skin-purple',
@@ -41,8 +41,8 @@ return [
 
     // Overlays - CSS files that change the look and feel of the admin panel
     'overlays' => [
-        'vendor/backpack/base/backpack.bold.css',
-        // 'vendor/backpack/base/backpack.content.is.king.css',
+        // 'vendor/backpack/base/backpack.bold.css',
+        'vendor/backpack/base/backpack.content.is.king.css',
     ],
 
     /*
@@ -105,7 +105,8 @@ return [
     // Username column for authentication
     // The Backpack default is the same as the Laravel default (email)
     // If you need to switch to username, you also need to create that column in your db
-    'authentication_column'      => 'email',
+    'authentication_column'      => 'user_email',
+    // 'authentication_column'      => 'email',
     'authentication_column_name' => 'Email',
 
     // The guard that protects the Backpack admin panel.

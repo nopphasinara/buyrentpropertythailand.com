@@ -11,6 +11,7 @@ class BackpackUser extends User
     use HasParentModel;
 
     protected $table = 'users';
+    protected $primaryKey = 'ID';
 
     /**
      * Send the password reset notification.
@@ -31,6 +32,7 @@ class BackpackUser extends User
      */
     public function getEmailForPasswordReset()
     {
-        return $this->email;
+        return $this->user_email;
+        // return $this->email;
     }
 }
