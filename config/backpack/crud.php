@@ -14,7 +14,7 @@ return [
     |------------
     */
     // Where do you want to redirect the user by default, after a CRUD entry is saved in the Add or Edit forms?
-    'default_save_action' => 'save_and_edit', //options: save_and_back, save_and_edit, save_and_new
+    'default_save_action' => 'save_and_back', //options: save_and_back, save_and_edit, save_and_new
 
     // When the user chooses "save and back" or "save and new", show a bubble
     // for the fact that the default save action has been changed?
