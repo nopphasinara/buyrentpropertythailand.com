@@ -7,13 +7,13 @@
 
 ## Installation
 
-* [npm](http://npmjs.org/)
+* [npm](https://npmjs.org/)
 
 ```bash
 npm install metismenu
 ```
 
-* [Bower](http://bower.io)
+* [Bower](https://bower.io)
 
 ```bash
 bower install metisMenu
@@ -86,7 +86,7 @@ For double tap support.
 ```
 
 
-### [DEMO](http://demo.onokumus.com/metisMenu/)
+### [DEMO](https://demo.onokumus.com/metisMenu/)
 
 Contains a simple HTML file to demonstrate metisMenu plugin.
 
@@ -103,9 +103,9 @@ Contains a simple HTML file to demonstrate metisMenu plugin.
 
 metisMenu was made with love by these guys and a bunch of awesome [contributors](https://github.com/onokumus/metisMenu/graphs/contributors).
 
-[![Osman Nuri Okumuş](https://0.gravatar.com/avatar/4fa374411129d6f574c33e4753ec402e?s=70)](http://onokumus.com) |
+[![Osman Nuri Okumuş](https://0.gravatar.com/avatar/4fa374411129d6f574c33e4753ec402e?s=70)](https://onokumus.com) |
 --- | --- | --- | --- | --- | --- | ---
-[Osman Nuri Okumuş](http://onokumus.com) |
+[Osman Nuri Okumuş](https://onokumus.com) |
 
 
 ## License

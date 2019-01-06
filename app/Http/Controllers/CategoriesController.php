@@ -48,10 +48,11 @@ class CategoriesController extends Controller
         $this->validate($request, $rules);
 
         $data = [
-            'category_name' => $request->category_name,
-            'category_type'   => $request->category_type,
-            'color_class'   => $request->color_class,
-            'description'   => $request->description,
+            'category_name'    => $request->category_name,
+            'category_type'    => $request->category_type,
+            'category_type_id' => $request->category_type_id,
+            'color_class'      => $request->color_class,
+            'description'      => $request->description,
         ];
 
         Category::create($data);
@@ -102,10 +103,11 @@ class CategoriesController extends Controller
         $this->validate($request, $rules);
 
         $data = [
-            'category_name' => $request->category_name,
-            'category_type'   => $request->category_type,
-            'color_class'   => $request->color_class,
-            'description'   => $request->description,
+            'category_name'    => $request->category_name,
+            'category_type'    => $request->category_type,
+            'category_type_id' => $request->category_type_id,
+            'color_class'      => $request->color_class,
+            'description'      => $request->description,
         ];
         Category::whereId($id)->update($data);
 
@@ -121,7 +123,7 @@ class CategoriesController extends Controller
     public function destroy(Request $request)
     {
         $id = $request->data_id;
-        
+
         $delete = Category::where('id', $id)->delete();
         if ($delete){
             return ['success' => 1, 'msg' => trans('app.category_deleted_success')];

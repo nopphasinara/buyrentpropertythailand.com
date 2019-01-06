@@ -1,11 +1,6 @@
 <?php
 
 return [
-    'duplicate_label'       => 'The record has been already in database',
-    'country_exists_in_db'  => 'The country has been already in database',
-    'country_deleted'       => 'Record has been deleted successfully',
-    'country_updated'       => 'Record has been updated successfully',
-    'save_button_label'     => 'Save',
     'login'                 => 'Login',
     'register'              => 'Register',
     'action'                => 'Action',
@@ -206,7 +201,7 @@ return [
     'amazon_region'             => 'Region',
     'bucket'                    => 'Bucket',
     'amazon_region_help'        => 'Get actual region name',
-
+    
     'social_settings'           => 'Social Settings',
     'social_login'              => 'Social Login',
     'enable_social_login'       => 'Enable Social Login',
@@ -345,7 +340,7 @@ return [
     'dribble_url'               => 'Dribble URL',
     'google_plus_url'           => 'Google Plus URL',
     'youtube_url'               => 'Youtube URL',
-
+    
     'footer_address'            => 'Footer address',
     'site_phone_number'         => 'Phone number',
     'site_email_address'        => 'Email address',
@@ -462,7 +457,7 @@ return [
     'old_password'                  => 'Old password',
     'password_changed_msg'          => 'Password has been changed successfully',
     'wrong_old_password'        => 'Wrong old password',
-
+    
     //13-10-2016
     'enable_language_switcher'  => 'Enable language switcher',
     //16/10/2016

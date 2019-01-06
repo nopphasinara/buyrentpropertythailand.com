@@ -101,18 +101,15 @@ Route::group(['prefix'=>'dashboard', 'middleware' => 'dashboard'], function(){
 
         Route::group(['prefix'=>'location'], function(){
             Route::get('country', ['as'=>'country_list', 'uses' => 'LocationController@countries']);
-            Route::get('country/{id}/edit', ['as'=>'edit_country', 'uses' => 'LocationController@countryEdit']);
-            Route::post('country/{id}/edit', ['uses' => 'LocationController@countryEditPost']);
-            Route::post('country/delete', ['as'=>'delete_country', 'uses' => 'LocationController@countryDestroy']);
 
             Route::get('states', ['as'=>'state_list', 'uses' => 'LocationController@stateList']);
             Route::post('states', [ 'uses' => 'LocationController@saveState']);
             Route::get('states/{id}/edit', ['as'=>'edit_state', 'uses' => 'LocationController@stateEdit']);
             Route::post('states/{id}/edit', ['uses' => 'LocationController@stateEditPost']);
             Route::post('states/delete', ['as'=>'delete_state', 'uses' => 'LocationController@stateDestroy']);
+
             Route::get('cities', ['as'=>'city_list', 'uses' => 'LocationController@cityList']);
             Route::post('cities', ['uses' => 'LocationController@saveCity']);
-
             Route::get('cities/{id}/edit', ['as'=>'edit_city', 'uses' => 'LocationController@cityEdit']);
             Route::post('cities/{id}/edit', ['uses' => 'LocationController@cityEditPost']);
             Route::post('city/delete', ['as'=>'delete_city', 'uses' => 'LocationController@cityDestroy']);

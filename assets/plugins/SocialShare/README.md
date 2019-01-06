@@ -12,8 +12,8 @@ SocialShare is ideal choice for start to create custom social share buttons and 
 $('.share').ShareLink({
     title: 'My great post', // title for share message
     text: 'text of my great post', // text for share message
-    image: 'http://my-site-url.com/images/funny-cats.png', // optional image for share message (not for all networks)
-    url: 'http://my-site-url.com/my-article.html', // link on shared page
+    image: 'https://my-site-url.com/images/funny-cats.png', // optional image for share message (not for all networks)
+    url: 'https://my-site-url.com/my-article.html', // link on shared page
     class_prefix: 's_', // optional class prefix for share elements (buttons or links or everything), default: 's_'
     width: 640, // optional popup initial width
     height: 480 // optional popup initial height
@@ -25,7 +25,7 @@ $('.share').ShareLink({
 
 ```javascript
 $('.counter').ShareCounter({
-    url: 'http://my-site-url.com/my-article.html', // url for which you want show like counter
+    url: 'https://my-site-url.com/my-article.html', // url for which you want show like counter
     class_prefix: 'c_', // optional class prefix for counter elements, default: 'c_'
     display_counter_from: 0, // optional to set when counter is display, default: 0
     increment: false // Optional. If this option is true you can summarize counters from different sources just using multiple classes for one container.
@@ -53,22 +53,22 @@ $('.counter').ShareCounter({
     </tr>
     <tr>
         <td>Мой Мир</td>
-        <td>http://my.mail.ru/</td>
+        <td>https://my.mail.ru/</td>
         <td>c_myworld</td>
     </tr>
     <tr>
         <td>Linkedin</td>
-        <td>http://www.linkedin.com/</td>
+        <td>https://www.linkedin.com/</td>
         <td>c_linkedin</td>
     </tr>
     <tr>
         <td>Одноклассники</td>
-        <td>http://odnoklassniki.ru/</td>
+        <td>https://odnoklassniki.ru/</td>
         <td>c_odnoklassniki</td>
     </tr>
     <tr>
         <td>Pinterest</td>
-        <td>http://www.pinterest.com/</td>
+        <td>https://www.pinterest.com/</td>
         <td>c_pinterest</td>
     </tr>
     <tr>
@@ -110,22 +110,22 @@ If you want to use facebook counter please read [this comment](https://github.co
     </tr>
     <tr>
         <td>Мой Мир</td>
-        <td>http://my.mail.ru/</td>
+        <td>https://my.mail.ru/</td>
         <td>s_myworld</td>
     </tr>
     <tr>
         <td>Linkedin</td>
-        <td>http://www.linkedin.com/</td>
+        <td>https://www.linkedin.com/</td>
         <td>s_linkedin</td>
     </tr>
     <tr>
         <td>Одноклассники</td>
-        <td>http://odnoklassniki.ru/</td>
+        <td>https://odnoklassniki.ru/</td>
         <td>s_odnoklassniki</td>
     </tr>
     <tr>
         <td>Pinterest</td>
-        <td>http://www.pinterest.com/</td>
+        <td>https://www.pinterest.com/</td>
         <td>s_pinterest</td>
     </tr>
     <tr>
@@ -150,97 +150,97 @@ If you want to use facebook counter please read [this comment](https://github.co
     </tr>
     <tr>
         <td>Digg</td>
-        <td>http://digg.com/</td>
+        <td>https://digg.com/</td>
         <td>s_digg</td>
     </tr>
     <tr>
         <td>Reddit</td>
-        <td>http://www.reddit.com/</td>
+        <td>https://www.reddit.com/</td>
         <td>s_reddit</td>
     </tr>
     <tr>
         <td>Stumbleupon</td>
-        <td>http://www.stumbleupon.com/</td>
+        <td>https://www.stumbleupon.com/</td>
         <td>s_stumbleupon</td>
     </tr>
     <tr>
         <td>Pocket</td>
-        <td>http://getpocket.com/</td>
+        <td>https://getpocket.com/</td>
         <td>s_pocket</td>
     </tr>
     <tr>
         <td>Chiq</td>
-        <td>http://www.chiq.com/</td>
+        <td>https://www.chiq.com/</td>
         <td>s_chiq</td>
     </tr>
     <tr>
         <td>Qrifier</td>
-        <td>http://www.qrifier.com/</td>
+        <td>https://www.qrifier.com/</td>
         <td>s_qrifier</td>
     </tr>
     <tr>
         <td>Qrsrc</td>
-        <td>http://www.qrsrc.com/</td>
+        <td>https://www.qrsrc.com/</td>
         <td>s_qrsrc</td>
     </tr>
     <tr>
         <td>Qzone</td>
-        <td>http://qzone.qq.com/</td>
+        <td>https://qzone.qq.com/</td>
         <td>s_s_qzone</td>
     </tr>
     <tr>
         <td>Tulinq</td>
-        <td>http://www.tulinq.com/</td>
+        <td>https://www.tulinq.com/</td>
         <td>s_tulinq</td>
     </tr>
     <tr>
         <td>Mister Wong</td>
-        <td>http://www.mister-wong.com/</td>
+        <td>https://www.mister-wong.com/</td>
         <td>s_misterwong</td>
     </tr>
     <tr>
         <td>100zakladok</td>
-        <td>http://www.100zakladok.ru/</td>
+        <td>https://www.100zakladok.ru/</td>
         <td>s_sto_zakladok</td>
     </tr>
     <tr>
         <td>2linkme</td>
-        <td>http://www.2linkme.com/</td>
+        <td>https://www.2linkme.com/</td>
         <td>s_two_linkme</td>
     </tr>
     <tr>
         <td>Adifni</td>
-        <td>http://www.adifni.com/</td>
+        <td>https://www.adifni.com/</td>
         <td>s_adifni</td>
     </tr>
     <tr>
         <td>Amazonwishlist</td>
-        <td>http://www.amazon.com/</td>
+        <td>https://www.amazon.com/</td>
         <td>s_amazonwishlist</td>
     </tr>
     <tr>
         <td>Amenme</td>
-        <td>http://www.amenme.com/</td>
+        <td>https://www.amenme.com/</td>
         <td>s_amenme</td>
     </tr>
     <tr>
         <td>Aim</td>
-        <td>http://lifestream.aol.com/</td>
+        <td>https://lifestream.aol.com/</td>
         <td>s_aim</td>
     </tr>
     <tr>
         <td>Aolmail</td>
-        <td>http://webmail.aol.com/</td>
+        <td>https://webmail.aol.com/</td>
         <td>s_aolmail</td>
     </tr>
     <tr>
         <td>Arto</td>
-        <td>http://www.arto.com/</td>
+        <td>https://www.arto.com/</td>
         <td>s_arto</td>
     </tr>
     <tr>
         <td>Baidu</td>
-        <td>http://baidu.com/</td>
+        <td>https://baidu.com/</td>
         <td>s_baidu</td>
     </tr>
     <tr>
@@ -250,42 +250,42 @@ If you want to use facebook counter please read [this comment](https://github.co
     </tr>
     <tr>
         <td>Bizsugar</td>
-        <td>http://www.bizsugar.com/</td>
+        <td>https://www.bizsugar.com/</td>
         <td>s_bizsugar</td>
     </tr>
     <tr>
         <td>Blinklist</td>
-        <td>http://www.blinklist.com/</td>
+        <td>https://www.blinklist.com/</td>
         <td>s_blinklist</td>
     </tr>
     <tr>
         <td>Blip</td>
-        <td>http://blip.pl/</td>
+        <td>https://blip.pl/</td>
         <td>s_blip</td>
     </tr>
     <tr>
         <td>Blogmarks</td>
-        <td>http://blogmarks.net/</td>
+        <td>https://blogmarks.net/</td>
         <td>s_blogmarks</td>
     </tr>
     <tr>
         <td>Blurpalicious</td>
-        <td>http://www.blurpalicious.com/</td>
+        <td>https://www.blurpalicious.com/</td>
         <td>s_blurpalicious</td>
     </tr>
     <tr>
         <td>Bobrdobr</td>
-        <td>http://bobrdobr.ru/</td>
+        <td>https://bobrdobr.ru/</td>
         <td>s_bobrdobr</td>
     </tr>
     <tr>
         <td>Bonzobox</td>
-        <td>http://bonzobox.com/</td>
+        <td>https://bonzobox.com/</td>
         <td>s_bonzobox</td>
     </tr>
     <tr>
         <td>Bookmerkende</td>
-        <td>http://www.bookmerken.de/</td>
+        <td>https://www.bookmerken.de/</td>
         <td>s_bookmerkende</td>
     </tr>
     <tr>
@@ -295,552 +295,552 @@ If you want to use facebook counter please read [this comment](https://github.co
     </tr>
     <tr>
         <td>Bryderi</td>
-        <td>http://bryderi.se/</td>
+        <td>https://bryderi.se/</td>
         <td>s_bryderi</td>
     </tr>
     <tr>
         <td>Buddymarks</td>
-        <td>http://buddymarks.com/</td>
+        <td>https://buddymarks.com/</td>
         <td>s_buddymarks</td>
     </tr>
     <tr>
         <td>Camyoo</td>
-        <td>http://www.camyoo.com/</td>
+        <td>https://www.camyoo.com/</td>
         <td>s_camyoo</td>
     </tr>
     <tr>
         <td>Care2</td>
-        <td>http://www.care2.com/</td>
+        <td>https://www.care2.com/</td>
         <td>s_care2</td>
     </tr>
     <tr>
         <td>Citeulike</td>
-        <td>http://www.citeulike.org/</td>
+        <td>https://www.citeulike.org/</td>
         <td>s_citeulike</td>
     </tr>
     <tr>
         <td>Classicalplace</td>
-        <td>http://www.classicalplace.com/</td>
+        <td>https://www.classicalplace.com/</td>
         <td>s_classicalplace</td>
     </tr>
     <tr>
         <td>Cosmiq</td>
-        <td>http://www.cosmiq.de/</td>
+        <td>https://www.cosmiq.de/</td>
         <td>s_cosmiq</td>
     </tr>
     <tr>
         <td>Diggita</td>
-        <td>http://www.diggita.it/</td>
+        <td>https://www.diggita.it/</td>
         <td>s_diggita</td>
     </tr>
     <tr>
         <td>Diigo</td>
-        <td>http://www.diigo.com/</td>
+        <td>https://www.diigo.com/</td>
         <td>s_diigo</td>
     </tr>
     <tr>
         <td>Domelhor</td>
-        <td>http://domelhor.net/</td>
+        <td>https://domelhor.net/</td>
         <td>s_domelhor</td>
     </tr>
     <tr>
         <td>Dotnetshoutout</td>
-        <td>http://dotnetshoutout.com/</td>
+        <td>https://dotnetshoutout.com/</td>
         <td>s_dotnetshoutout</td>
     </tr>
     <tr>
         <td>Douban</td>
-        <td>http://www.douban.com/</td>
+        <td>https://www.douban.com/</td>
         <td>s_douban</td>
     </tr>
     <tr>
         <td>Dropjack</td>
-        <td>http://www.dropjack.com/</td>
+        <td>https://www.dropjack.com/</td>
         <td>s_dropjack</td>
     </tr>
     <tr>
         <td>Edelight</td>
-        <td>http://www.edelight.de/</td>
+        <td>https://www.edelight.de/</td>
         <td>s_edelight</td>
     </tr>
     <tr>
         <td>Ekudos</td>
-        <td>http://www.ekudos.nl/</td>
+        <td>https://www.ekudos.nl/</td>
         <td>s_ekudos</td>
     </tr>
     <tr>
         <td>Elefantapl</td>
-        <td>http://elefanta.pl/</td>
+        <td>https://elefanta.pl/</td>
         <td>s_elefantapl</td>
     </tr>
     <tr>
         <td>Embarkons</td>
-        <td>http://www.embarkons.com/</td>
+        <td>https://www.embarkons.com/</td>
         <td>s_embarkons</td>
     </tr>
     <tr>
         <td>Evernote</td>
-        <td>http://www.evernote.com/</td>
+        <td>https://www.evernote.com/</td>
         <td>s_evernote</td>
     </tr>
     <tr>
         <td>Extraplay</td>
-        <td>http://www.extraplay.com/</td>
+        <td>https://www.extraplay.com/</td>
         <td>s_extraplay</td>
     </tr>
     <tr>
         <td>Ezyspot</td>
-        <td>http://www.ezyspot.com/</td>
+        <td>https://www.ezyspot.com/</td>
         <td>s_ezyspot</td>
     </tr>
     <tr>
         <td>Fabulously40</td>
-        <td>http://fabulously40.com/</td>
+        <td>https://fabulously40.com/</td>
         <td>s_fabulously40</td>
     </tr>
     <tr>
         <td>Informazione</td>
-        <td>http://informazione.it/</td>
+        <td>https://informazione.it/</td>
         <td>s_informazione</td>
     </tr>
     <tr>
         <td>Fark</td>
-        <td>http://www.fark.com/</td>
+        <td>https://www.fark.com/</td>
         <td>s_fark</td>
     </tr>
     <tr>
         <td>Farkinda</td>
-        <td>http://www.farkinda.com/</td>
+        <td>https://www.farkinda.com/</td>
         <td>s_farkinda</td>
     </tr>
     <tr>
         <td>Favable</td>
-        <td>http://www.favable.com/</td>
+        <td>https://www.favable.com/</td>
         <td>s_favable</td>
     </tr>
     <tr>
         <td>Favlogde</td>
-        <td>http://www.favlog.de/</td>
+        <td>https://www.favlog.de/</td>
         <td>s_favlogde</td>
     </tr>
     <tr>
         <td>Flaker</td>
-        <td>http://flaker.pl/</td>
+        <td>https://flaker.pl/</td>
         <td>s_flaker</td>
     </tr>
     <tr>
         <td>Folkd</td>
-        <td>http://www.folkd.com/</td>
+        <td>https://www.folkd.com/</td>
         <td>s_folkd</td>
     </tr>
     <tr>
         <td>Fresqui</td>
-        <td>http://fresqui.com/</td>
+        <td>https://fresqui.com/</td>
         <td>s_fresqui</td>
     </tr>
     <tr>
         <td>Friendfeed</td>
-        <td>http://friendfeed.com/</td>
+        <td>https://friendfeed.com/</td>
         <td>s_friendfeed</td>
     </tr>
     <tr>
         <td>Funp</td>
-        <td>http://funp.com/</td>
+        <td>https://funp.com/</td>
         <td>s_funp</td>
     </tr>
     <tr>
         <td>Fwisp</td>
-        <td>http://fwisp.com/</td>
+        <td>https://fwisp.com/</td>
         <td>s_fwisp</td>
     </tr>
     <tr>
         <td>Gmail</td>
-        <td>http://mail.google.com/</td>
+        <td>https://mail.google.com/</td>
         <td>s_gmail</td>
     </tr>
     <tr>
         <td>Goodnoows</td>
-        <td>http://goodnoows.com/</td>
+        <td>https://goodnoows.com/</td>
         <td>s_goodnoows</td>
     </tr>
     <tr>
         <td>Google</td>
-        <td>http://www.google.com/</td>
+        <td>https://www.google.com/</td>
         <td>s_google</td>
     </tr>
     <tr>
         <td>Googletranslate</td>
-        <td>http://translate.google.com/</td>
+        <td>https://translate.google.com/</td>
         <td>s_googletranslate</td>
     </tr>
     <tr>
         <td>Greaterdebater</td>
-        <td>http://greaterdebater.com/</td>
+        <td>https://greaterdebater.com/</td>
         <td>s_greaterdebater</td>
     </tr>
     <tr>
         <td>Hackernews</td>
-        <td>http://news.ycombinator.com/</td>
+        <td>https://news.ycombinator.com/</td>
         <td>s_hackernews</td>
     </tr>
     <tr>
         <td>Hatena</td>
-        <td>http://b.hatena.ne.jp/</td>
+        <td>https://b.hatena.ne.jp/</td>
         <td>s_hatena</td>
     </tr>
     <tr>
         <td>Hedgehogs</td>
-        <td>http://www.hedgehogs.net/</td>
+        <td>https://www.hedgehogs.net/</td>
         <td>s_hedgehogs</td>
     </tr>
     <tr>
         <td>Hotmail</td>
-        <td>http://www.hotmail.msn.com/</td>
+        <td>https://www.hotmail.msn.com/</td>
         <td>s_hotmail</td>
     </tr>
     <tr>
         <td>W3validator</td>
-        <td>http://validator.w3.org/</td>
+        <td>https://validator.w3.org/</td>
         <td>s_w3validator</td>
     </tr>
     <tr>
         <td>Ihavegot</td>
-        <td>http://www.ihavegot.com/</td>
+        <td>https://www.ihavegot.com/</td>
         <td>s_ihavegot</td>
     </tr>
     <tr>
         <td>Instapaper</td>
-        <td>http://www.instapaper.com/</td>
+        <td>https://www.instapaper.com/</td>
         <td>s_instapaper</td>
     </tr>
     <tr>
         <td>Isociety</td>
-        <td>http://isociety.be/</td>
+        <td>https://isociety.be/</td>
         <td>s_isociety</td>
     </tr>
     <tr>
         <td>Iwiw</td>
-        <td>http://iwiw.hu/</td>
+        <td>https://iwiw.hu/</td>
         <td>s_iwiw</td>
     </tr>
     <tr>
         <td>Jamespot</td>
-        <td>http://www.jamespot.com/</td>
+        <td>https://www.jamespot.com/</td>
         <td>s_jamespot</td>
     </tr>
     <tr>
         <td>Jumptags</td>
-        <td>http://www.jumptags.com/</td>
+        <td>https://www.jumptags.com/</td>
         <td>s_jumptags</td>
     </tr>
     <tr>
         <td>Kaboodle</td>
-        <td>http://www.kaboodle.com/</td>
+        <td>https://www.kaboodle.com/</td>
         <td>s_kaboodle</td>
     </tr>
     <tr>
         <td>Kaevur</td>
-        <td>http://kaevur.com/</td>
+        <td>https://kaevur.com/</td>
         <td>s_kaevur</td>
     </tr>
     <tr>
         <td>Kledy</td>
-        <td>http://www.kledy.de/</td>
+        <td>https://www.kledy.de/</td>
         <td>s_kledy</td>
     </tr>
     <tr>
         <td>Librerio</td>
-        <td>http://www.librerio.com/</td>
+        <td>https://www.librerio.com/</td>
         <td>s_librerio</td>
     </tr>
     <tr>
         <td>Linkuj</td>
-        <td>http://linkuj.cz/</td>
+        <td>https://linkuj.cz/</td>
         <td>s_linkuj</td>
     </tr>
     <tr>
         <td>Livejournal</td>
-        <td>http://www.livejournal.com/</td>
+        <td>https://www.livejournal.com/</td>
         <td>s_livejournal</td>
     </tr>
     <tr>
         <td>Logger24</td>
-        <td>http://logger24.com/</td>
+        <td>https://logger24.com/</td>
         <td>s_logger24</td>
     </tr>
     <tr>
         <td>Mashbord</td>
-        <td>http://mashbord.com/</td>
+        <td>https://mashbord.com/</td>
         <td>s_mashbord</td>
     </tr>
     <tr>
         <td>Meinvz</td>
-        <td>http://www.meinvz.net/</td>
+        <td>https://www.meinvz.net/</td>
         <td>s_meinvz</td>
     </tr>
     <tr>
         <td>Mekusharim</td>
-        <td>http://mekusharim.walla.co.il/</td>
+        <td>https://mekusharim.walla.co.il/</td>
         <td>s_mekusharim</td>
     </tr>
     <tr>
         <td>Memori</td>
-        <td>http://memori.ru/</td>
+        <td>https://memori.ru/</td>
         <td>s_memori</td>
     </tr>
     <tr>
         <td>Meneame</td>
-        <td>http://www.meneame.net/</td>
+        <td>https://www.meneame.net/</td>
         <td>s_meneame</td>
     </tr>
     <tr>
         <td>Mixi</td>
-        <td>http://mixi.jp/</td>
+        <td>https://mixi.jp/</td>
         <td>s_mixi</td>
     </tr>
     <tr>
         <td>Moemesto</td>
-        <td>http://moemesto.ru/</td>
+        <td>https://moemesto.ru/</td>
         <td>s_moemesto</td>
     </tr>
     <tr>
         <td>Myspace</td>
-        <td>http://www.myspace.com/</td>
+        <td>https://www.myspace.com/</td>
         <td>s_myspace</td>
     </tr>
     <tr>
         <td>N4g</td>
-        <td>http://www.n4g.com/</td>
+        <td>https://www.n4g.com/</td>
         <td>s_n4g</td>
     </tr>
     <tr>
         <td>Netlog</td>
-        <td>http://www.netlog.com/</td>
+        <td>https://www.netlog.com/</td>
         <td>s_netlog</td>
     </tr>
     <tr>
         <td>Netvouz</td>
-        <td>http://netvouz.com/</td>
+        <td>https://netvouz.com/</td>
         <td>s_netvouz</td>
     </tr>
     <tr>
         <td>Newstrust</td>
-        <td>http://newstrust.net/</td>
+        <td>https://newstrust.net/</td>
         <td>s_newstrust</td>
     </tr>
     <tr>
         <td>Newsvine</td>
-        <td>http://www.newsvine.com/</td>
+        <td>https://www.newsvine.com/</td>
         <td>s_newsvine</td>
     </tr>
     <tr>
         <td>Nujij</td>
-        <td>http://nujij.nl/</td>
+        <td>https://nujij.nl/</td>
         <td>s_nujij</td>
     </tr>
     <tr>
         <td>Oknotizie</td>
-        <td>http://oknotizie.virgilio.it/</td>
+        <td>https://oknotizie.virgilio.it/</td>
         <td>s_oknotizie</td>
     </tr>
     <tr>
         <td>Oyyla</td>
-        <td>http://www.oyyla.com/</td>
+        <td>https://www.oyyla.com/</td>
         <td>s_oyyla</td>
     </tr>
     <tr>
         <td>Pdfonline</td>
-        <td>http://savepageaspdf.pdfonline.com/</td>
+        <td>https://savepageaspdf.pdfonline.com/</td>
         <td>s_pdfonline</td>
     </tr>
     <tr>
         <td>Pdfmyurl</td>
-        <td>http://pdfmyurl.com/</td>
+        <td>https://pdfmyurl.com/</td>
         <td>s_pdfmyurl</td>
     </tr>
     <tr>
         <td>Phonefavs</td>
-        <td>http://phonefavs.com/</td>
+        <td>https://phonefavs.com/</td>
         <td>s_phonefavs</td>
     </tr>
     <tr>
         <td>Plaxo</td>
-        <td>http://www.plaxo.com/</td>
+        <td>https://www.plaxo.com/</td>
         <td>s_plaxo</td>
     </tr>
     <tr>
         <td>Plurk</td>
-        <td>http://www.plurk.com/</td>
+        <td>https://www.plurk.com/</td>
         <td>s_plurk</td>
     </tr>
     <tr>
         <td>Posteezy</td>
-        <td>http://posteezy.com/</td>
+        <td>https://posteezy.com/</td>
         <td>s_posteezy</td>
     </tr>
     <tr>
         <td>Pusha</td>
-        <td>http://www.pusha.se/</td>
+        <td>https://www.pusha.se/</td>
         <td>s_pusha</td>
     </tr>
     <tr>
         <td>Rediff</td>
-        <td>http://share.rediff.com/</td>
+        <td>https://share.rediff.com/</td>
         <td>s_rediff</td>
     </tr>
     <tr>
         <td>Redkum</td>
-        <td>http://www.redkum.com/</td>
+        <td>https://www.redkum.com/</td>
         <td>s_redkum</td>
     </tr>
     <tr>
         <td>Scoopat</td>
-        <td>http://scoop.at/</td>
+        <td>https://scoop.at/</td>
         <td>s_scoopat</td>
     </tr>
     <tr>
         <td>Sekoman</td>
-        <td>http://sekoman.lv/</td>
+        <td>https://sekoman.lv/</td>
         <td>s_sekoman</td>
     </tr>
     <tr>
         <td>Shaveh</td>
-        <td>http://shaveh.co.il/</td>
+        <td>https://shaveh.co.il/</td>
         <td>s_shaveh</td>
     </tr>
     <tr>
         <td>Shetoldme</td>
-        <td>http://shetoldme.com/</td>
+        <td>https://shetoldme.com/</td>
         <td>s_shetoldme</td>
     </tr>
     <tr>
         <td>Sinaweibo</td>
-        <td>http://v.t.sina.com.cn/</td>
+        <td>https://v.t.sina.com.cn/</td>
         <td>s_sinaweibo</td>
     </tr>
     <tr>
         <td>Sodahead</td>
-        <td>http://www.sodahead.com/</td>
+        <td>https://www.sodahead.com/</td>
         <td>s_sodahead</td>
     </tr>
     <tr>
         <td>Sonico</td>
-        <td>http://www.sonico.com/</td>
+        <td>https://www.sonico.com/</td>
         <td>s_sonico</td>
     </tr>
     <tr>
         <td>Springpad</td>
-        <td>http://springpadit.com/</td>
+        <td>https://springpadit.com/</td>
         <td>s_springpad</td>
     </tr>
     <tr>
         <td>Startaid</td>
-        <td>http://www.startaid.com/</td>
+        <td>https://www.startaid.com/</td>
         <td>s_startaid</td>
     </tr>
     <tr>
         <td>Startlap</td>
-        <td>http://www.startlap.hu/</td>
+        <td>https://www.startlap.hu/</td>
         <td>s_startlap</td>
     </tr>
     <tr>
         <td>Studivz</td>
-        <td>http://www.studivz.net/</td>
+        <td>https://www.studivz.net/</td>
         <td>s_studivz</td>
     </tr>
     <tr>
         <td>Stuffpit</td>
-        <td>http://www.stuffpit.com/</td>
+        <td>https://www.stuffpit.com/</td>
         <td>s_stuffpit</td>
     </tr>
     <tr>
         <td>Stumpedia</td>
-        <td>http://www.stumpedia.com/</td>
+        <td>https://www.stumpedia.com/</td>
         <td>s_stumpedia</td>
     </tr>
     <tr>
         <td>Svejo</td>
-        <td>http://svejo.net/</td>
+        <td>https://svejo.net/</td>
         <td>s_svejo</td>
     </tr>
     <tr>
         <td>Symbaloo</td>
-        <td>http://www.symbaloo.com/</td>
+        <td>https://www.symbaloo.com/</td>
         <td>s_symbaloo</td>
     </tr>
     <tr>
         <td>Thewebblend</td>
-        <td>http://thewebblend.com/</td>
+        <td>https://thewebblend.com/</td>
         <td>s_thewebblend</td>
     </tr>
     <tr>
         <td>Thinkfinity</td>
-        <td>http://www.thinkfinity.org/</td>
+        <td>https://www.thinkfinity.org/</td>
         <td>s_thinkfinity</td>
     </tr>
     <tr>
         <td>Thisnext</td>
-        <td>http://www.thisnext.com/</td>
+        <td>https://www.thisnext.com/</td>
         <td>s_thisnext</td>
     </tr>
     <tr>
         <td>Tuenti</td>
-        <td>http://www.tuenti.com/</td>
+        <td>https://www.tuenti.com/</td>
         <td>s_tuenti</td>
     </tr>
     <tr>
         <td>Typepad</td>
-        <td>http://www.typepad.com/</td>
+        <td>https://www.typepad.com/</td>
         <td>s_typepad</td>
     </tr>
     <tr>
         <td>Viadeo</td>
-        <td>http://www.viadeo.com/</td>
+        <td>https://www.viadeo.com/</td>
         <td>s_viadeo</td>
     </tr>
     <tr>
         <td>Virb</td>
-        <td>http://virb.com/</td>
+        <td>https://virb.com/</td>
         <td>s_virb</td>
     </tr>
     <tr>
         <td>Visitezmonsite</td>
-        <td>http://www.visitezmonsite.com/</td>
+        <td>https://www.visitezmonsite.com/</td>
         <td>s_visitezmonsite</td>
     </tr>
     <tr>
         <td>Vybralisme</td>
-        <td>http://vybrali.sme.sk/</td>
+        <td>https://vybrali.sme.sk/</td>
         <td>s_vybralisme</td>
     </tr>
     <tr>
         <td>Wirefan</td>
-        <td>http://www.wirefan.com/</td>
+        <td>https://www.wirefan.com/</td>
         <td>s_wirefan</td>
     </tr>
     <tr>
         <td>Wordpress</td>
-        <td>http://wordpress.com/</td>
+        <td>https://wordpress.com/</td>
         <td>s_wordpress</td>
     </tr>
     <tr>
         <td>Wowbored</td>
-        <td>http://www.wowbored.com/</td>
+        <td>https://www.wowbored.com/</td>
         <td>s_wowbored</td>
     </tr>
     <tr>
         <td>Wykop</td>
-        <td>http://www.wykop.pl/</td>
+        <td>https://www.wykop.pl/</td>
         <td>s_wykop</td>
     </tr>
     <tr>
         <td>Yahoobkm</td>
-        <td>http://bookmarks.yahoo.com/</td>
+        <td>https://bookmarks.yahoo.com/</td>
         <td>s_yahoobkm</td>
     </tr>
     <tr>
         <td>Yahoomail</td>
-        <td>http://compose.mail.yahoo.com/</td>
+        <td>https://compose.mail.yahoo.com/</td>
         <td>s_yahoomail</td>
     </tr>
     <tr>
@@ -850,37 +850,37 @@ If you want to use facebook counter please read [this comment](https://github.co
     </tr>
     <tr>
         <td>Yardbarker</td>
-        <td>http://www.yardbarker.com/</td>
+        <td>https://www.yardbarker.com/</td>
         <td>s_yardbarker</td>
     </tr>
     <tr>
         <td>Yigg</td>
-        <td>http://www.yigg.de/</td>
+        <td>https://www.yigg.de/</td>
         <td>s_yigg</td>
     </tr>
     <tr>
         <td>Yoolink</td>
-        <td>http://go.yoolink.to/</td>
+        <td>https://go.yoolink.to/</td>
         <td>s_yoolink</td>
     </tr>
     <tr>
         <td>Yorumcuyum</td>
-        <td>http://www.yorumcuyum.com/</td>
+        <td>https://www.yorumcuyum.com/</td>
         <td>s_yorumcuyum</td>
     </tr>
     <tr>
         <td>Youmob</td>
-        <td>http://youmob.com/</td>
+        <td>https://youmob.com/</td>
         <td>s_youmob</td>
     </tr>
     <tr>
         <td>Zakladoknet</td>
-        <td>http://zakladok.net/</td>
+        <td>https://zakladok.net/</td>
         <td>s_zakladoknet</td>
     </tr>
     <tr>
         <td>Ziczac</td>
-        <td>http://ziczac.it/</td>
+        <td>https://ziczac.it/</td>
         <td>s_ziczac</td>
     </tr>
     <tr>

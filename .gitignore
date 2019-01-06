@@ -5,3 +5,6 @@
 Homestead.json
 Homestead.yaml
 .env
+.remote-sync.json
+error_log
+/db-backup

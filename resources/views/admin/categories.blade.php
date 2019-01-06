@@ -28,6 +28,18 @@
 
 
                         <div class="form-group">
+                            <label for="category_type_id" class="col-sm-4 control-label">@lang('app.categories_type')</label>
+                            <div class="col-sm-8">
+                                <select class="form-control select2icon" name="category_type_id">
+                                    @if ($category_types)
+                                      @foreach ($category_types as $category_key => $category_type)
+                                        <option value="{{ $category_type['id'] }}">{{ $category_type['name'] }}</option>
+                                      @endforeach
+                                    @endif
+                                </select>
+                            </div>
+                        </div>
+                        {{-- <div class="form-group">
                             <label for="category_type" class="col-sm-4 control-label">@lang('app.categories_type')</label>
                             <div class="col-sm-8">
                                 <select class="form-control select2icon" name="category_type">
@@ -35,7 +47,7 @@
                                     <option value="outdoor">@lang('app.outdoor')</option>
                                 </select>
                             </div>
-                        </div>
+                        </div> --}}
 
 
                         <div class="form-group {{ $errors->has('category_name')? 'has-error':'' }}">

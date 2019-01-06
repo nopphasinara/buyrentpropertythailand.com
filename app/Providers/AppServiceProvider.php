@@ -68,6 +68,7 @@ class AppServiceProvider extends ServiceProvider
             config($facebookConfig);
             config($googleConfig);
             config($generalConfig);
+            config($generalConfig);
 
             //dd(config('app.name'));
 
@@ -80,7 +81,29 @@ class AppServiceProvider extends ServiceProvider
                 if(Auth::check()) {
                     $loggedUser = Auth::user();
                 }
-                $view->with(['lUser' => $loggedUser, 'enable_monetize'=>$enable_monetize , 'header_menu_pages' => $header_menu_pages, 'show_in_footer_menu' => $show_in_footer_menu]);
+                $view->with([
+                  'lUser' => $loggedUser,
+                  'enable_monetize' => $enable_monetize,
+                  'header_menu_pages' => $header_menu_pages,
+                  'show_in_footer_menu' => $show_in_footer_menu,
+                ]);
+            });
+
+            view()->composer([
+              'admin.categories',
+              'admin.edit_category',
+            ], function($view) {
+                $category_types = \App\CategoryType::get()->toArray();
+                if (!count($category_types)) {
+                  $category_types = [];
+                }
+                // $category_types = get_option('category_types');
+                // if ($category_types && is_string($category_types)) {
+                //   $category_types = json_decode($category_types, true);
+                // }
+                $view->with([
+                  'category_types' => $category_types,
+                ]);
             });
         }catch (\Exception $exception){
             //

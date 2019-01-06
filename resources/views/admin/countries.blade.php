@@ -25,7 +25,6 @@
                             <tr>
                                 <th>@lang('app.country_name')</th>
                                 <th>@lang('app.country_code')</th>
-                                <th>@lang('app.actions')</th>
                             </tr>
                             </thead>
 
@@ -34,25 +33,10 @@
                                 <tr>
                                     <td>{!! $country->country_name !!}</td>
                                     <td>{!! $country->country_code !!}</td>
-                                    <td>
-                                      <a href="{{route('edit_country', $country->id)}}" class="btn btn-primary"><i class="fa fa-edit"></i> </a>
-                                      <a href="javascript:;" data-id="{{$country->id}}" class="btn btn-danger deleteCountry"><i class="fa fa-trash"></i> </a>
-                                    </td>
                                 </tr>
-
+                                
                             @endforeach
-
-                            {{-- @foreach($countries as $country)
-                                <tr>
-                                    <td>{!! $country->country_name !!}</td>
-                                    <td>{!! $country->country_code !!}</td>
-                                    <td>
-                                        <a href="{{route('edit_country', $country->id)}}" class="btn btn-primary"><i class="fa fa-edit"></i> </a>
-                                        <a href="javascript:;" data-id="{{$country->id}}" class="btn btn-danger deleteCountry"><i class="fa fa-trash"></i> </a>
-                                    </td>
-                                </tr>
-                            @endforeach --}}
-
+                                
                         </table>
 
                     </div>
@@ -63,31 +47,4 @@
 
 
     </div> <!-- /#container -->
-@endsection
-
-
-@section('page-js')
-    <script>
-        $(document).ready(function() {
-            $('body').on('click', '.deleteCountry', function (e) {
-                if (!confirm("Are you sure? its can't be undone")) {
-                    e.preventDefault();
-                    return false;
-                }
-                var selector = $(this);
-                var data_id = $(this).data('id');
-                $.ajax({
-                    type: 'POST',
-                    url: '{{ route('delete_country') }}',
-                    data: {id: data_id, _token: '{{ csrf_token() }}'},
-                    success: function (data) {
-                        if (data.success == 1) {
-                            selector.closest('tr').hide('slow');
-                            toastr.success(data.msg, '@lang('app.success')', toastr_options);
-                        }
-                    }
-                });
-            });
-        });
-    </script>
 @endsection

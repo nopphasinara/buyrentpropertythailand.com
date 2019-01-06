@@ -103,5 +103,5 @@ project.
 [mailing-list]: https://github.com/ivaynberg/select2#mailing-list
 [irc-channel]: https://github.com/ivaynberg/select2#irc-channel
 [issue-search]: https://github.com/ivaynberg/select2/search?q=&type=Issues
-[isolated-case]: http://css-tricks.com/6263-reduced-test-cases/
+[isolated-case]: https://css-tricks.com/6263-reduced-test-cases/
 [licensing]: https://github.com/ivaynberg/select2#copyright-and-license

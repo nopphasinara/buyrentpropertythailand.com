@@ -93,7 +93,7 @@
                             </thead>
 
 
-                            {{-- @foreach($cities as $city)
+                            @foreach($cities as $city)
 
                                 <tr>
                                     <td>{!! $city->city_name !!}</td>
@@ -102,18 +102,6 @@
                                     <td>@lang('app.actions')</td>
                                 </tr>
 
-                            @endforeach --}}
-
-                            @foreach($cities as $city)
-                                <tr>
-                                    <td>{!! $city->city_name !!}</td>
-                                    <td>{!! $city->state->state_name !!}</td>
-                                    <td>{!! $city->state->country->country_name !!}</td>
-                                    <td>
-                                        <a href="{{route('edit_city', $city->id)}}" class="btn btn-primary"><i class="fa fa-edit"></i> </a>
-                                        <a href="javascript:;" data-id="{{$city->id}}" class="btn btn-danger deleteCity"><i class="fa fa-trash"></i> </a>
-                                    </td>
-                                </tr>
                             @endforeach
                         </table>
 
