@@ -9,3 +9,8 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+.remote-sync.json
+*.log
+error_log
+*.db
+.DS_Store
