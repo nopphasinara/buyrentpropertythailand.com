@@ -4,4 +4,5 @@ Allow: *.js
 Allow: *.css
 Allow: /wp-admin/admin-ajax.php
 Disallow: /wp-admin
+Disallow: /wp-includes
 Disallow: /tag/houzez

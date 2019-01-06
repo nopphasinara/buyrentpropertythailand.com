@@ -22,7 +22,7 @@ global $houzez_local;
 
 <!--start footer section-->
 <footer id="footer-section">
-    
+
     <?php get_template_part('template-parts/footer'); ?>
 
     <div class="footer-bottom">
@@ -62,7 +62,7 @@ global $houzez_local;
                     <div class="footer-col foot-social">
                         <p>
                             <?php echo $houzez_local['follow_us']; ?>
-                           
+
                             <?php if( houzez_option('fs-facebook') != '' ){ ?>
 					        	<a target="_blank" href="<?php echo esc_url(houzez_option('fs-facebook')); ?>"><i class="fa fa-facebook-square"></i></a>
 					        <?php } ?>

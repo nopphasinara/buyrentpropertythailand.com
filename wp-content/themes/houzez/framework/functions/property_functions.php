@@ -233,13 +233,15 @@ if( !function_exists('houzez_submit_listing') ) {
             }
 
             // Property ID
+            $property_id_prefix = houzez_option('property_id_prefix');
+
             $auto_property_id = houzez_option('auto_property_id');
             if( $auto_property_id != 1 ) {
                 if (isset($_POST['property_id'])) {
-                    update_post_meta($prop_id, 'fave_property_id', sanitize_text_field($_POST['property_id']));
+                    update_post_meta($prop_id, 'fave_property_id', sanitize_text_field($property_id_prefix . $_POST['property_id']));
                 }
             } else {
-                    update_post_meta($prop_id, 'fave_property_id', $prop_id );
+                    update_post_meta($prop_id, 'fave_property_id', $property_id_prefix . $prop_id );
             }
 
             // Property Video Url
@@ -695,13 +697,15 @@ if( !function_exists('save_property_as_draft') ) {
             }
 
             // Property ID
+            $property_id_prefix = houzez_option('property_id_prefix');
+
             $auto_property_id = houzez_option('auto_property_id');
             if( $auto_property_id != 1 ) {
                 if (isset($_POST['property_id'])) {
-                    update_post_meta($prop_id, 'fave_property_id', sanitize_text_field($_POST['property_id']));
+                    update_post_meta($prop_id, 'fave_property_id', sanitize_text_field($property_id_prefix . $_POST['property_id']));
                 }
             } else {
-                update_post_meta($prop_id, 'fave_property_id', $prop_id );
+                update_post_meta($prop_id, 'fave_property_id', $property_id_prefix . $prop_id );
             }
 
             // Property Video Url
@@ -748,6 +752,11 @@ if( !function_exists('save_property_as_draft') ) {
                         }
                     } elseif ( ! empty ( $property_image_ids ) ) {
                         update_post_meta( $prop_id, '_thumbnail_id', $property_image_ids[0] );
+
+                        /* if video url is provided but there is no video image then use featured image as video image */
+                        if ( empty( $property_video_image ) && !empty( $_POST['prop_video_url'] ) ) {
+                            update_post_meta( $prop_id, 'fave_video_image', $property_image_ids[0] );
+                        }
                     }
                 }
             }
@@ -1698,6 +1707,8 @@ if( !function_exists('houzez_property_search_2') ) {
         $search_lat = isset($_GET['lat']) ? (float)$_GET['lat'] : false;
         $search_long = isset($_GET['lng']) ? (float)$_GET['lng'] : false;
         $search_radius = isset($_GET['radius']) ? (int)$_GET['radius'] : false;
+        $property_id = (isset($_GET['property_id']) && $_GET['property_id'] != '') ? str_ireplace(array('BRPT-', 'BRPT', '-'), '', $_GET['property_id']) : '';
+        $_GET['property_id'] = $property_id;
 
         $search_query = apply_filters('houzez_radius_filter', $search_query, $search_lat, $search_long, $search_radius, $use_radius, $search_location);
 
@@ -2031,7 +2042,9 @@ if( !function_exists('houzez_property_search_2') ) {
             $search_query['meta_key'] = 'fave_featured';
             $search_query['order'] = 'DESC';
         }
-        //print_r($search_query);
+
+        // echo '<pre>'; print_r($search_query); echo '</pre>';
+
         return $search_query;
     }
 }
@@ -3579,10 +3592,10 @@ if( !function_exists('houzez_create_print')) {
                                         echo '<li><strong>'.esc_html__( 'Bathrooms:', 'houzez').'</strong> '.esc_attr( $bathrooms ).'</li>';
                                     }
                                     if( !empty( $garage ) ) {
-                                        echo '<li><strong>'.esc_html__( 'Garage:', 'houzez').'</strong> '.esc_attr( $garage ).'</li>';
+                                        echo '<li><strong>'.esc_html__( 'Garages/Car Port:', 'houzez').'</strong> '.esc_attr( $garage ).'</li>';
                                     }
                                     if( !empty( $garage_size ) ) {
-                                        echo '<li><strong>'.esc_html__( 'Garage Size:', 'houzez').'</strong> '.esc_attr( $garage_size ).'</li>';
+                                        echo '<li><strong>'.esc_html__( 'Garage/Car Port Size:', 'houzez').'</strong> '.esc_attr( $garage_size ).'</li>';
                                     }
                                     if( !empty( $year_built ) ) {
                                         echo '<li><strong>'.esc_html__( 'Year Built:', 'houzez').'</strong> '.esc_attr( $year_built ).'</li>';

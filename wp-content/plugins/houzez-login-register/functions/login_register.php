@@ -105,6 +105,8 @@ if( !function_exists('houzez_register') ) {
 
         $allowed_html = array();
 
+        $position          = trim( sanitize_text_field( wp_kses( $_POST['position'], $allowed_html ) ));
+        $company          = trim( sanitize_text_field( wp_kses( $_POST['company'], $allowed_html ) ));
         $first_name          = trim( sanitize_text_field( wp_kses( $_POST['first_name'], $allowed_html ) ));
         $last_name          = trim( sanitize_text_field( wp_kses( $_POST['last_name'], $allowed_html ) ));
         $usermane          = trim( sanitize_text_field( wp_kses( $_POST['username'], $allowed_html ) ));
@@ -197,7 +199,7 @@ if( !function_exists('houzez_register') ) {
             wp_die();
         } else {
 
-            wp_update_user( array( 'ID' => $user_id, 'role' => $user_role, 'first_name' => $first_name, 'last_name' => $last_name ) );
+            wp_update_user( array( 'ID' => $user_id, 'role' => $user_role, 'first_name' => $first_name, 'last_name' => $last_name, 'nickname' => $first_name . ' ' . $last_name, 'display_name' => $first_name . ' ' . $last_name ) );
 
             if( $enable_password =='yes' ) {
                 echo json_encode( array( 'success' => true, 'msg' => esc_html__('Your account was created and you can login now!', 'houzez-login-register') ) );
@@ -210,12 +212,18 @@ if( !function_exists('houzez_register') ) {
             if( $user_as_agent == 'yes' ) {
                 if ($user_role == 'houzez_agent' || $user_role == 'author') {
                     houzez_register_as_agent($usermane, $email, $user_id);
-
                 } else if ($user_role == 'houzez_agency') {
                     houzez_register_as_agency($usermane, $email, $user_id);
                 }
             }
+
             houzez_wp_new_user_notification( $user_id, $user_password );
+
+            update_user_meta( $user_id, 'fave_author_position', $position ) ;
+            update_user_meta( $user_id, 'fave_author_company', $company ) ;
+
+            update_post_meta( $user_id, 'fave_agent_position', $position ) ;
+            update_post_meta( $user_id, 'fave_agent_company', $company ) ;
         }
         wp_die();
 
@@ -298,12 +306,14 @@ if( !function_exists('houzez_agency_agent') ) {
                 'ID' => $user_id,
                 'role' => $user_role,
                 'first_name' => $firstname,
-                'last_name' => $lastname
+                'last_name' => $lastname,
+                'nickname' => $first_name . ' ' . $last_name,
+                'display_name' => $first_name . ' ' . $last_name,
             );
             wp_update_user( $update_args );
 
             update_user_meta( $user_id, 'fave_agent_agency', $agent_agency) ; // used for get user created by agency
-            update_user_meta( $user_id, 'fave_agent_agency', $agent_agency) ; // used for get user created by agency
+            // update_user_meta( $user_id, 'fave_agent_agency', $agent_agency) ; // used for get user created by agency
 
             echo json_encode( array( 'success' => true, 'msg' => esc_html__('Agent account created!', 'houzez-login-register') ) );
 
@@ -399,11 +409,15 @@ if( !function_exists('houzez_wp_new_user_notification') ) {
         $user_login = stripslashes( $user->user_login );
         $user_email = stripslashes( $user->user_email );
         $first_name = stripslashes( $user->first_name );
+        $last_name = stripslashes( $user->last_name );
 
         // Send notification to admin
         $args = array(
-            'user_login_register' => $user_login,
-            'user_email_register' => $user_email
+          'user_login_register'  =>  $user_login,
+          'user_email_register'  =>  $user_email,
+          'first_name'   => $first_name,
+          'last_name' => $last_name,
+          'user_edit_page' => get_option('siteurl') . '/wp-admin/user-edit.php?user_id='. $user_id .'',
         );
         houzez_register_email_type( get_option('admin_email'), 'admin_new_user_register', $args );
 
@@ -419,6 +433,7 @@ if( !function_exists('houzez_wp_new_user_notification') ) {
             'user_email_register'  =>  $user_email,
             'user_pass_register'   => $randonpassword,
             'first_name'   => $first_name,
+            'last_name' => $last_name,
         );
         houzez_register_email_type( $user_email, 'new_user_register', $args );
 
@@ -553,7 +568,7 @@ if( !function_exists('houzez_register_as_agency') ) {
 
 if( !function_exists('houzez_register_as_agent') ) {
 
-    function houzez_register_as_agent( $username, $email, $user_id ) {
+    function houzez_register_as_agent( $username, $email, $user_id, $input = array() ) {
 
         // Create post object
         $args = array(
@@ -633,6 +648,8 @@ if( !function_exists('houzez_register_emails_filter_replace')):
         $args ['user_email'] = $email;
         $user = get_user_by( 'email', $email );
         $args ['username'] = $user->user_login;
+        $args ['first_name'] = $user->first_name;
+        $args ['last_name'] = $user->last_name;
 
         foreach( $args as $key => $val){
             $subject = str_replace( '%'.$key, $val, $subject );
@@ -644,9 +661,14 @@ endif;
 
 
 if( !function_exists('houzez_register_send_emails') ):
+    include realpath(__DIR__ . '/../../../themes/houzez-child/houzez-login-register/functions/login_register.php');
+
     function houzez_register_send_emails( $user_email, $subject, $message ){
+        $message = nl2br($message);
+
         $headers = 'From: No Reply <noreply@'.$_SERVER['HTTP_HOST'].'>' . "\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
+        // $headers .= "Bcc: ". get_option('admin_email') ."\r\n";
 
         $enable_html_emails = houzez_option('enable_html_emails');
         $enable_email_header = houzez_option('enable_email_header');
@@ -721,11 +743,26 @@ if( !function_exists('houzez_register_send_emails') ):
             $email_messages = $message;
         }
 
-        @wp_mail(
-            $user_email,
-            $subject,
-            $email_messages,
-            $headers
-        );
+        // @wp_mail(
+        //     $user_email,
+        //     $subject,
+        //     $email_messages,
+        //     $headers
+        // );
+
+        $args['website_url'] = get_option('siteurl');
+        $args['website_name'] = get_option('blogname');
+        $args['user_email'] = $user_email;
+        $user = get_user_by( 'email', $user_email );
+        $args['username'] = $user->user_login;
+        $args['first_name'] = $user->first_name;
+        $args['last_name'] = $user->last_name;
+
+        foreach( $args as $key => $val ) {
+            $subject = str_replace( '%'.$key, $val, $subject );
+            $message = str_replace( '%'.$key, $val, $message );
+        }
+
+        send_html_email($user_email, $subject, $message, $headers);
     };
 endif;

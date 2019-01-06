@@ -99,7 +99,7 @@ $sticky_sidebar = houzez_option('sticky_sidebar');
 							<?php if( !empty( $current_author_meta['fave_author_language'][0] ) ) { ?>
 								<li><span><?php echo $houzez_local['languages']; ?></span> <a><?php echo esc_attr( $current_author_meta['fave_author_language'][0] ); ?></a></li>
 							<?php } ?>
-							
+
 						</ul>
 						<ul class="profile-social">
 

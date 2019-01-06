@@ -171,19 +171,19 @@ $user_role = implode(', ', $user_info->roles);
                         <div class="row">
                             <div class="col-sm-4 col-xs-12">
                                 <div class="form-group">
-                                    <input class="form-control" name="name" value="<?php echo $current_user->display_name; ?>" 
+                                    <input class="form-control" name="name" value="<?php echo $current_user->display_name; ?>"
                                            placeholder="<?php esc_html_e('Your Name', 'houzez'); ?>" type="text">
                                 </div>
                             </div>
                             <div class="col-sm-4 col-xs-12">
                                 <div class="form-group">
-                                    <input class="form-control" name="phone" value="<?php if(isset($all_meta_for_user['fave_author_phone'][0])) { echo $all_meta_for_user['fave_author_phone'][0]; }?>" 
+                                    <input class="form-control" name="phone" value="<?php if(isset($all_meta_for_user['fave_author_phone'][0])) { echo $all_meta_for_user['fave_author_phone'][0]; }?>"
                                            placeholder="<?php esc_html_e('Phone', 'houzez'); ?>" type="text">
                                 </div>
                             </div>
                             <div class="col-sm-4 col-xs-12">
                                 <div class="form-group">
-                                    <input class="form-control" name="email" value="<?php echo $current_user->user_email; ?>" 
+                                    <input class="form-control" name="email" value="<?php echo $current_user->user_email; ?>"
                                            placeholder="<?php esc_html_e('Email', 'houzez'); ?>" type="email">
                                 </div>
                             </div>

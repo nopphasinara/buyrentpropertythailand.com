@@ -194,11 +194,17 @@ Template: houzez
   text-align: left !important;
 }
 
-.vc_custom_1538037124434 {
-  overflow: auto;
+.custom-advance-header-search {
+  overflow: visible !important;
 }
 
-.advance-search-header .advance-fields .advanced-search-close {
+.advance-search,
+.advance-search-header {
+  position: relative;
+}
+
+/* .advance-search .advanced-search-close,
+.advance-search-header .advanced-search-close {
   position: absolute;
   top: 100%;
   margin-top: .4em;
@@ -207,12 +213,158 @@ Template: houzez
   z-index: 11;
 }
 
-.advance-search-header .advance-fields .advanced-search-close .btn-close {
-  color: #fff;
+.advance-search .advanced-search-close button.btn-close,
+.advance-search-header .advanced-search-close button.btn-close {
+  color: #fff !important;
+  background-color: #61768f !important;
+  font-size: .875em !important;
+  border-color: #61768f !important;
+  border-radius: 3px 3px !important;
+} */
+
+
+.add-tab-content #map {
+  height: 360px;
+}
+
+.place-marker-column {
+  margin-bottom: 1em;
+}
+
+#sidebar .features-list.field-expand {
+  height: 400px;
+  max-height: 400px;
+  overflow: auto;
+  margin-bottom: 1em;
+}
+
+#sidebar .features-list.field-expand .checkbox-inline {
+  width: 100%;
+}
+
+#description.property-description div {
+  margin-bottom: 1.4em;
+}
+
+.advanced-search .field-expand {
+  box-sizing: border-box;
+  height: 400px !important;
+  max-height: 400px !important;
+  overflow: auto;
   background-color: #61768f;
-  font-size: .875em;
-  border-color: #61768f;
+  padding: 1em 1.4em;
   border-radius: 3px 3px;
+}
+
+.advanced-search-mobile .field-expand {
+  box-sizing: border-box;
+  height: 300px !important;
+  max-height: 300px !important;
+  overflow: auto;
+  background-color: #61768f;
+  padding: 1em 1.4em;
+  border-radius: 3px 3px;
+  margin-bottom: 1.4em;
+}
+
+.custom-advance-header-search .field-expand {
+  margin-top: 1em;
+}
+
+.advanced-search .features-list .checkbox-inline {
+  width: 30%;
+}
+
+.advanced-search-mobile .features-list .checkbox-inline {
+  width: 100%;
+}
+
+.advanced-search-close {
+  margin-top: 1em;
+}
+.advanced-search-close button.btn-close {
+  color: #fff !important;
+  background-color: #ae0f0b !important;
+  font-size: .875em !important;
+  border-color: #ae0f0b !important;
+  border-radius: 3px 3px !important;
+}
+
+.tooltip_right {
+  line-height: 16px;
+  z-index: 1;
+  left: 37px;
+  bottom: 50%;
+  transform: translate(0, 50%);
+}
+
+.tooltip_right:after {
+  z-index: 1;
+  position: absolute;
+  left: -12px;
+  bottom: 8px;
+  border-top-color: transparent;
+  border-left-color: #00aeef;
+}
+
+.author-meta-action.share-btn a {
+  color: #fff;
+  background-color: #ae0f0b;
+  border-color: #ae0f0b;
+  padding: .1em 0;
+  border-radius: 3px 3px;
+  width: 24px;
+  display: inline-block;
+  zoom: 1;
+  text-align: center;
+  margin-left: .1em;
+}
+
+.author-meta-action.share-btn .fa {
+  color: #fff;
+}
+
+.author-meta-action.share-btn label {
+  margin-bottom: 0;
+}
+
+
+.header-translator {
+  width: auto !important;
+  text-align: left !important;
+}
+.header-translator a > span {
+  color: #5b5b5a;
+}
+.header-translator .media-heading {
+  color: #5b5b5a !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+
+.footer-translator {
+  display: none;
+  text-align: center;
+  padding: .5em 0;
+  color: #fff;
+  background-color: #A9A9A9;
+}
+.footer-translator .selected,
+.footer-translator .switcher,
+.footer-translator a {
+  display: inline-block !important;
+  vertical-align: middle;
+}
+.footer-translator label {
+  margin-right: 1em;
+}
+.footer-translator a > span:not(:last-child) {
+  color: #fff;
+}
+.footer-translator a > span:last-child {
+  color: #5b5b5a;
 }
 
 @media (max-width: 991px) {
@@ -244,5 +396,19 @@ Template: houzez
   }
   .footer-bottom .navi ul {
     text-align: center;
+  }
+
+  .list-features li {
+    display: block !important;
+    width: 100%;
+  }
+
+  .author-meta-action.share-btn {
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .footer-translator {
+    display: block;
   }
 }

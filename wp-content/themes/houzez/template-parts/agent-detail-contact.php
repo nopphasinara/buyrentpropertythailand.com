@@ -47,7 +47,7 @@ $agent_email = is_email( $agent_email ); ?>
                     <textarea name="message" id="message" rows="3"
                               class="form-control"><?php echo sprintf(esc_html__('Hi %s, I saw your profile on %s and wanted to see if you could help me', 'houzez'), $agent_name, get_option('blogname')); ?></textarea>
                 </div>
-                
+
                 <?php get_template_part('template-parts/google', 'reCaptcha'); ?>
 
                 <button type="submit" id="agent_detail_contact_btn" class="btn btn-secondary btn-block">

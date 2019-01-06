@@ -200,8 +200,8 @@ if(class_exists('Houzez_Fields_Builder')) {
             $field_title = $value->label;
             $field_name = $value->field_id;
             $is_search = $value->is_search;
-            
-            $custom_fields_array[$field_name] = $field_title; 
+
+            $custom_fields_array[$field_name] = $field_title;
 
             if($is_search == 'yes') {
                 $custom_search_fields_array[$field_name] = $field_title;
@@ -4461,10 +4461,10 @@ Redux::setSection( $opt_name, array(
             'id'		=> 'icon_garage_size',
             'url'		=> true,
             'type'		=> 'media',
-            'title'		=> esc_html__( 'Garage Size', 'houzez' ),
+            'title'		=> esc_html__( 'Garage/Car Port Size', 'houzez' ),
             'read-only'	=> false,
             'default'	=> array( 'url'	=> get_template_directory_uri() .'/images/icons/icon-5.png' ),
-            'subtitle'	=> esc_html__( 'Upload icon for garage size.', 'houzez' ),
+            'subtitle'	=> esc_html__( 'Upload icon for Garage/Car Port size.', 'houzez' ),
         ),
         array(
             'id'		=> 'icon_garage',
@@ -4861,8 +4861,8 @@ $submit_form_fields = array(
     'bathrooms' => esc_html__('Bathrooms', 'houzez'),
     'area_size' => esc_html__('Area Size', 'houzez'),
     'land_area' => esc_html__('Land Area', 'houzez'),
-    'garages' => esc_html__('Garage', 'houzez'),
-    'garage_size' => esc_html__('Garage Size', 'houzez'),
+    'garages' => esc_html__('Garages/Car Port', 'houzez'),
+    'garage_size' => esc_html__('Garage/Car Port Size', 'houzez'),
     'year_built' => esc_html__('Year Built', 'houzez'),
     'video_url' => esc_html__('Video Url', 'houzez'),
     'neighborhood' => esc_html__('Neighborhood', 'houzez'),
@@ -5797,7 +5797,7 @@ Listing Url: %listing_url", 'houzez'),
             'notice' => false,
             'style'  => 'info',
             'title'  => wp_kses(__( '<span class="font24">New Registered User</span>', 'houzez' ), $allowed_html_array),
-            'desc'   => esc_html__( '%user_login_register as username, %user_pass_register as user password, %user_email_register as new user email', 'houzez' )
+            'desc'   => esc_html__( '%user_login_register as username, %user_pass_register as user password, %user_email_register as new user email, %first_name as first name, %last_name as last name', 'houzez' )
         ),
 
         array(

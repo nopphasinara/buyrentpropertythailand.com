@@ -25,3 +25,37 @@
     <a href="#" class="btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
   </li>
 </ul> */
+
+
+// remove_filter( 'the_content', 'wpautop' );
+//
+// function clear_br($content){
+//   return str_replace("<br />","<br clear='none'/>", $content);
+// }
+// add_filter('the_content', 'clear_br');
+
+
+add_action('wp_head', 'gcreative_insert_meta_tags');
+function gcreative_insert_meta_tags() {
+  ?>
+  <!-- <meta name="google-site-verification" content="B6TNMohZMnu1Ri229CtKk1waahfP3q_S4yM_r3kbhkY" /> -->
+  <!-- <meta name="msvalidate.01" content="1989FCCA079F206E36DEF426DFD6ED6E" /> -->
+  <!-- <meta name="yandex-verification" content="6a1ec845117c149f" /> -->
+  <?php
+  if (is_front_page()) {
+    ?>
+    <!-- <link rel="canonical" href="<?php echo rtrim(get_option('home'), '/') . '/'; ?>" /> -->
+    <?php
+  }
+}
+
+
+function no_self_ping( &$links ) {
+    $home = get_option( 'home' );
+    foreach ( $links as $l => $link ) {
+      if ( 0 === strpos( $link, $home ) ) {
+        unset($links[$l]);
+      }
+    }
+}
+add_action( 'pre_ping', 'no_self_ping' );

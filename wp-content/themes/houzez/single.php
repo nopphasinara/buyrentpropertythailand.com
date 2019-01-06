@@ -23,7 +23,7 @@ $blog_author_box = houzez_option('blog_author_box');
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 container-contentbar">
                 <div class="article-main">
-                    
+
                     <?php
                         // Start the Loop.
                         while ( have_posts() ) : the_post(); ?>

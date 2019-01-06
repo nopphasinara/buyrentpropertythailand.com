@@ -205,19 +205,19 @@ if( $enableDisable_agent_forms != 0 && $houzez_agent_display != 'none') {
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
                     <div class="form-group">
-                        <input class="form-control" name="name" value="<?php echo $current_user->display_name; ?>" 
+                        <input class="form-control" name="name" value="<?php echo $current_user->display_name; ?>"
                                placeholder="<?php esc_html_e('Your Name', 'houzez'); ?>" type="text">
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-12">
                     <div class="form-group">
-                        <input class="form-control" name="phone" value="<?php if(isset($all_meta_for_user['fave_author_phone'][0])) { echo $all_meta_for_user['fave_author_phone'][0]; }?>" 
+                        <input class="form-control" name="phone" value="<?php if(isset($all_meta_for_user['fave_author_phone'][0])) { echo $all_meta_for_user['fave_author_phone'][0]; }?>"
                                placeholder="<?php esc_html_e('Phone', 'houzez'); ?>" type="text">
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-12">
                     <div class="form-group">
-                        <input class="form-control" name="email" value="<?php echo $current_user->user_email; ?>" 
+                        <input class="form-control" name="email" value="<?php echo $current_user->user_email; ?>"
                                placeholder="<?php esc_html_e('Email', 'houzez'); ?>" type="email">
                     </div>
                 </div>
@@ -226,11 +226,11 @@ if( $enableDisable_agent_forms != 0 && $houzez_agent_display != 'none') {
                     <textarea class="form-control" name="message" rows="5" placeholder="<?php esc_html_e('Message', 'houzez'); ?>"><?php esc_html_e("Hello, I am interested in", "houzez"); ?> [<?php echo get_the_title(); ?>]</textarea>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-12 col-xs-12">
                     <?php get_template_part('template-parts/google', 'reCaptcha'); ?>
                 </div>
-                
+
             </div>
             <button class="agent_contact_form btn btn-secondary"><?php esc_html_e('Request info', 'houzez'); ?></button>
             <?php if( $is_single_agent == true && $enable_direct_messages != 0 ) { ?>

@@ -160,11 +160,11 @@ if( $enable_contact_form_7_prop_detail != 0 ) {
                 <input type="hidden" name="action" value="houzez_agent_send_message">
 
                 <div class="form-group">
-                    <input class="form-control" name="name" type="text" value="<?php echo $current_user->display_name; ?>" 
+                    <input class="form-control" name="name" type="text" value="<?php echo $current_user->display_name; ?>"
                            placeholder="<?php esc_html_e('Your Name', 'houzez'); ?>">
                 </div>
                 <div class="form-group">
-                    <input class="form-control" name="phone" type="text" value="<?php if(isset($all_meta_for_user['fave_author_phone'][0])) { echo $all_meta_for_user['fave_author_phone'][0]; }?>" 
+                    <input class="form-control" name="phone" type="text" value="<?php if(isset($all_meta_for_user['fave_author_phone'][0])) { echo $all_meta_for_user['fave_author_phone'][0]; }?>"
                            placeholder="<?php esc_html_e('Phone', 'houzez'); ?>">
                 </div>
                 <div class="form-group">

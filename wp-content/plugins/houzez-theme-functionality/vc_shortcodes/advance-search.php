@@ -99,6 +99,14 @@ if( !function_exists('houzez_advance_search') ) {
                     </div>
                     <?php } ?>
 
+                    <?php if( $adv_show_hide['property_id'] != 1 ) { ?>
+                        <div class="col-sm-2 col-xs-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" value="<?php echo isset ( $_GET['property_id'] ) ? $_GET['property_id'] : ''; ?>" name="property_id" placeholder="<?php echo $houzez_local['property_id']; ?>">
+                            </div>
+                        </div>
+                    <?php } ?>
+
                     <?php if( $adv_show_hide['countries'] != 1 ) { ?>
                         <div class="col-sm-2 col-xs-6">
                             <div class="form-group">
@@ -318,14 +326,6 @@ if( !function_exists('houzez_advance_search') ) {
                         </div>
                     <?php } ?>
 
-                    <?php if( $adv_show_hide['property_id'] != 1 ) { ?>
-                        <div class="col-sm-2 col-xs-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" value="<?php echo isset ( $_GET['property_id'] ) ? $_GET['property_id'] : ''; ?>" name="property_id" placeholder="<?php echo $houzez_local['property_id']; ?>">
-                            </div>
-                        </div>
-                    <?php } ?>
-
                     <?php
                     if(class_exists('Houzez_Fields_Builder')) {
                         $fields_array = Houzez_Fields_Builder::get_form_fields();
@@ -466,6 +466,7 @@ if( !function_exists('houzez_advance_search') ) {
                             </div>
                         </div>
                         <?php } ?>
+
                     <?php } ?>
 
 
@@ -478,8 +479,8 @@ if( !function_exists('houzez_advance_search') ) {
 
                             <?php if( $adv_show_hide['other_features'] != 1 ) { ?>
                             <div class="col-sm-6 col-xs-12 pull-left">
-                                <label class="title advance-trigger"><i
-                                        class="fa fa-plus-square"></i> <?php echo $houzez_local['other_feature']; ?>
+                                <label class="title advance-trigger">
+                                  <i class="fa fa-plus-square"></i> <?php echo $houzez_local['other_feature']; ?>
                                 </label>
                             </div>
                             <?php } ?>
@@ -490,9 +491,12 @@ if( !function_exists('houzez_advance_search') ) {
                     <?php if( $adv_show_hide['other_features'] != 1 ) { ?>
                     <div class="col-sm-12 col-xs-12 features-list field-expand">
                         <?php get_template_part('template-parts/advanced-search/search-features'); ?>
+
+                        <div class="advanced-search-close">
+                            <button class="btn-close" type="button"><i class="fa fa-close"></i> Close</button>
+                        </div>
                     </div>
                     <?php } ?>
-
                 </div>
             </form>
 

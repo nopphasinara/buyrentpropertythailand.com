@@ -32,21 +32,21 @@ if( ! is_user_logged_in() ) {
 
     <div class="header-top">
         <div class="header-top-inner">
-            
+
             <div class="logo logo-desktop">
                 <?php get_template_part('inc/header/logo'); ?>
             </div>
 
         <?php if( $contact_info != false ) { ?>
-        
+
             <?php get_template_part( 'inc/header/contact', 'info' ); ?>
-        
+
         <?php } ?>
 
         <?php if( $social != false ) { ?>
-        
+
             <?php get_template_part( 'inc/header/social' ); ?>
-        
+
         <?php } ?>
         </div>
     </div>

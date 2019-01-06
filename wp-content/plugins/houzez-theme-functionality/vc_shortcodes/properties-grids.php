@@ -20,6 +20,7 @@ if( !function_exists('houzez_prop_grids') ) {
             'featured_prop' => '',
             'posts_limit' => '',
             'offset' => '',
+            'property_ids' => '',
             'custom_title' => '',
             'all_btn' => 'All',
             'all_url' => '',

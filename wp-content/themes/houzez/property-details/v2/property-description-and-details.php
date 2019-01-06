@@ -149,7 +149,7 @@ $hide_detail_prop_fields = houzez_option('hide_detail_prop_fields');
         <?php
             //Custom Fields
             if(class_exists('Houzez_Fields_Builder')) {
-            $fields_array = Houzez_Fields_Builder::get_form_fields(); 
+            $fields_array = Houzez_Fields_Builder::get_form_fields();
 
                 if(!empty($fields_array)) {
                     foreach ( $fields_array as $value ) {
@@ -157,7 +157,7 @@ $hide_detail_prop_fields = houzez_option('hide_detail_prop_fields');
                         $field_title = $value->label;
                         if (function_exists('icl_translate') ){
                             $field_title = icl_translate('houzez_cfield', 'houzez_custom_field_'.sanitize_title($field_title), $field_title );
-                                              
+
                         }
                         if(!empty($data_value) && $hide_detail_prop_fields[$value->field_id] != 1) {
                             echo '<li class="media '.$value->field_id.'">';

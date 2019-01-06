@@ -14,6 +14,8 @@ Text Domain: houzez
 Template: houzez
 */
 
+/* Your CSS code goes here
+-------------------------------------- */
 
 $red: #ae0f0b;
 $dark-red: #8a0d08;
@@ -28,10 +30,9 @@ $secondary: $gray;
 $logo-vertical-space: .8em;
 $logo-height: 100px;
 
+
 @import url("../houzez/style.css");
 
-/* Your CSS code goes here
--------------------------------------- */
 
 .header-section,
 .header-section-4 {
@@ -42,51 +43,34 @@ $logo-height: 100px;
 .header-section-3,
 .header-section-4 {
   .logo {
-    margin-top: $logo-vertical-space;
-    margin-bottom: $logo-vertical-space;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+  }
+}
 
+.header-section,
+.header-section-3,
+.header-section-4 {
+  .logo {
     img {
       top: 0;
-      max-height: $logo-height;
-    }
-  }
-
-  .header-left {
-    .main-nav {
-      > .menu-item {
-        &.has-child {
-          a {
-            &:hover {
-              color: #fff;
-            }
-          }
-        }
-      }
+      max-height: 100px;
     }
   }
 }
 
-#header-section,
-.header-section {
-  // .navi {
-  //   > ul {
-  //     > li {
-  //       &:hover {
-  //         background-color: $primary;
-  //
-  //         > a {
-  //           color: #fff !important;
-  //         }
-  //       }
-  //
-  //       > a {
-  //         &:hover {
-  //           color: #fff !important;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
+.header-section,
+.header-section-3,
+.header-section-4 {
+  .header-left {
+    .main-nav {
+      > .menu-item.has-child {
+        a:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
 }
 
 .header-section-3 {
@@ -98,29 +82,29 @@ $logo-height: 100px;
     .contact-block {
       width: 50%;
       font-size: 1.2em;
-      color: $primary !important;
+      color: #ae0f0b !important;
       background-color: #f6f6f6;
       padding: 1em 1em;
       border: solid 1px #f2f2f2;
 
       p {
-        color: $secondary !important;
+        color: #5b5b5a !important;
       }
 
       .fa {
-        color: $primary !important;
+        color: #ae0f0b !important;
       }
     }
   }
 
   .header-top-inner {
-    margin-top: $logo-vertical-space;
-    margin-bottom: $logo-vertical-space;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
   }
 
   .header-bottom {
     color: #fff;
-    background-color: $primary !important;
+    background-color: #ae0f0b !important;
   }
 
   .header-right {
@@ -147,7 +131,6 @@ $logo-height: 100px;
   }
 }
 
-
 .header-mobile {
   .account-dropdown {
     > ul {
@@ -160,57 +143,38 @@ $logo-height: 100px;
   }
 }
 
+.navi.main-nav {
+  > ul {
+    li, a {
+      font-size: 1.2em;
+    }
 
-.navi {
-  &.main-nav {
-    > ul {
-      li,
-      a {
-        font-size: 1.2em;
+    > li:hover {
+      background-color: #ae0f0b;
+
+      > a {
+        color: #fff !important;
+      }
+    }
+
+    > li {
+      > a {
+        font-weight: bold;
+        text-transform: uppercase;
       }
 
-      > li {
-        &:hover {
-          background-color: $primary;
-
-          > a {
-            color: #fff !important;
-          }
-        }
-
-        > a {
-          font-weight: bold;
-          text-transform: uppercase;
-
-          &:hover {
-            color: #fff !important;
-          }
-        }
+      > a:hover {
+        color: #fff !important;
       }
     }
   }
 }
 
 
-// .detail-block {
-//   .alert {
-//     padding: 0;
-//   }
-//
-//   .alert-info {
-//     border-color: transparent !important;
-//   }
-// }
-
-
 .advanced-search-mobile {
   .single-search-wrap {
     .form-control {
       color: #fff;
-    }
-
-    button {
-
     }
 
     .fa {
@@ -226,22 +190,15 @@ $logo-height: 100px;
   }
 }
 
-
-.footer {
-  // background-color: $secondary !important;
-}
-
 .footer-bottom {
   .has-footer-menu {
     .footer-col {
       margin-top: 1em;
       text-align: left;
-    }
-  }
 
-  .footer-col {
-    .fa {
-      font-size: 1.4em;
+      .fa {
+        font-size: 1.4em;
+      }
     }
   }
 
@@ -267,16 +224,14 @@ $logo-height: 100px;
         width: 100% !important;
       }
     }
-  }
-}
 
-.widget-pages {
-  ul {
-    columns: 1 !important;
+    ul {
+      columns: 1 !important;
 
-    li {
-      display: block !important;
-      width: 100% !important;
+      li {
+        display: block !important;
+        width: 100% !important;
+      }
     }
   }
 }
@@ -284,8 +239,8 @@ $logo-height: 100px;
 
 .header-mobile {
   .header-logo {
-    margin-top: $logo-vertical-space * .8;
-    margin-bottom: $logo-vertical-space * .8;
+    margin-top: 0.64em;
+    margin-bottom: 0.64em;
 
     img {
       max-height: 60px;
@@ -293,8 +248,10 @@ $logo-height: 100px;
   }
 }
 
+
 .custom-advance-header-search {
   color: #fff;
+  overflow: visible !important;
 
   .title,
   .advance-title {
@@ -310,21 +267,109 @@ $logo-height: 100px;
 .text-right {
   text-align: right !important;
 }
+
 .text-center {
   text-align: center !important;
 }
+
 .text-left {
   text-align: left !important;
 }
 
+.advance-search,
+.advance-search-header {
+  position: relative;
+}
 
-.vc_custom_1538037124434 {
-  overflow: auto;
+.advance-search,
+.advance-search-header {
+  .advanced-search-close {
+    position: absolute;
+    top: 100%;
+    margin-top: .4em;
+    width: 100%;
+    text-align: center;
+    z-index: 11;
+
+    button.btn-close {
+      color: #fff !important;
+      background-color: #61768f !important;
+      font-size: .875em !important;
+      border-color: #61768f !important;
+      border-radius: 3px 3px !important;
+    }
+  }
 }
 
 
-.advanced-search-close {
-  text-align: center;
+#sidebar {
+  .features-list.field-expand {
+    height: 400px;
+    max-height: 400px;
+    overflow: auto;
+    margin-bottom: 1em;
+
+    .checkbox-inline {
+      width: 100%;
+    }
+  }
+}
+
+
+#description.property-description {
+  div {
+    margin-bottom: 1.4em;
+  }
+}
+
+
+.advanced-search {
+  .field-expand {
+    box-sizing: border-box;
+    height: 400px !important;
+    max-height: 400px !important;
+    overflow: auto;
+    background-color: #61768f;
+    padding: 1em 1.4em;
+    border-radius: 3px 3px;
+  }
+}
+
+.advanced-search-mobile {
+  .field-expand {
+    box-sizing: border-box;
+    height: 300px !important;
+    max-height: 300px !important;
+    overflow: auto;
+    background-color: #61768f;
+    padding: 1em 1.4em;
+    border-radius: 3px 3px;
+    margin-bottom: 1.4em;
+  }
+}
+
+
+.custom-advance-header-search {
+  .field-expand {
+    margin-top: 1em;
+  }
+}
+
+
+.advanced-search {
+  .features-list {
+    .checkbox-inline {
+      width: 30%;
+    }
+  }
+}
+
+.advanced-search-mobile {
+  .features-list {
+    .checkbox-inline {
+      width: 100%;
+    }
+  }
 }
 
 
@@ -351,17 +396,6 @@ $logo-height: 100px;
     display: none;
   }
 
-  .account-dropdown {
-    > ul {
-      > li {
-        a {
-          // padding-top: 0;
-          // padding-bottom: 0;
-        }
-      }
-    }
-  }
-
   .header-mobile {
     .header-logo,
     .mobile-nav {
@@ -371,6 +405,7 @@ $logo-height: 100px;
     .nav-trigger {
       margin-top: 1.2em;
     }
+
     .header-user {
       margin-top: .8em;
     }
@@ -387,12 +422,10 @@ $logo-height: 100px;
       .footer-col {
         margin-top: 1em;
         text-align: center;
-      }
-    }
 
-    .footer-col {
-      .fa {
-        font-size: 2em;
+        .fa {
+          font-size: 2em;
+        }
       }
     }
 
@@ -400,6 +433,13 @@ $logo-height: 100px;
       ul {
         text-align: center;
       }
+    }
+  }
+
+  .list-features {
+    li {
+      display: block !important;
+      width: 100%;
     }
   }
 }

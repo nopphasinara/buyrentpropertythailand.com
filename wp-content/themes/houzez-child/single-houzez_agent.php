@@ -75,9 +75,9 @@ if( isset( $_GET['sortby'] ) ) {
                                 ?>
                             </p>
 
-                            <?php the_content(); ?>
+                            <?php // the_content(); ?>
 
-                            <ul class="profile-contact">
+                            <ul class="profile-contact" style="display: none;">
                                 <?php if( !empty($agent_licenses) ) { ?>
                                     <li><span><?php echo $houzez_local['licenses']; ?></span> <?php echo esc_attr( $agent_licenses ); ?></li>
                                 <?php } ?>
@@ -103,14 +103,15 @@ if( isset( $_GET['sortby'] ) ) {
                                 <?php } ?>
 
                                 <?php if( !empty( $agent_email ) ) { ?>
-                                    <li><span><?php echo $houzez_local['email']; ?></span> <a href="mailto:<?php echo esc_attr( $agent_email ); ?>"><?php echo esc_attr( $agent_email ); ?></a></li>
+                                    <li><span><?php echo $houzez_local['email']; ?></span> <?php echo esc_attr( $agent_email ); ?></li>
+                                    <!-- <li><span><?php echo $houzez_local['email']; ?></span> <a href="mailto:<?php echo esc_attr( $agent_email ); ?>"><?php echo esc_attr( $agent_email ); ?></a></li> -->
                                 <?php } ?>
 
                                 <?php if( !empty( $fave_agent_website ) ) { ?>
                                     <li><span><?php echo $houzez_local['website']; ?></span> <a target="_blank" href="<?php echo esc_url( $fave_agent_website ); ?>"><?php echo esc_url( $fave_agent_website ); ?></a></li>
                                 <?php } ?>
                             </ul>
-                            <ul class="profile-social">
+                            <ul class="profile-social" style="display: none;">
                                 <?php if( !empty( $agent_facebook ) ) { ?>
                                     <li><a class="btn-facebook" href="<?php echo esc_url( $agent_facebook ); ?>" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
                                 <?php } ?>
