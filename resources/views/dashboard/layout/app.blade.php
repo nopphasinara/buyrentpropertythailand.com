@@ -9,17 +9,24 @@
     <title>Hello, world!</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ asset('vendor/admin/css/admin.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/'. config('custom.dashboard_prefix') .'/css/admin.css') }}">
   </head>
   <body>
-    <div class="backdrop"></div>
-
     @stack('after_open_body')
 
-    @section('content')@show
+    @stack('before_content')
+
+    @section('content')
+    @show
+
+    @push('after_content')
+      <div class="backdrop"></div>
+    @endpush
+
+    @stack('after_content')
 
     <script src="{{ asset('js/functions.js') }}"></script>
-    <script src="{{ asset('vendor/admin/js/admin.js') }}"></script>
+    <script src="{{ asset('vendor/'. config('custom.dashboard_prefix') .'/js/admin.js') }}"></script>
 
     @stack('before_close_body')
   </body>

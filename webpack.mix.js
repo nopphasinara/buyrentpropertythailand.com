@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+const dashboard_prefix = 'dashboard';
 
 /*
  |--------------------------------------------------------------------------
@@ -15,6 +16,6 @@ const mix = require('laravel-mix');
 // mix.sass('resources/sass/app.scss', 'public/css');
 // mix.js('resources/js/app.js', 'public/js').sass('resources/sass/app.scss', 'public/css');
 
-mix.js('resources/js/admin/admin.js', 'public/vendor/admin/js');
-// mix.sass('resources/sass/admin/admin.scss', 'public/vendor/admin/css');
-// mix.js('resources/js/admin/admin.js', 'public/vendor/admin/js').sass('resources/sass/admin/admin.scss', 'public/vendor/admin/css');
+mix.js('resources/js/'+ dashboard_prefix +'/admin.js', 'public/vendor/'+ dashboard_prefix +'/js');
+// mix.sass('resources/sass/'+ dashboard_prefix +'/admin.scss', 'public/vendor/'+ dashboard_prefix +'/css');
+// mix.js('resources/js/'+ dashboard_prefix +'/admin.js', 'public/vendor/'+ dashboard_prefix +'/js').sass('resources/sass/'+ dashboard_prefix +'/admin.scss', 'public/vendor/'+ dashboard_prefix +'/css');

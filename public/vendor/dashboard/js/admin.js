@@ -36377,10 +36377,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./resources/js/admin/admin.js":
-/*!*************************************!*\
-  !*** ./resources/js/admin/admin.js ***!
-  \*************************************/
+/***/ "./resources/js/dashboard/admin.js":
+/*!*****************************************!*\
+  !*** ./resources/js/dashboard/admin.js ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36389,7 +36389,7 @@ module.exports = function(module) {
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-__webpack_require__(/*! ./bootstrap */ "./resources/js/admin/bootstrap.js"); // window.Vue = require('vue');
+__webpack_require__(/*! ./bootstrap */ "./resources/js/dashboard/bootstrap.js"); // window.Vue = require('vue');
 
 /**
  * The following block of code may be used to automatically register your
@@ -36447,10 +36447,10 @@ $(function () {
 
 /***/ }),
 
-/***/ "./resources/js/admin/bootstrap.js":
-/*!*****************************************!*\
-  !*** ./resources/js/admin/bootstrap.js ***!
-  \*****************************************/
+/***/ "./resources/js/dashboard/bootstrap.js":
+/*!*********************************************!*\
+  !*** ./resources/js/dashboard/bootstrap.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36506,13 +36506,13 @@ if (token) {
 /***/ }),
 
 /***/ 0:
-/*!*******************************************!*\
-  !*** multi ./resources/js/admin/admin.js ***!
-  \*******************************************/
+/*!***********************************************!*\
+  !*** multi ./resources/js/dashboard/admin.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/sudprawat/www/v4.buyrentpropertythailand.com/resources/js/admin/admin.js */"./resources/js/admin/admin.js");
+module.exports = __webpack_require__(/*! /Users/admin/www/v4.buyrentpropertythailand.com/resources/js/dashboard/admin.js */"./resources/js/dashboard/admin.js");
 
 
 /***/ })
