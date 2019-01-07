@@ -7,7 +7,7 @@
       <div class="container px-0">
         <div class="row justify-content-between align-items-center">
           <div class="col-auto">
-            <a class="btn btn-default" href="#">
+            <a class="btn btn-default" data-toggle="offcanvas" data-target="#offcanvas-menu" href="#">
               <i class="fa fa-bars"></i>
             </a>
           </div>
@@ -25,3 +25,14 @@
   </header>
   <!-- / .header -->
 @endsection
+
+
+@push('before_close_body')
+  <!-- #offcanvas-menu -->
+  <div id="offcanvas-menu" class="offcanvas offcanvas-left">
+    <div class="offcanvas-body">
+      xxx
+    </div>
+  </div>
+  <!-- / #offcanvas-menu -->
+@endpush

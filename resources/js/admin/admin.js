@@ -32,12 +32,34 @@ require('./bootstrap');
 //     el: '#app'
 // });
 
+
 $(function () {
   'use strict'
 
-  $('[data-toggle="offcanvas"]').on('click', function () {
-    $('.offcanvas-collapse').toggleClass('open');
+  $('[data-toggle="offcanvas"]').on('click', function (evt) {
+    evt.preventDefault();
+    evt.stopPropagation();
+
+    var self = $(this);
+    var data_target = get_target(self);
+    if (data_target) {
+      $('.backdrop').toggleClass('show');
+      $(data_target).toggleClass('open');
+    }
   });
+
+  $('.backdrop').on('click', function (evt) {
+    evt.preventDefault();
+    evt.stopPropagation();
+
+    var self = $(this);
+    $(self).toggleClass('show');
+    $('.offcanvas.open').toggleClass('open');
+  });
+
+  /* $('[data-toggle="offcanvas"]').on('click', function () {
+    $('.offcanvas').toggleClass('open');
+  }); */
 
   var nua = navigator.userAgent;
   var isAndroid = (nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1 && nua.indexOf('Chrome') === -1);
