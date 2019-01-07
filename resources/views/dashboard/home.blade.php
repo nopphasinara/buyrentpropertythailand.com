@@ -6,7 +6,10 @@
     <div class="topbar">
       <div class="container px-0">
         <div class="row justify-content-between align-items-center">
-          <div class="col-auto">
+          <div class="col-auto d-none d-md-inline-block">
+            Our opening hours: Mon - Fri: 08:00 - 17.00, Sat: 08:00 - 12:00
+          </div>
+          <div class="col-auto d-md-none">
             <a class="btn btn-default" data-toggle="offcanvas" data-target="#offcanvas-menu" href="#">
               <i class="fa fa-bars"></i>
             </a>

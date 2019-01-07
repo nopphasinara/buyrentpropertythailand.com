@@ -18,6 +18,18 @@
     .d#{$infix}-flex         { display: flex !important; }
     .d#{$infix}-inline-flex  { display: inline-flex !important; }
   }
+
+  @include media-breakpoint-only($breakpoint) {
+    .d-only-#{$breakpoint}-none         { display: none !important; }
+    .d-only-#{$breakpoint}-inline       { display: inline !important; }
+    .d-only-#{$breakpoint}-inline-block { display: inline-block !important; }
+    .d-only-#{$breakpoint}-block        { display: block !important; }
+    .d-only-#{$breakpoint}-table        { display: table !important; }
+    .d-only-#{$breakpoint}-table-row    { display: table-row !important; }
+    .d-only-#{$breakpoint}-table-cell   { display: table-cell !important; }
+    .d-only-#{$breakpoint}-flex         { display: flex !important; }
+    .d-only-#{$breakpoint}-inline-flex  { display: inline-flex !important; }
+  }
 }
 
 
