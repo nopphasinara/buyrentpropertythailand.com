@@ -171,7 +171,7 @@ $body-color:                $gray-900 !default;
 $link-color:                              theme-color("primary") !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        darken($link-color, 15%) !default;
-$link-hover-decoration:                   underline !default;
+$link-hover-decoration:                   none !default;
 // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 $emphasized-link-hover-darken-percentage: 15% !default;
 
@@ -285,6 +285,7 @@ $font-family-base:            $font-family-sans-serif !default;
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg:                ($font-size-base * 1.25) !default;
 $font-size-sm:                ($font-size-base * .875) !default;
+$font-size-xs:                ($font-size-base * .8) !default;
 
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
@@ -1091,3 +1092,20 @@ $positions: static, relative, absolute, fixed, sticky !default;
 
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+
+// Custom Variables
+
+$hover-percentage: 15% !default;
+$socials: () !default;
+$socials: map-merge(
+  (
+    "facebook": #3b5998,
+    "twitter": #55acee,
+    "pinterest": #bd081c,
+    "google": #dc4e41,
+    "instagram": #517fa4,
+    "linkedin": #0077b5,
+  ),
+  $socials
+);

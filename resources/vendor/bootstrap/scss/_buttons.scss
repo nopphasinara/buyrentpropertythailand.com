@@ -102,6 +102,16 @@ fieldset:disabled a.btn {
   // No need for an active state here
 }
 
+@each $color, $value in $theme-colors {
+  .btn-link-#{$color} {
+    color: $value;
+
+    @include hover {
+      color: darken($value, $hover-percentage);
+    }
+  }
+}
+
 
 //
 // Button Sizes
