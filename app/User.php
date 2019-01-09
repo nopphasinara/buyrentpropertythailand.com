@@ -27,4 +27,15 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    protected $appends = [
+      // 'name',
+   ];
+
+   // protected static $sports = [
+   //    'soccer' => 'sport:1',
+   //    'tennis' => 'sport:2',
+   //    'basketball' => 'sport:3',
+   //    ...
+   // ];
 }

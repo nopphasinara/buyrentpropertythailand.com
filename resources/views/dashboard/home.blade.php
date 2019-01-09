@@ -1,6 +1,10 @@
 @extends(''. config('custom.dashboard_prefix') .'.layout.app')
 
 @section('content')
+  @isnull($variable)
+    This will be echoed
+  @endisnull
+
   <!-- .header -->
   <header class="header">
     <div class="topbar d-none d-md-block">
