@@ -7,6 +7,7 @@ use Spatie\MediaLibrary\HasMedia\HasMedia;
 use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 use Spatie\EloquentSortable\Sortable;
 use Spatie\EloquentSortable\SortableTrait;
+use Spatie\SchemalessAttributes\SchemalessAttributes;
 use Intervention\Image\ImageManager;
 
 use Illuminate\Notifications\Notifiable;
@@ -16,7 +17,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class User extends Authenticatable implements HasMedia, Sortable
 {
   use Notifiable;
-  use Sluggable;
+  // use Sluggable;
   use SortableTrait;
   use HasMediaTrait;
 
@@ -26,7 +27,7 @@ class User extends Authenticatable implements HasMedia, Sortable
   * @var array
   */
   protected $fillable = [
-    'name', 'email', 'password', 'user_level', 'is_active',
+    'name', 'email', 'password', 'user_level', 'is_active', 'extras',
   ];
 
   /**
@@ -45,6 +46,10 @@ class User extends Authenticatable implements HasMedia, Sortable
   public $sortable = [
     'order_column_name' => 'order_column',
     'sort_when_creating' => true,
+  ];
+
+  public $casts = [
+    'extras' => 'array',
   ];
 
   // protected static $sports = [
