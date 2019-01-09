@@ -11,11 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-
 Route::prefix(''. config('custom.dashboard_prefix') .'')->group(function () {
     Route::get('/', function () {
         return view(''. config('custom.dashboard_prefix') .'.home');
@@ -28,4 +23,8 @@ Route::prefix(''. config('custom.dashboard_prefix') .'')->group(function () {
         }
         return abort(404);
     });
+});
+
+Route::get('/', function () {
+    return view('welcome');
 });

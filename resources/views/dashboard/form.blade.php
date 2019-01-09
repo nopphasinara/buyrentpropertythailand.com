@@ -24,7 +24,6 @@ $config = new Braintree\Configuration([
 ]);
 $config->timeout(60);
 $gateway = new Braintree_Gateway($config);
-
 $clientToken = $gateway->clientToken()->generate();
 // $customer = $gateway->customer()->create();
 
