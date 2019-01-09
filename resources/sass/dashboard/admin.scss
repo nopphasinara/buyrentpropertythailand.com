@@ -84,6 +84,18 @@ body {
   background-color: $primary;
 }
 
+@each $color, $value in $theme-colors {
+  .opacity-1-#{$color} {
+    background-color: rgba($value, .75);
+  }
+  .opacity-2-#{$color} {
+    background-color: rgba($value, .5);
+  }
+  .opacity-3-#{$color} {
+    background-color: rgba($value, .25);
+  }
+}
+
 .separator {
   overflow: hidden !important;
   background-color: $border-color;

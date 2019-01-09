@@ -1,9 +1,6 @@
 @extends(''. config('custom.dashboard_prefix') .'.layout.app')
 
 @section('content')
-  @isnull($variable)
-    This will be echoed
-  @endisnull
 
   <!-- .header -->
   <header class="header">

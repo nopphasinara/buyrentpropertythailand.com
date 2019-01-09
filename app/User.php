@@ -5,16 +5,19 @@ namespace App;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Spatie\MediaLibrary\HasMedia\HasMedia;
 use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
+use Spatie\EloquentSortable\Sortable;
+use Spatie\EloquentSortable\SortableTrait;
 use Intervention\Image\ImageManager;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class User extends Authenticatable implements HasMedia
+class User extends Authenticatable implements HasMedia, Sortable
 {
   use Notifiable;
   use Sluggable;
+  use SortableTrait;
   use HasMediaTrait;
 
   /**
@@ -37,6 +40,11 @@ class User extends Authenticatable implements HasMedia
 
   protected $appends = [
     // 'name',
+  ];
+
+  public $sortable = [
+    'order_column_name' => 'order_column',
+    'sort_when_creating' => true,
   ];
 
   // protected static $sports = [
