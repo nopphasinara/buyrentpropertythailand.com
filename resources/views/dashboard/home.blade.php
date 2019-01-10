@@ -58,7 +58,7 @@
           </div>
           <div class="col-auto header-logo">
             <a href="#">
-              <img src="https://skirtingboardsdirect.com/wp-content/themes/skirting-boards-direct/assets/images/logo.png" alt="xxx">
+              <img src="{{ env('APP_LOGO') }}" alt="{{ env('APP_NAME') }}">
             </a>
           </div>
           <div class="col-auto">
