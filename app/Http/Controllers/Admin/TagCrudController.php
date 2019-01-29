@@ -26,6 +26,7 @@ class TagCrudController extends CrudController
         $this->crud->setModel('App\Models\Tag');
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/tag');
         $this->crud->setEntityNameStrings('tag', 'tags');
+        $this->crud->addClause('where', 'post_type', '=', 'property');
 
         // echo '<pre>'; print_r(get_class_methods(request())); echo '</pre>';
         // echo '<pre>'; print_r($this->crud->getActionMethod()); echo '</pre>';
@@ -40,17 +41,21 @@ class TagCrudController extends CrudController
         |--------------------------------------------------------------------------
         */
 
-        $this->crud->setColumns(['name', 'slug']);
+        $this->crud->setColumns(['post_title', 'post_name']);
         $this->crud->addField([
-          'name' => 'name',
+          'name' => 'post_title',
           'type' => 'text',
-          'label' => "Tag name"
+          'label' => 'Title',
         ]);
         $this->crud->addField([
-          'name' => 'slug',
+          'name' => 'post_name',
           'type' => 'text',
-          'label' => "URL Segment (slug)"
+          'label' => 'URL Segment (slug)',
         ]);
+
+        if ($this->crud->actionIs('edit')) {
+          echo '<pre>'; print_r($this->crud->getCurrentEntry()->meta); echo '</pre>';
+        }
 
         // add asterisk for fields that are required in TagRequest
         $this->crud->setRequiredFields(StoreRequest::class, 'create');

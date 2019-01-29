@@ -166,6 +166,7 @@ return [
          * Package Service Providers...
          */
         Spatie\Permission\PermissionServiceProvider::class,
+        Corcel\Laravel\CorcelServiceProvider::class,
 
         /*
          * Application Service Providers...

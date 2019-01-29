@@ -5,8 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Backpack\CRUD\CrudTrait;
 use Spatie\Permission\Traits\HasRoles;
+use Corcel\Model\Post as Corcel;
 
-class Tag extends Model
+class Tag extends Corcel
 {
     use CrudTrait;
 
@@ -16,12 +17,13 @@ class Tag extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $table = 'tags';
+    protected $table = 'posts';
+    // protected $table = 'tags';
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     // protected $guarded = ['id'];
     protected $fillable = [];
-    // protected $hidden = [];
+    protected $hidden = [];
     // protected $dates = [];
 
     /*
