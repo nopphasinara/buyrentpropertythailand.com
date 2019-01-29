@@ -5,15 +5,7 @@
  * @author Fernando H. Bandeira <fernando.bandeira94@gmail.com>
  * @version 2016-04-28
  */
-(function(root, factory) {
-	if (typeof define === 'function' && define.amd) {
-		define(['elfinder'], factory);
-	} else if (typeof exports !== 'undefined') {
-		module.exports = factory(require('elfinder'));
-	} else {
-		factory(root.elFinder);
-	}
-}(this, function(elFinder) {
+if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object') {
 	elFinder.prototype.i18.pt_BR = {
 		translator : 'Leandro Carvalho &lt;contato@leandrowebdev.net&gt;, Wesley Osorio&lt;wesleyfosorio@hotmail.com&gt;, Fernando H. Bandeira &lt;fernando.bandeira94@gmail.com&gt;',
 		language   : 'Português',
@@ -125,7 +117,7 @@
 			'cmdinfo'      : 'Propriedades',
 			'cmdmkdir'     : 'Nova pasta',
 			'cmdmkdirin'   : 'Em uma nova pasta', // from v2.1.7 added 19.2.2016
-			'cmdmkfile'    : 'Novo arquivo',
+			'cmdmkfile'    : 'Novo arquivo de texto',
 			'cmdopen'      : 'Abrir',
 			'cmdpaste'     : 'Colar',
 			'cmdquicklook' : 'Pré-vizualização',
@@ -434,5 +426,5 @@
 			'kindVideoOGG'    : 'Video Ogg'
 		}
 	};
-}));
+}
 

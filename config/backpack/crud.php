@@ -14,18 +14,18 @@ return [
     |------------
     */
     // Where do you want to redirect the user by default, after a CRUD entry is saved in the Add or Edit forms?
-    'default_save_action' => 'save_and_back', //options: save_and_back, save_and_edit, save_and_new
+    'default_save_action' => 'save_and_edit', //options: save_and_back, save_and_edit, save_and_new
 
     // When the user chooses "save and back" or "save and new", show a bubble
     // for the fact that the default save action has been changed?
-    'show_save_action_change' => false, //options: true, false
+    'show_save_action_change' => true, //options: true, false
 
     // When using tabbed forms (create & update), what kind of tabs would you like?
     'tabs_type' => 'horizontal', //options: horizontal, vertical
 
     // How would you like the validation errors to be shown?
     'show_grouped_errors' => true,
-    'show_inline_errors' => true,
+    'show_inline_errors'  => true,
 
     // Here you may override the css-classes for the content section of the create view globally
     // To override per view use $this->crud->setCreateContentClass('class-string')
@@ -63,7 +63,7 @@ return [
     // A 1D array of options which will be used for both the displayed option and the value, or
     // A 2D array in which the first array is used to define the value options and the second array the displayed options
     // If a 2D array is used, strings in the right hand array will be automatically run through trans()
-    'page_length_menu' => [[10, 25, 50, -1], [10, 25, 50, 'backpack::crud.all']],
+    'page_length_menu' => [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'backpack::crud.all']],
 
     // Here you may override the css-class for the content section of the list view globally
     // To override per view use $this->crud->setListContentClass('class-string')
@@ -103,7 +103,7 @@ return [
     |-------------------
     */
 
-    'show_translatable_field_icon' => true,
+    'show_translatable_field_icon'     => false,
     'translatable_field_icon_position' => 'right', // left or right
 
     'locales' => [

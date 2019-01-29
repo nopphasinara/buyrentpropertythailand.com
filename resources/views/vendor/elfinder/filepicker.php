@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>elFinder 2.0 - File Picker</title>
+    <title>elFinder 2.0</title>
 
     <!-- jQuery and jQuery UI (REQUIRED) -->
     <link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/smoothness/jquery-ui.css">
@@ -21,7 +21,7 @@
     ?>
         <!-- elFinder translation (OPTIONAL) -->
         <script src="<?= asset($dir."/js/i18n/elfinder.$locale.js") ?>"></script>
-    <?php
+    <?php 
 } ?>
     <!-- Include jQuery, jQuery UI, elFinder (REQUIRED) -->
 
@@ -35,11 +35,10 @@
         $().ready(function () {
             var elf = $('#elfinder').elfinder({
                 // set your elFinder options here
-                resizable: false,
                 <?php if ($locale) {
         ?>
                     lang: '<?= $locale ?>', // locale
-                <?php
+                <?php 
     } ?>
                 customData: {
                     _token: '<?= csrf_token() ?>'
@@ -86,17 +85,11 @@
                 }
             }).elfinder('instance');
         });
-        $(window).resize(function(){
-            var h = ($(window).height());
-            if($('#elfinder').height() != h){
-                $('#elfinder').height(h).resize();
-            }
-        });
     </script>
 
 
 </head>
-<body class="elfinder">
+<body style="margin: 0;">
 <!-- Element where elFinder will be created (REQUIRED) -->
 <div id="elfinder"></div>
 

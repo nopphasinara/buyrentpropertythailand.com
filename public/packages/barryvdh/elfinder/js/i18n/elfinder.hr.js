@@ -2,15 +2,7 @@
  * hr translation
  * @version 2016-04-18
  */
-(function(root, factory) {
-	if (typeof define === 'function' && define.amd) {
-		define(['elfinder'], factory);
-	} else if (typeof exports !== 'undefined') {
-		module.exports = factory(require('elfinder'));
-	} else {
-		factory(root.elFinder);
-	}
-}(this, function(elFinder) {
+if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object') {
 	elFinder.prototype.i18.hr = {
 		translator : '',
 		language   : 'Croatian',
@@ -122,7 +114,7 @@
 			'cmdinfo'      : 'Info',
 			'cmdmkdir'     : 'Nova mapa',
 			'cmdmkdirin'   : 'U novu mapu', // from v2.1.7 added 19.2.2016
-			'cmdmkfile'    : 'Nova файл',
+			'cmdmkfile'    : 'Novi tekst dokument',
 			'cmdopen'      : 'Otvori',
 			'cmdpaste'     : 'Zalijepi',
 			'cmdquicklook' : 'Pregled',
@@ -430,5 +422,5 @@
 			'kindVideoOGG'    : 'Ogg video'
 		}
 	};
-}));
+}
 
