@@ -53,10 +53,6 @@ class TagCrudController extends CrudController
           'label' => 'URL Segment (slug)',
         ]);
 
-        if ($this->crud->actionIs('edit')) {
-          echo '<pre>'; print_r($this->crud->getCurrentEntry()->meta); echo '</pre>';
-        }
-
         // add asterisk for fields that are required in TagRequest
         $this->crud->setRequiredFields(StoreRequest::class, 'create');
         $this->crud->setRequiredFields(UpdateRequest::class, 'edit');

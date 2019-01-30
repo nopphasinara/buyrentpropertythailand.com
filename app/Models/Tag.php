@@ -25,6 +25,9 @@ class Tag extends Corcel
     protected $fillable = [];
     protected $hidden = [];
     // protected $dates = [];
+    protected $cast = [
+      'meta' => 'array',
+    ];
 
     /*
     |--------------------------------------------------------------------------
