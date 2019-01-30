@@ -15,7 +15,7 @@ class AddIsAdminUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             if (!Schema::hasColumn('users', 'is_admin')) {
-              $table->integer('is_admin', 1)->unsigned(true)->nullable(true)->default(0);
+              $table->tinyInteger('is_admin')->default(0);
             }
         });
     }
