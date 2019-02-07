@@ -10,7 +10,7 @@ class BackpackUser extends User
 {
     use HasParentModel;
 
-    protected $table = 'users';
+    protected $table = 'users__';
 
     /**
      * Send the password reset notification.
