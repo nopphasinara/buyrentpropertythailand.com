@@ -3,7 +3,8 @@
 /public/storage
 /storage/*.key
 /vendor/**
-!/vendor/nopphasinara/**
+!/vendor/corcel/**
+!/vendor/jgrossi/**
 .env
 .phpunit.result.cache
 Homestead.json
