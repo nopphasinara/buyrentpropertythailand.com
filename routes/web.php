@@ -1,5 +1,7 @@
 <?php
 
+use Corcel\Model\Property;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,5 +14,8 @@
 */
 
 Route::get('/', function () {
+    $data = Property::first();
+    echo '<pre>'; print_r($data); echo '</pre>';
+
     return view('welcome');
 });
