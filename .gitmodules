@@ -1,7 +1,0 @@
-[submodule "vendor/nopphasinara/acf"]
-	path = vendor/nopphasinara/acf
-	url = https://github.com/nopphasinara/acf
-[submodule "vendor/nopphasinara/corcel"]
-	path = vendor/nopphasinara/corcel
-	url = https://github.com/nopphasinara/corcel
-	branch = 2.7
