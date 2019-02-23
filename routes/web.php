@@ -14,7 +14,7 @@ use Corcel\Model\Property;
 */
 
 Route::get('/', function () {
-    $data = Property::first();
+    $data = Property::orderBy('id', 'DESC')->first();
     echo '<pre>'; print_r($data); echo '</pre>';
 
     return view('welcome');
