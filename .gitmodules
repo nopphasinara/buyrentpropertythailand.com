@@ -1,0 +1,4 @@
+[submodule "vendor/nopphasinara/corcel"]
+	path = vendor/nopphasinara/corcel
+	url = https://github.com/nopphasinara/corcel
+	branch = 2.7
