@@ -4,19 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "139a52d05a433d9bbc067ff6d329beae",
+    "content-hash": "48ed4c352624842cfe180f6bf32834ac",
     "packages": [
         {
             "name": "corcel/acf",
             "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nopphasinara/acf.git",
+                "url": "https://github.com/corcel/acf.git",
                 "reference": "981069bc6e67b20f6fc9d0d290861d88be3d929c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nopphasinara/acf/zipball/981069bc6e67b20f6fc9d0d290861d88be3d929c",
+                "url": "https://api.github.com/repos/corcel/acf/zipball/981069bc6e67b20f6fc9d0d290861d88be3d929c",
                 "reference": "981069bc6e67b20f6fc9d0d290861d88be3d929c",
                 "shasum": ""
             },
@@ -33,6 +33,7 @@
                     "Corcel\\Acf\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -45,9 +46,6 @@
             ],
             "description": "Advanced Custom Field (ACF) plugin for Corcel",
             "homepage": "http://github.com/corcel/acf",
-            "support": {
-                "source": "https://github.com/nopphasinara/acf/tree/1.1.0"
-            },
             "time": "2018-02-09T18:41:32+00:00"
         },
         {
@@ -780,12 +778,12 @@
             "version": "v2.7.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nopphasinara/corcel.git",
+                "url": "https://github.com/corcel/corcel.git",
                 "reference": "40aef2107b2caf9c5e176963436845973d810acb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nopphasinara/corcel/zipball/40aef2107b2caf9c5e176963436845973d810acb",
+                "url": "https://api.github.com/repos/corcel/corcel/zipball/40aef2107b2caf9c5e176963436845973d810acb",
                 "reference": "40aef2107b2caf9c5e176963436845973d810acb",
                 "shasum": ""
             },
@@ -822,6 +820,7 @@
                     "Corcel\\Tests\\": "tests/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -834,10 +833,6 @@
             ],
             "description": "Use WordPress backend with Laravel or any PHP framework",
             "homepage": "http://github.com/corcel/corcel",
-            "support": {
-                "source": "https://github.com/nopphasinara/corcel/tree/v2.7.4",
-                "issues": "https://github.com/nopphasinara/corcel/issues"
-            },
             "time": "2018-12-05T13:38:21+00:00"
         },
         {
