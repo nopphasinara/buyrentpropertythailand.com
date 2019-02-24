@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\TestController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,10 +13,16 @@
 |
 */
 
+Route::group([
+    'prefix' => 'demo',
+    'as' => 'demo.',
+], function () {
+    Route::get('/{pagename?}', 'TestController@getPage');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');

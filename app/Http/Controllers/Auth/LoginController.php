@@ -36,4 +36,10 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+    // Auth::validate([
+    //     'email' => 'admin@example.com',
+    //     'username' => 'admin',
+    //     'password' => 'secret',
+    // ]);
 }
