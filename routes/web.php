@@ -13,11 +13,26 @@ use App\Http\Controllers\TestController;
 |
 */
 
+// $route = Route::current();
+// $name = Route::currentRouteName();
+// $action = Route::currentRouteAction();
+
 Route::group([
     'prefix' => 'demo',
     'as' => 'demo.',
 ], function () {
-    Route::get('/{pagename?}', 'TestController@getPage');
+    Route::get('/{name?}', 'TestController@getPage')->where([
+        'name' => '[a-zA-Z0-9\_\-\.]+',
+    ]);
+});
+
+Route::group([
+    'prefix' => 'template',
+    'as' => 'template.',
+], function () {
+    Route::get('/{name?}', 'TestController@getTemplate')->where([
+        'name' => '[a-zA-Z0-9\_\-\.]+',
+    ]);
 });
 
 Route::get('/', function () {

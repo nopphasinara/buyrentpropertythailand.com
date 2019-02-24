@@ -1,0 +1,188 @@
+// compileExpanded:../../../public/css/demo/$1.css
+
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "../../packages/bootstrap/scss/_functions.scss";
+@import "./_variables.scss";
+@import "../../packages/bootstrap/scss/_mixins.scss";
+@import "../../packages/bootstrap/scss/_root.scss";
+@import "../../packages/bootstrap/scss/_reboot.scss";
+@import "../../packages/bootstrap/scss/_type.scss";
+@import "../../packages/bootstrap/scss/_images.scss";
+@import "../../packages/bootstrap/scss/_code.scss";
+@import "../../packages/bootstrap/scss/_grid.scss";
+@import "../../packages/bootstrap/scss/_tables.scss";
+@import "../../packages/bootstrap/scss/_forms.scss";
+@import "../../packages/bootstrap/scss/_buttons.scss";
+@import "../../packages/bootstrap/scss/_transitions.scss";
+@import "../../packages/bootstrap/scss/_dropdown.scss";
+@import "../../packages/bootstrap/scss/_button-group.scss";
+@import "../../packages/bootstrap/scss/_input-group.scss";
+@import "../../packages/bootstrap/scss/_custom-forms.scss";
+@import "../../packages/bootstrap/scss/_nav.scss";
+@import "../../packages/bootstrap/scss/_navbar.scss";
+@import "../../packages/bootstrap/scss/_card.scss";
+@import "../../packages/bootstrap/scss/_breadcrumb.scss";
+@import "../../packages/bootstrap/scss/_pagination.scss";
+@import "../../packages/bootstrap/scss/_badge.scss";
+@import "../../packages/bootstrap/scss/_jumbotron.scss";
+@import "../../packages/bootstrap/scss/_alert.scss";
+@import "../../packages/bootstrap/scss/_progress.scss";
+@import "../../packages/bootstrap/scss/_media.scss";
+@import "../../packages/bootstrap/scss/_list-group.scss";
+@import "../../packages/bootstrap/scss/_close.scss";
+@import "../../packages/bootstrap/scss/_toasts.scss";
+@import "../../packages/bootstrap/scss/_modal.scss";
+@import "../../packages/bootstrap/scss/_tooltip.scss";
+@import "../../packages/bootstrap/scss/_popover.scss";
+@import "../../packages/bootstrap/scss/_carousel.scss";
+@import "../../packages/bootstrap/scss/_spinners.scss";
+@import "../../packages/bootstrap/scss/_utilities.scss";
+@import "../../packages/bootstrap/scss/_print.scss";
+@import "./_label.scss";
+@import "./_nav.scss";
+@import "./_social.scss";
+@import "./_switch.scss";
+@import "./_checkbox.scss";
+
+
+/*
+  variables come from Bootstrap's predefined colors
+  e.g. $cyan: #17a2b8
+*/
+body {
+  background: $blue;
+  @include media-breakpoint-up(sm) {
+    background: $green;
+  }
+  @include media-breakpoint-up(md) {
+    background: $red;
+  }
+  @include media-breakpoint-up(lg) {
+    background: $teal;
+  }
+  @include media-breakpoint-up(xl) {
+    background: $yellow;
+  }
+}
+
+
+.nav-top {
+  background: rgba(86, 61, 124, 0.15);
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+.list-top {
+  margin-left: 50px;
+}
+
+.list li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.list li a {
+  color: rgba(0, 0, 0, 0.5);
+  transition: color 0.2s;
+}
+
+.list li a:hover {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .list-top {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    transform: translateX(-100%);
+    margin-left: 0;
+    padding: 1rem;
+    transition: transform 0.3s;
+  }
+
+  .nav-top.is-active .list-top {
+    transform: none;
+  }
+
+  .list-top li {
+    flex-grow: 1;
+  }
+}
+
+
+
+.myaccordion {
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+}
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+
+.myaccordion .card-header {
+  border-bottom-color: #EDEFF0;
+  background: transparent;
+}
+
+.myaccordion .fa-stack {
+  font-size: 18px;
+}
+
+.myaccordion .btn {
+  width: 100%;
+  font-weight: bold;
+  color: #004987;
+  padding: 0;
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none;
+}
+
+.myaccordion li + li {
+  margin-top: 10px;
+}
+
+
+.yourElement {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+
+// Equal Height Borders For Bootstrap Columns
+@media (min-width: 768px)
+{
+	.row-relative { position: relative; }
+
+	.col-border
+	{
+		position: static;
+	}
+
+	.col-border:before
+	{
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		border-left: 1px solid red;
+		transform: translateX(-15px);
+	}
+}

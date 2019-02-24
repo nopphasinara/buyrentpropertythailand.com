@@ -7,12 +7,25 @@ use Illuminate\Http\Request;
 class TestController extends Controller
 {
 
-    public function getPage($pagename = '')
+    public function getPage($name = '')
     {
-        if (!$pagename) {
-            $pagename = 'index';
+        if (!$name) {
+            $name = 'index';
         }
-        return $this->{$pagename}();
+        return $this->{$name}();
+    }
+
+    public function getTemplate($name = '')
+    {
+        if (!$name) {
+            $name = 'home';
+        }
+
+        $path = 'demo.'. trim($name, '.') .'';
+        if (!view()->exists($path)) {
+            return abort(404);
+        }
+        return view($path);
     }
 
     public function test1()
