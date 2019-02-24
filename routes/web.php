@@ -1,6 +1,6 @@
 <?php
 
-use Corcel\Model\Property;
+use Corcel\Model\Post;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +14,25 @@ use Corcel\Model\Property;
 */
 
 Route::get('/', function () {
-    $data = Property::orderBy('id', 'DESC')->first();
-    echo '<pre>'; print_r($data); echo '</pre>';
+    // $properties = \Corcel\Model\Property::newest()->get();
+    // if (!blank($properties)) {
+    //     $meta = get_meta_keys($properties);
+    //     echo '<pre>'; print_r($meta); echo '</pre>';
+    // }
 
-    return view('welcome');
+    // $validate = Auth::validate([
+    //     'email' => 'admin@buyrentpropertythailand.com',
+    //     'username' => 'buyrentp',
+    //     'password' => 'asdfg54321!@#$%',
+    // ]);
+
+    // $postTypes = Post::select('post_type')->distinct()->get()->pluck('post_type');
+    // if ($postTypes && count($postTypes)) {
+    //     echo '<pre>'; print_r($postTypes); echo '</pre>';
+    // }
+
+    // return view('welcome');
 });
+
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');

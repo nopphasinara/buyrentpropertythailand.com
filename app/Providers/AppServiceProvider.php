@@ -14,6 +14,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        require __DIR__ . '/../Helpers/Functions.php';
         Schema::defaultStringLength(191);
     }
 
