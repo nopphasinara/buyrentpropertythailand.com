@@ -44,32 +44,10 @@
 @import "../../packages/bootstrap/scss/_spinners.scss";
 @import "../../packages/bootstrap/scss/_utilities.scss";
 @import "../../packages/bootstrap/scss/_print.scss";
-@import "./_label.scss";
 @import "./_nav.scss";
 @import "./_social.scss";
 @import "./_switch.scss";
 @import "./_checkbox.scss";
-
-
-/*
-  variables come from Bootstrap's predefined colors
-  e.g. $cyan: #17a2b8
-*/
-body {
-  background: $blue;
-  @include media-breakpoint-up(sm) {
-    background: $green;
-  }
-  @include media-breakpoint-up(md) {
-    background: $red;
-  }
-  @include media-breakpoint-up(lg) {
-    background: $teal;
-  }
-  @include media-breakpoint-up(xl) {
-    background: $yellow;
-  }
-}
 
 
 .nav-top {
