@@ -8,6 +8,5 @@ __MACOSX/
 *~
 gulpfile.js
 package.json
-assets/css/*
 index.sublime-workspace
 npm-debug.log
