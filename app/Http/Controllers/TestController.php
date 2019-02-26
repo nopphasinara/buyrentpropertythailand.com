@@ -17,6 +17,20 @@ class TestController extends Controller
 
     public function getTemplate($name = '')
     {
+        // echo '<pre>'; print_r(request()->route()->getController()); echo '</pre>';
+        // echo '<pre>'; print_r(request()->route()->controllerMiddleware()); echo '</pre>';
+        // echo '<pre>'; print_r(request()->route()->middleware()); echo '</pre>';
+        // echo '<pre>'; print_r(request()->route()->getAction()); echo '</pre>';
+        // echo '<pre>'; print_r(request()->route()->getActionMethod()); echo '</pre>';
+        // echo '<pre>'; print_r(request()->route()->getActionName()); echo '</pre>';
+        // echo '<pre>'; print_r(request()->route()->getPrefix()); echo '</pre>';
+        // echo '<pre>'; print_r(request()->route()->methods()); echo '</pre>';
+        // echo '<pre>'; print_r(request()->route()->parameters()); echo '</pre>';
+        // echo '<pre>'; print_r(request()->route()->getName()); echo '</pre>';
+        // echo '<pre>'; print_r(get_class_methods(request()->route())); echo '</pre>';
+        echo '<pre>'; print_r(app()->get('dashboard')); echo '</pre>';
+        return;
+
         if (!$name) {
             $name = 'home';
         }
